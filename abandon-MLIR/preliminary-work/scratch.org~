@@ -1,0 +1,3 @@
+clang -S -emit-llvm -O0 -Xclang -disable-O0-optnone input.c -o input.ll
+
+mlir-translate --import-llvm input.ll -o input.mlir

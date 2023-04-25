@@ -1,0 +1,82 @@
+(undo-tree-save-format-version . 1)
+"4165bccdca121d0b247c7a36bf74711b38dc0e6a"
+[nil nil nil nil (25665 20004 391693 235000) 0 nil]
+([nil nil ((nil rear-nonsticky nil 508 . 509) (nil fontified nil 1 . 509) (1 . 509) (t . -1)) nil (25665 20004 391688 522000) 0 nil])
+([nil nil ((#("cmake_minimum_required(VERSION 3.13.4)
+
+project(InputAnalysisPass)
+
+set(LLVM_ENABLE_PROJECTS \"mlir\")
+set(LLVM_EXTERNAL_PROJECTS \"mlir\")
+set(LLVM_EXTERNAL_MLIR_SOURCE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/..)
+
+find_package(LLVM REQUIRED CONFIG)
+
+add_definitions(${LLVM_DEFINITIONS})
+include_directories(${LLVM_INCLUDE_DIRS})
+
+add_executable(input-analysis-pass InputAnalysisPass.cpp)
+
+llvm_map_components_to_libnames(llvm_libs support core irreader)
+
+target_link_libraries(input-analysis-pass PRIVATE ${llvm_libs})
+" 0 22 (fontified t face font-lock-function-name-face) 22 23 (fontified t face (rainbow-delimiters-depth-1-face)) 23 37 (fontified t) 37 38 (fontified t face (rainbow-delimiters-depth-1-face)) 38 40 (fontified t) 40 47 (fontified t face font-lock-function-name-face) 47 48 (fontified t face (rainbow-delimiters-depth-1-face)) 48 65 (fontified t) 65 66 (fontified t face (rainbow-delimiters-depth-1-face)) 66 68 (fontified t) 68 71 (fontified t face font-lock-function-name-face) 71 72 (fontified t face (rainbow-delimiters-depth-1-face)) 72 93 (fontified t) 93 99 (fontified t face font-lock-string-face) 99 100 (fontified t face (rainbow-delimiters-depth-1-face)) 100 101 (fontified t) 101 104 (fontified t face font-lock-function-name-face) 104 105 (fontified t face (rainbow-delimiters-depth-1-face)) 105 128 (fontified t) 128 134 (fontified t face font-lock-string-face) 134 135 (fontified t face (rainbow-delimiters-depth-1-face)) 135 136 (fontified t) 136 139 (fontified t face font-lock-function-name-face) 139 140 (fontified t face (rainbow-delimiters-depth-1-face)) 140 171 (fontified t) 171 172 (fontified t face (rainbow-delimiters-depth-2-face)) 172 196 (fontified t face font-lock-variable-name-face) 196 197 (fontified t face (rainbow-delimiters-depth-2-face)) 197 200 (fontified t) 200 201 (fontified t face (rainbow-delimiters-depth-1-face)) 201 203 (fontified t) 203 215 (fontified t face font-lock-function-name-face) 215 216 (fontified t face (rainbow-delimiters-depth-1-face)) 216 236 (fontified t) 236 237 (fontified t face (rainbow-delimiters-depth-1-face)) 237 239 (fontified t) 239 254 (fontified t face font-lock-function-name-face) 254 255 (fontified t face (rainbow-delimiters-depth-1-face)) 255 256 (fontified t) 256 257 (fontified t face (rainbow-delimiters-depth-2-face)) 257 273 (fontified t face font-lock-variable-name-face) 273 274 (fontified t face (rainbow-delimiters-depth-2-face)) 274 275 (fontified t face (rainbow-delimiters-depth-1-face)) 275 276 (fontified t) 276 295 (fontified t face font-lock-function-name-face) 295 296 (fontified t face (rainbow-delimiters-depth-1-face)) 296 297 (fontified t) 297 298 (fontified t face (rainbow-delimiters-depth-2-face)) 298 315 (fontified t face font-lock-variable-name-face) 315 316 (fontified t face (rainbow-delimiters-depth-2-face)) 316 317 (fontified t face (rainbow-delimiters-depth-1-face)) 317 319 (fontified t) 319 333 (fontified t face font-lock-function-name-face) 333 334 (fontified t face (rainbow-delimiters-depth-1-face)) 334 375 (fontified t) 375 376 (fontified t face (rainbow-delimiters-depth-1-face)) 376 378 (fontified t) 378 409 (fontified t face font-lock-function-name-face) 409 410 (fontified t face (rainbow-delimiters-depth-1-face)) 410 441 (fontified t) 441 442 (fontified t face (rainbow-delimiters-depth-1-face)) 442 444 (fontified t) 444 465 (fontified t face font-lock-function-name-face) 465 466 (fontified t face (rainbow-delimiters-depth-1-face)) 466 495 (fontified t) 495 496 (fontified t face (rainbow-delimiters-depth-2-face)) 496 505 (fontified t face font-lock-variable-name-face) 505 506 (fontified t face (rainbow-delimiters-depth-2-face)) 506 507 (fontified t face (rainbow-delimiters-depth-1-face)) 507 508 (fontified t rear-nonsticky t)) . 1) (undo-tree-id0 . -508) (undo-tree-id1 . -508) (undo-tree-id2 . -508) (undo-tree-id3 . -508) (undo-tree-id4 . -508) (undo-tree-id5 . -508) (undo-tree-id6 . -508) (undo-tree-id7 . -508) (undo-tree-id8 . -508) (t 25665 20004 391481 942000)) nil (25665 20423 381062 399000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 732 . 733) (nil fontified nil 1 . 733) (1 . 733)) nil (25665 20423 381007 896000) 0 nil])
+([nil nil ((#("path/to/llvm/build/lib/cmake/llvm" 0 33 (fontified t face font-lock-string-face)) . 117) (undo-tree-id15 . -33) (undo-tree-id16 . 4) (undo-tree-id17 . -33) (undo-tree-id18 . -33) (undo-tree-id19 . -33) (undo-tree-id20 . -33) 150 (t 25665 20423 381526 791000)) nil (25665 20759 39806 416000) 0 nil])
+([nil nil ((117 . 124)) nil (25665 20759 39803 359000) 0 nil])
+([nil nil ((124 . 145)) nil (25665 20759 39803 121000) 0 nil])
+([nil nil ((145 . 156)) nil (25665 20759 39802 542000) 0 nil])
+([nil nil ((#("path/to/llvm-project/mlir" 0 25 (fontified t face font-lock-string-face)) . 330) (undo-tree-id12 . -25) (undo-tree-id13 . -25) (undo-tree-id14 . -25) 334) nil (25665 20759 39801 875000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 368 . 369) (nil fontified nil 330 . 369) (330 . 369)) nil (25665 20759 39412 200000) 0 nil])
+([nil nil ((#("path/to/llvm/build" 0 18 (fontified t face font-lock-string-face)) . 393) (undo-tree-id9 . -18) (undo-tree-id10 . -18) (undo-tree-id11 . -18) 395) nil (25665 20759 39411 11000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 431 . 432) (nil fontified nil 393 . 432) (393 . 432)) nil (25665 20759 39394 76000) 0 nil])
+([nil nil ((432 . 433) (t 25665 20759 47685 105000)) nil (25665 20762 651383 255000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t face font-lock-string-face)) . -432) (undo-tree-id21 . -1) 433) nil (25665 20762 651379 942000) 0 nil])
+([nil nil ((#("ChatGPT, I'm not sure what to put here." 0 38 (fontified t face font-lock-string-face) 38 39 (fontified t rear-nonsticky t face font-lock-string-face)) . 330) (undo-tree-id25 . -39) (undo-tree-id26 . 39) (undo-tree-id27 . -7) (undo-tree-id28 . -39) (undo-tree-id29 . -39) 334 (t 25665 20762 661372 57000)) nil (25665 21065 939443 15000) 0 nil])
+([nil nil ((330 . 331)) nil (25665 21065 939439 504000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 354 . 355) (nil fontified nil 331 . 355) (331 . 355)) nil (25665 21065 939438 768000) 0 nil])
+([nil nil ((#("x" 0 1 (fontified t face font-lock-string-face)) . -330) (undo-tree-id22 . -1) (undo-tree-id23 . -1) (undo-tree-id24 . -1) 331) nil (25665 21065 939433 709000) 0 nil])
+([nil nil ((#("ChatGPT, I'm not sure what to put here." 0 38 (fontified t face font-lock-string-face) 38 39 (rear-nonsticky t fontified t face font-lock-string-face)) . 378) (undo-tree-id34 . -39) (undo-tree-id35 . -39) (undo-tree-id36 . -39) (undo-tree-id37 . 39) (undo-tree-id38 . -7) (undo-tree-id39 . -39) (undo-tree-id40 . -39) (t 25665 21065 937610 67000)) nil (25665 21075 293777 931000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 401 . 402) (nil fontified nil 378 . 402) (378 . 402)) nil (25665 21075 293771 938000) 0 nil])
+([nil nil ((#("mlir/" 0 4 (fontified t face font-lock-string-face) 4 5 (fontified t rear-nonsticky t face font-lock-string-face)) . -397) (undo-tree-id33 . -5) 402) nil (25665 21075 293771 235000) 0 nil])
+([nil nil ((397 . 403)) nil (25665 21075 293770 253000) 0 nil])
+([nil nil ((#("/" 0 1 (fontified t face font-lock-string-face)) . -402) (undo-tree-id32 . -1) 403) nil (25665 21075 293769 766000) 0 nil])
+([nil nil ((#("/" 0 1 (fontified t rear-nonsticky t face font-lock-string-face)) . -353) (undo-tree-id30 . -1) (undo-tree-id31 . -1) 354) nil (25665 21075 293764 619000) 0 nil])
+([nil nil ((#("ChatGPT, I'm not sure what to put here." 0 39 (fontified t face font-lock-string-face)) . 117) (undo-tree-id42 . -39) (undo-tree-id43 . -39) (undo-tree-id44 . 39) (undo-tree-id45 . -7) (undo-tree-id46 . -39) (undo-tree-id47 . -39) 120 (t 25665 21075 287233 256000)) nil (25665 21295 936861 900000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 166 . 167) (nil fontified nil 117 . 167) (117 . 167)) nil (25665 21295 936287 146000) 0 nil])
+([nil nil ((#("/" 0 1 (fontified t rear-nonsticky t face font-lock-string-face)) . -166) (undo-tree-id41 . -1) 167) nil (25665 21295 936281 740000) 0 nil])
+([nil nil ((#("/root/llvm-project/build/cmake/modules/CMakeFiles" 0 49 (fontified t face font-lock-string-face)) . 117) (undo-tree-id49 . -49) (undo-tree-id50 . 10) (undo-tree-id51 . -49) (undo-tree-id52 . -49) (undo-tree-id53 . -49) 121 (t 25665 21295 924519 139000)) nil (25665 21702 909395 494000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 156 . 157) (nil fontified nil 117 . 157) (117 . 157)) nil (25665 21702 909392 638000) 0 nil])
+([nil nil ((#("/" 0 1 (fontified t rear-nonsticky t face font-lock-string-face)) . -156) (undo-tree-id48 . -1) 157) nil (25665 21702 909388 246000) 0 nil])
+([nil nil ((#("cmake_minimum_required(VERSION 3.13.4)
+
+project(InputAnalysisPass)
+
+# Set the path to your LLVM build
+set(LLVM_DIR \"/root/llvm-project/build/lib/cmake/llvm\")
+
+find_package(LLVM REQUIRED CONFIG)
+
+list(APPEND CMAKE_MODULE_PATH \"${LLVM_CMAKE_DIR}\")
+include(AddLLVM)
+
+# Set the MLIR source and build directories
+set(MLIR_SOURCE_DIR \"/root/llvm-project/mlir\")
+set(MLIR_BINARY_DIR \"/root/llvm-project/build\")
+
+include_directories(
+    ${LLVM_INCLUDE_DIRS}
+    ${MLIR_SOURCE_DIR}/include
+    ${MLIR_BINARY_DIR}/include
+)
+
+add_definitions(${LLVM_DEFINITIONS})
+
+add_executable(input-analysis-pass InputAnalysisPass.cpp)
+
+llvm_map_components_to_libnames(llvm_libs support core irreader)
+
+target_link_libraries(input-analysis-pass PRIVATE ${llvm_libs})
+" 0 22 (fontified t face font-lock-function-name-face) 22 23 (fontified t face (rainbow-delimiters-depth-1-face)) 23 37 (fontified t) 37 38 (fontified t face (rainbow-delimiters-depth-1-face)) 38 40 (fontified t) 40 47 (fontified t face font-lock-function-name-face) 47 48 (fontified t face (rainbow-delimiters-depth-1-face)) 48 65 (fontified t) 65 66 (fontified t face (rainbow-delimiters-depth-1-face)) 66 68 (fontified t) 68 70 (fontified t face font-lock-comment-delimiter-face) 70 102 (fontified t face font-lock-comment-face) 102 105 (fontified t face font-lock-function-name-face) 105 106 (fontified t face (rainbow-delimiters-depth-1-face)) 106 115 (fontified t) 115 116 (fontified t face font-lock-string-face) 116 155 (fontified t face font-lock-string-face) 155 156 (fontified t face font-lock-string-face) 156 157 (fontified t face (rainbow-delimiters-depth-1-face)) 157 158 (fontified t) 158 159 (fontified t) 159 171 (fontified t face font-lock-function-name-face) 171 172 (fontified t face (rainbow-delimiters-depth-1-face)) 172 192 (fontified t) 192 193 (fontified t face (rainbow-delimiters-depth-1-face)) 193 195 (fontified t) 195 199 (fontified t face font-lock-function-name-face) 199 200 (fontified t face (rainbow-delimiters-depth-1-face)) 200 225 (fontified t) 225 228 (fontified t face font-lock-string-face) 228 242 (fontified t face font-lock-variable-name-face) 242 244 (fontified t face font-lock-string-face) 244 245 (fontified t face (rainbow-delimiters-depth-1-face)) 245 246 (fontified t) 246 253 (fontified t face font-lock-function-name-face) 253 254 (fontified t face (rainbow-delimiters-depth-1-face)) 254 261 (fontified t) 261 262 (fontified t face (rainbow-delimiters-depth-1-face)) 262 264 (fontified t) 264 266 (fontified t face font-lock-comment-delimiter-face) 266 308 (fontified t face font-lock-comment-face) 308 311 (fontified t face font-lock-function-name-face) 311 312 (fontified t face (rainbow-delimiters-depth-1-face)) 312 328 (fontified t) 328 329 (fontified t face font-lock-string-face) 329 352 (fontified t face font-lock-string-face) 352 353 (fontified t face font-lock-string-face) 353 354 (fontified t face (rainbow-delimiters-depth-1-face)) 354 355 (fontified t) 355 358 (fontified t face font-lock-function-name-face) 358 359 (fontified t face (rainbow-delimiters-depth-1-face)) 359 375 (fontified t) 375 376 (fontified t face font-lock-string-face) 376 400 (fontified t face font-lock-string-face) 400 401 (fontified t face font-lock-string-face) 401 402 (fontified t face (rainbow-delimiters-depth-1-face)) 402 403 (fontified t) 403 404 (fontified t) 404 423 (fontified t face font-lock-function-name-face) 423 424 (fontified t face (rainbow-delimiters-depth-1-face)) 424 430 (fontified t) 430 431 (fontified t face (rainbow-delimiters-depth-2-face)) 431 448 (fontified t face font-lock-variable-name-face) 448 449 (fontified t face (rainbow-delimiters-depth-2-face)) 449 455 (fontified t) 455 456 (fontified t face (rainbow-delimiters-depth-2-face)) 456 471 (fontified t face font-lock-variable-name-face) 471 472 (fontified t face (rainbow-delimiters-depth-2-face)) 472 486 (fontified t) 486 487 (fontified t face (rainbow-delimiters-depth-2-face)) 487 502 (fontified t face font-lock-variable-name-face) 502 503 (fontified t face (rainbow-delimiters-depth-2-face)) 503 512 (fontified t) 512 513 (fontified t face (rainbow-delimiters-depth-1-face)) 513 515 (fontified t) 515 530 (fontified t face font-lock-function-name-face) 530 531 (fontified t face (rainbow-delimiters-depth-1-face)) 531 532 (fontified t) 532 533 (fontified t face (rainbow-delimiters-depth-2-face)) 533 549 (fontified t face font-lock-variable-name-face) 549 550 (fontified t face (rainbow-delimiters-depth-2-face)) 550 551 (fontified t face (rainbow-delimiters-depth-1-face)) 551 553 (fontified t) 553 567 (fontified t face font-lock-function-name-face) 567 568 (fontified t face (rainbow-delimiters-depth-1-face)) 568 609 (fontified t) 609 610 (fontified t face (rainbow-delimiters-depth-1-face)) 610 612 (fontified t) 612 643 (fontified t face font-lock-function-name-face) 643 644 (fontified t face (rainbow-delimiters-depth-1-face)) 644 675 (fontified t) 675 676 (fontified t face (rainbow-delimiters-depth-1-face)) 676 678 (fontified t) 678 699 (fontified t face font-lock-function-name-face) 699 700 (fontified t face (rainbow-delimiters-depth-1-face)) 700 729 (fontified t) 729 730 (fontified t face (rainbow-delimiters-depth-2-face)) 730 739 (fontified t face font-lock-variable-name-face) 739 740 (fontified t face (rainbow-delimiters-depth-2-face)) 740 741 (fontified t face (rainbow-delimiters-depth-1-face)) 741 742 (rear-nonsticky t fontified t)) . 1) (undo-tree-id54 . -742) (undo-tree-id55 . -742) (undo-tree-id56 . -329) (undo-tree-id57 . -376) (undo-tree-id58 . 394) (undo-tree-id59 . -352) (undo-tree-id60 . -376) (undo-tree-id61 . -352) (undo-tree-id62 . -352) (undo-tree-id63 . -742) (undo-tree-id64 . -116) (undo-tree-id65 . -116) (undo-tree-id66 . -481) (undo-tree-id67 . -481) (undo-tree-id68 . -742) (undo-tree-id69 . -116) (undo-tree-id70 . 591) (undo-tree-id71 . -155) (undo-tree-id72 . -116) (undo-tree-id73 . -155) (undo-tree-id74 . -742) (undo-tree-id75 . -514) (undo-tree-id76 . -742) (undo-tree-id77 . -742) (undo-tree-id78 . -514) (undo-tree-id79 . -515) (undo-tree-id80 . -742) (t 25665 21702 912446 925000)) nil (25665 21918 863486 340000) 0 nil])
+([nil current ((nil rear-nonsticky nil 782 . 783) (nil fontified nil 1 . 783) (1 . 783)) nil (25665 21918 863284 377000) 0 nil])
+nil

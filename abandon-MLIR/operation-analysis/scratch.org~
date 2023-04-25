@@ -1,0 +1,17 @@
+clang -S -emit-llvm -O0 -Xclang -disable-O0-optnone simple-program.c -o simple-program.ll
+
+mlir-translate --import-llvm simple-program.ll -o simple-program.mlir
+
+# clang++ -std=c++17 -stdlib=libc++ mlir_op_analysis.cpp -o mlir_op_analysis `llvm-config --cxxflags --ldflags --libs --system-libs`
+# clang++ -std=c++17 -I/usr/include/c++/11 -stdlib=libc++ mlir_op_analysis.cpp -o mlir_op_analysis `llvm-config --cxxflags --ldflags --libs --system-libs`
+# clang++ -std=c++17 -I/usr/include/c++/11 -I/usr/include/x86_64-linux-gnu/c++/11 -stdlib=libc++ mlir_op_analysis.cpp -o mlir_op_analysis `llvm-config --cxxflags --ldflags --libs --system-libs`
+
+clang++ -std=c++17 -stdlib=libc++ -o mlir_op_analysis mlir_op_analysis.cpp `llvm-config --cxxflags --ldflags --libs` -lMLIRIR -lMLIRParser -lMLIRSupport
+
+clang++ -std=c++17 -isystem /root/llvm-project/libcxx/include -stdlib=libc++ -o mlir_op_analysis mlir_op_analysis.cpp `llvm-config --cxxflags --ldflags --libs` -lMLIRIR -lMLIRParser -lMLIRSupport
+
+clang++ -std=c++17 -I/root/llvm-project/libcxx/include -stdlib=libc++ -o mlir_op_analysis mlir_op_analysis.cpp `llvm-config --cxxflags --ldflags --libs` -lMLIRIR -lMLIRParser -lMLIRSupport
+
+clang++ -std=c++17 -I/root/llvm-project/libcxx/include -stdlib=libc++ -o mlir_op_analysis mlir_op_analysis.cpp `llvm-config --cxxflags --ldflags --libs` -lMLIRIR -lMLIRParser -lMLIRSupport
+
+./mlir_op_analysis input.mlir

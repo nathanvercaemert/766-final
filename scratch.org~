@@ -1,0 +1,1 @@
+g++ ast_printer.cpp -o ast_printer -lclang -I /usr/lib/llvm-14/include/ -L /usr/lib/llvm-14/lib/

@@ -1,0 +1,69 @@
+#include "mlir/IR/Block.h"
+#include "mlir/IR/Builders.h"
+#include "mlir/IR/MLIRContext.h"
+#include "mlir/IR/Operation.h"
+#include "mlir/IR/PatternMatch.h"
+
+using namespace mlir;
+
+struct InputAnalysisPass {
+  void runOnModule(ModuleOp module) {
+    module.walk([&](Operation *op) {
+      // Check if the operation is a function.
+      auto func = dyn_cast<FuncOp>(op);
+      if (!func)
+        return;
+
+      auto &entryBlock = func.getBlocks().front();
+
+      // Iterate through the arguments of the function.
+      for (auto arg : entryBlock.getArguments()) {
+        bool inputInfluencesLoop = false;
+
+        // Iterate through the uses of the input.
+        for (auto &use : arg.getUses()) {
+          auto user = use.getOwner();
+          // Check if the user is an operation with a known loop structure.
+          if (auto forOp = dyn_cast<mlir::scf::ForOp>(user)) {
+            // Check if the input influences the loop's bounds or step.
+            if (arg == forOp.lowerBound() || arg == forOp.upperBound() || arg == forOp.step()) {
+              inputInfluencesLoop = true;
+              break;
+            }
+          }
+        }
+
+        if (inputInfluencesLoop) {
+          llvm::errs() << "Input " << arg << " is associated with the number of iterations of a loop.\n";
+        } else {
+          llvm::errs() << "Input " << arg << " is NOT associated with the number of iterations of a loop.\n";
+        }
+      }
+    });
+  }
+};
+
+namespace mlir {
+void registerInputAnalysisPass() {
+  PassRegistration<InputAnalysisPass>(
+      "input-analysis",
+      "Analyze input values to determine if they influence the number of iterations of any loops");
+}
+}  // namespace mlir
+
+#include "mlir/InitAllDialects.h"
+#include "mlir/Pass/PassManager.h"
+
+int main() {
+  mlir::registerAllDialects();
+  mlir::PassManager pm;
+  pm.addPass(std::make_unique<InputAnalysisPass>());
+  return pm.run(mlir::parseSourceString(R"mlir(
+      func @test(%a: i32) {
+        %0 = scf.for %arg0 = %a to 10 : (i32) {
+          %1 = addi %arg0, 1 : i32
+        }
+        return
+      }
+    )mlir", mlir::MLIRContext()));
+}
