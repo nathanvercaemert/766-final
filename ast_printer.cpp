@@ -1,6 +1,33 @@
 #include <iostream>
 #include <clang-c/Index.h>
 
+void print_surrounding_lines(CXSourceLocation location, int lines_before, int lines_after) {
+    unsigned line_number;
+    unsigned column_number;
+    CXFile file;
+    clang_getSpellingLocation(location, &file, &line_number, &column_number, nullptr);
+
+    CXString file_name = clang_getFileName(file);
+    FILE* file_ptr = fopen(clang_getCString(file_name), "r");
+
+    if (!file_ptr) {
+        std::cerr << "Error: Unable to open the source file." << std::endl;
+        return;
+    }
+
+    char buffer[256];
+    unsigned int line_count = 0;
+    while (fgets(buffer, sizeof(buffer), file_ptr)) {
+        ++line_count;
+        if (line_count >= line_number - lines_before && line_count <= line_number + lines_after) {
+            printf("%4d: %s", line_count, buffer);
+        }
+    }
+
+    fclose(file_ptr);
+    clang_disposeString(file_name);
+}
+
 void print_ast(CXCursor cursor, int depth) {
     if (clang_getCursorKind(cursor) == CXCursor_FirstInvalid)
         return;
@@ -11,6 +38,10 @@ void print_ast(CXCursor cursor, int depth) {
     CXString cursor_kind_name = clang_getCursorKindSpelling(clang_getCursorKind(cursor));
     CXString cursor_spelling = clang_getCursorSpelling(cursor);
     std::cout << clang_getCString(cursor_kind_name) << " " << clang_getCString(cursor_spelling) << std::endl;
+
+    if (clang_getCursorKind(cursor) == CXCursor_CallExpr && clang_getCString(cursor_spelling) == std::string("scanf")) {
+        print_surrounding_lines(clang_getCursorLocation(cursor), 1, 1);
+    }
 
     clang_disposeString(cursor_kind_name);
     clang_disposeString(cursor_spelling);
