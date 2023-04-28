@@ -5,6 +5,8 @@ g++ ./i-o-analysis.cpp -o i-o-analysis -lclang -I /usr/lib/llvm-14/include/ -L /
 ./i-o-analysis ./convert.c
 ** cpp_files
 ./i-o-analysis ./cpp_files.c
+** ast dump
+clang -Xclang -ast-dump -fsyntax-only -std=c11 -I/usr/include -I/usr/local/include ./cpp_files.c
 * ./538.imagick_r/src/wand/convert.c:126:
 input=fopen_utf8(argv[i],"rb");
 for (c=fgetc(input); c != EOF; c=fgetc(input))

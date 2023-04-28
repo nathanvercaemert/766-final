@@ -1,5 +1,1864 @@
 (undo-tree-save-format-version . 1)
 "70efc05c85598f7acd0f12284d6fd81f89eebbfd"
-[nil nil nil nil (25675 60999 577503 657000) 0 nil]
-([nil current ((nil rear-nonsticky nil 52251 . 52252) (nil fontified nil 50910 . 52252) (nil fontified nil 50909 . 50910) (nil fontified nil 50838 . 50909) (nil fontified nil 50837 . 50838) (nil fontified nil 50698 . 50837) (nil fontified nil 50697 . 50698) (nil fontified nil 50622 . 50697) (nil fontified nil 50621 . 50622) (nil fontified nil 48780 . 50621) (nil fontified nil 48779 . 48780) (nil fontified nil 47828 . 48779) (nil fontified nil 47827 . 47828) (nil fontified nil 47786 . 47827) (nil fontified nil 47785 . 47786) (nil fontified nil 47446 . 47785) (nil fontified nil 47445 . 47446) (nil fontified nil 47240 . 47445) (nil fontified nil 47239 . 47240) (nil fontified nil 47226 . 47239) (nil fontified nil 47225 . 47226) (nil fontified nil 47221 . 47225) (nil fontified nil 47220 . 47221) (nil fontified nil 47168 . 47220) (nil fontified nil 47167 . 47168) (nil fontified nil 47071 . 47167) (nil fontified nil 47070 . 47071) (nil fontified nil 47063 . 47070) (nil fontified nil 47062 . 47063) (nil fontified nil 45336 . 47062) (nil fontified nil 45334 . 45336) (nil fontified nil 45333 . 45334) (nil fontified nil 45308 . 45333) (nil fontified nil 45307 . 45308) (nil fontified nil 45293 . 45307) (nil fontified nil 45292 . 45293) (nil fontified nil 45277 . 45292) (nil fontified nil 45276 . 45277) (nil fontified nil 45248 . 45276) (nil fontified nil 45247 . 45248) (nil fontified nil 45232 . 45247) (nil fontified nil 45231 . 45232) (nil fontified nil 45222 . 45231) (nil fontified nil 45218 . 45222) (nil fontified nil 45217 . 45218) (nil fontified nil 45191 . 45217) (nil fontified nil 45190 . 45191) (nil fontified nil 45177 . 45190) (nil fontified nil 45176 . 45177) (nil fontified nil 45150 . 45176) (nil fontified nil 45146 . 45150) (nil fontified nil 45145 . 45146) (nil fontified nil 45139 . 45145) (nil fontified nil 45137 . 45139) (nil fontified nil 45136 . 45137) (nil fontified nil 45121 . 45136) (nil fontified nil 45120 . 45121) (nil fontified nil 45119 . 45120) (nil fontified nil 45118 . 45119) (nil fontified nil 45116 . 45118) (nil fontified nil 45108 . 45116) (nil fontified nil 45107 . 45108) (nil fontified nil 45104 . 45107) (nil fontified nil 45097 . 45104) (nil fontified nil 45096 . 45097) (nil fontified nil 45076 . 45096) (nil fontified nil 45075 . 45076) (nil fontified nil 45074 . 45075) (nil fontified nil 45065 . 45074) (nil fontified nil 45064 . 45065) (nil fontified nil 45051 . 45064) (nil fontified nil 45050 . 45051) (nil fontified nil 45041 . 45050) (nil fontified nil 45035 . 45041) (nil fontified nil 45029 . 45035) (nil fontified nil 45028 . 45029) (nil fontified nil 45027 . 45028) (nil fontified nil 45020 . 45027) (nil fontified nil 45019 . 45020) (nil fontified nil 45014 . 45019) (nil fontified nil 45013 . 45014) (nil fontified nil 45000 . 45013) (nil fontified nil 44999 . 45000) (nil fontified nil 44992 . 44999) (nil fontified nil 44991 . 44992) (nil fontified nil 44990 . 44991) (nil fontified nil 44989 . 44990) (nil fontified nil 44987 . 44989) (nil fontified nil 44985 . 44987) (nil fontified nil 44984 . 44985) (nil fontified nil 44972 . 44984) (nil fontified nil 44971 . 44972) (nil fontified nil 44966 . 44971) (nil fontified nil 44965 . 44966) (nil fontified nil 44941 . 44965) (nil fontified nil 44940 . 44941) (nil fontified nil 44939 . 44940) (nil fontified nil 44936 . 44939) (nil fontified nil 44927 . 44936) (nil fontified nil 44926 . 44927) (nil fontified nil 44923 . 44926) (nil fontified nil 44922 . 44923) (nil fontified nil 44906 . 44922) (nil fontified nil 44905 . 44906) (nil fontified nil 44892 . 44905) (nil fontified nil 44891 . 44892) (nil fontified nil 44890 . 44891) (nil fontified nil 44889 . 44890) (nil fontified nil 44887 . 44889) (nil fontified nil 44880 . 44887) (nil fontified nil 44879 . 44880) (nil fontified nil 44874 . 44879) (nil fontified nil 44873 . 44874) (nil fontified nil 44871 . 44873) (nil fontified nil 44870 . 44871) (nil fontified nil 44869 . 44870) (nil fontified nil 44866 . 44869) (nil fontified nil 44819 . 44866) (nil fontified nil 44816 . 44819) (nil fontified nil 44815 . 44816) (nil fontified nil 44814 . 44815) (nil fontified nil 44809 . 44814) (nil fontified nil 44808 . 44809) (nil fontified nil 44807 . 44808) (nil fontified nil 44802 . 44807) (nil fontified nil 44798 . 44802) (nil fontified nil 44795 . 44798) (nil fontified nil 44793 . 44795) (nil fontified nil 44792 . 44793) (nil fontified nil 44786 . 44792) (nil fontified nil 44782 . 44786) (nil fontified nil 44775 . 44782) (nil fontified nil 44773 . 44775) (nil fontified nil 44772 . 44773) (nil fontified nil 44769 . 44772) (nil fontified nil 44765 . 44769) (nil fontified nil 44764 . 44765) (nil fontified nil 44762 . 44764) (nil fontified nil 44761 . 44762) (nil fontified nil 44756 . 44761) (nil fontified nil 44754 . 44756) (nil fontified nil 44753 . 44754) (nil fontified nil 44750 . 44753) (nil fontified nil 44749 . 44750) (nil fontified nil 44744 . 44749) (nil fontified nil 44741 . 44744) (nil fontified nil 44740 . 44741) (nil fontified nil 44739 . 44740) (nil fontified nil 44738 . 44739) (nil fontified nil 44734 . 44738) (nil fontified nil 44732 . 44734) (nil fontified nil 44723 . 44732) (nil fontified nil 44722 . 44723) (nil fontified nil 44721 . 44722) (nil fontified nil 44716 . 44721) (nil fontified nil 44714 . 44716) (nil fontified nil 44704 . 44714) (nil fontified nil 44703 . 44704) (nil fontified nil 44702 . 44703) (nil fontified nil 44688 . 44702) (nil fontified nil 44685 . 44688) (nil fontified nil 44684 . 44685) (nil fontified nil 44681 . 44684) (nil fontified nil 44680 . 44681) (nil fontified nil 44675 . 44680) (nil fontified nil 44674 . 44675) (nil fontified nil 44673 . 44674) (nil fontified nil 44669 . 44673) (nil fontified nil 44517 . 44669) (nil fontified nil 44516 . 44517) (nil fontified nil 44504 . 44516) (nil fontified nil 44502 . 44504) (nil fontified nil 44501 . 44502) (nil fontified nil 44499 . 44501) (nil fontified nil 44498 . 44499) (nil fontified nil 44496 . 44498) (nil fontified nil 44492 . 44496) (nil fontified nil 44489 . 44492) (nil fontified nil 44488 . 44489) (nil fontified nil 44483 . 44488) (nil fontified nil 44482 . 44483) (nil fontified nil 44470 . 44482) (nil fontified nil 44468 . 44470) (nil fontified nil 44467 . 44468) (nil fontified nil 44466 . 44467) (nil fontified nil 44462 . 44466) (nil fontified nil 44454 . 44462) (nil fontified nil 44435 . 44454) (nil fontified nil 44433 . 44435) (nil fontified nil 44432 . 44433) (nil fontified nil 44430 . 44432) (nil fontified nil 44428 . 44430) (nil fontified nil 44427 . 44428) (nil fontified nil 44421 . 44427) (nil fontified nil 44420 . 44421) (nil fontified nil 44419 . 44420) (nil fontified nil 44418 . 44419) (nil fontified nil 44403 . 44418) (nil fontified nil 44402 . 44403) (nil fontified nil 44399 . 44402) (nil fontified nil 44394 . 44399) (nil fontified nil 44386 . 44394) (nil fontified nil 44385 . 44386) (nil fontified nil 44376 . 44385) (nil fontified nil 44375 . 44376) (nil fontified nil 44374 . 44375) (nil fontified nil 44372 . 44374) (nil fontified nil 44366 . 44372) (nil fontified nil 44365 . 44366) (nil fontified nil 44361 . 44365) (nil fontified nil 44357 . 44361) (nil fontified nil 44356 . 44357) (nil fontified nil 44355 . 44356) (nil fontified nil 44354 . 44355) (nil fontified nil 44353 . 44354) (nil fontified nil 44343 . 44353) (nil fontified nil 44342 . 44343) (nil fontified nil 44341 . 44342) (nil fontified nil 44340 . 44341) (nil fontified nil 44335 . 44340) (nil fontified nil 44315 . 44335) (nil fontified nil 44314 . 44315) (nil fontified nil 44307 . 44314) (nil fontified nil 44306 . 44307) (nil fontified nil 44304 . 44306) (nil fontified nil 44303 . 44304) (nil fontified nil 44289 . 44303) (nil fontified nil 44288 . 44289) (nil fontified nil 44281 . 44288) (nil fontified nil 44280 . 44281) (nil fontified nil 44258 . 44280) (nil fontified nil 44257 . 44258) (nil fontified nil 44248 . 44257) (nil fontified nil 44247 . 44248) (nil fontified nil 44226 . 44247) (nil fontified nil 44225 . 44226) (nil fontified nil 44219 . 44225) (nil fontified nil 44215 . 44219) (nil fontified nil 44205 . 44215) (nil fontified nil 44204 . 44205) (nil fontified nil 44195 . 44204) (nil fontified nil 44194 . 44195) (nil fontified nil 44175 . 44194) (nil fontified nil 44174 . 44175) (nil fontified nil 44173 . 44174) (nil fontified nil 44171 . 44173) (nil fontified nil 44170 . 44171) (nil fontified nil 44153 . 44170) (nil fontified nil 44152 . 44153) (nil fontified nil 44151 . 44152) (nil fontified nil 44149 . 44151) (nil fontified nil 44144 . 44149) (nil fontified nil 44143 . 44144) (nil fontified nil 44138 . 44143) (nil fontified nil 44137 . 44138) (nil fontified nil 44099 . 44137) (nil fontified nil 44098 . 44099) (nil fontified nil 44097 . 44098) (nil fontified nil 44095 . 44097) (nil fontified nil 44094 . 44095) (nil fontified nil 44073 . 44094) (nil fontified nil 44072 . 44073) (nil fontified nil 44071 . 44072) (nil fontified nil 44070 . 44071) (nil fontified nil 44069 . 44070) (nil fontified nil 44059 . 44069) (nil fontified nil 44058 . 44059) (nil fontified nil 44057 . 44058) (nil fontified nil 44056 . 44057) (nil fontified nil 44051 . 44056) (nil fontified nil 44046 . 44051) (nil fontified nil 44045 . 44046) (nil fontified nil 44040 . 44045) (nil fontified nil 44039 . 44040) (nil fontified nil 44015 . 44039) (nil fontified nil 44014 . 44015) (nil fontified nil 44009 . 44014) (nil fontified nil 44008 . 44009) (nil fontified nil 43990 . 44008) (nil fontified nil 43989 . 43990) (nil fontified nil 43982 . 43989) (nil fontified nil 43981 . 43982) (nil fontified nil 43958 . 43981) (nil fontified nil 43954 . 43958) (nil fontified nil 43953 . 43954) (nil fontified nil 43948 . 43953) (nil fontified nil 43947 . 43948) (nil fontified nil 43894 . 43947) (nil fontified nil 43893 . 43894) (nil fontified nil 43887 . 43893) (nil fontified nil 43886 . 43887) (nil fontified nil 43870 . 43886) (nil fontified nil 43869 . 43870) (nil fontified nil 43868 . 43869) (nil fontified nil 43866 . 43868) (nil fontified nil 43860 . 43866) (nil fontified nil 43852 . 43860) (nil fontified nil 43846 . 43852) (nil fontified nil 43845 . 43846) (nil fontified nil 43844 . 43845) (nil fontified nil 43842 . 43844) (nil fontified nil 43841 . 43842) (nil fontified nil 43832 . 43841) (nil fontified nil 43831 . 43832) (nil fontified nil 43830 . 43831) (nil fontified nil 43828 . 43830) (nil fontified nil 43822 . 43828) (nil fontified nil 43820 . 43822) (nil fontified nil 43818 . 43820) (nil fontified nil 43817 . 43818) (nil fontified nil 43814 . 43817) (nil fontified nil 43810 . 43814) (nil fontified nil 43809 . 43810) (nil fontified nil 43808 . 43809) (nil fontified nil 43807 . 43808) (nil fontified nil 43806 . 43807) (nil fontified nil 43799 . 43806) (nil fontified nil 43798 . 43799) (nil fontified nil 43797 . 43798) (nil fontified nil 43796 . 43797) (nil fontified nil 43795 . 43796) (nil fontified nil 43785 . 43795) (nil fontified nil 43784 . 43785) (nil fontified nil 43783 . 43784) (nil fontified nil 43782 . 43783) (nil fontified nil 43777 . 43782) (nil fontified nil 43771 . 43777) (nil fontified nil 43768 . 43771) (nil fontified nil 43766 . 43768) (nil fontified nil 43765 . 43766) (nil fontified nil 43764 . 43765) (nil fontified nil 43762 . 43764) (nil fontified nil 43755 . 43762) (nil fontified nil 43754 . 43755) (nil fontified nil 43749 . 43754) (nil fontified nil 43748 . 43749) (nil fontified nil 43747 . 43748) (nil fontified nil 43746 . 43747) (nil fontified nil 43745 . 43746) (nil fontified nil 43744 . 43745) (nil fontified nil 43743 . 43744) (nil fontified nil 43741 . 43743) (nil fontified nil 43740 . 43741) (nil fontified nil 43736 . 43740) (nil fontified nil 43697 . 43736) (nil fontified nil 43695 . 43697) (nil fontified nil 43694 . 43695) (nil fontified nil 43692 . 43694) (nil fontified nil 43689 . 43692) (nil fontified nil 43688 . 43689) (nil fontified nil 43680 . 43688) (nil fontified nil 43676 . 43680) (nil fontified nil 43675 . 43676) (nil fontified nil 43670 . 43675) (nil fontified nil 43669 . 43670) (nil fontified nil 43640 . 43669) (nil fontified nil 43639 . 43640) (nil fontified nil 43636 . 43639) (nil fontified nil 43630 . 43636) (nil fontified nil 43629 . 43630) (nil fontified nil 43615 . 43629) (nil fontified nil 43614 . 43615) (nil fontified nil 43584 . 43614) (nil fontified nil 43583 . 43584) (nil fontified nil 43572 . 43583) (nil fontified nil 43569 . 43572) (nil fontified nil 43566 . 43569) (nil fontified nil 43565 . 43566) (nil fontified nil 43560 . 43565) (nil fontified nil 43559 . 43560) (nil fontified nil 43550 . 43559) (nil fontified nil 43549 . 43550) (nil fontified nil 43546 . 43549) (nil fontified nil 43542 . 43546) (nil fontified nil 43541 . 43542) (nil fontified nil 43534 . 43541) (nil fontified nil 43533 . 43534) (nil fontified nil 43522 . 43533) (nil fontified nil 43521 . 43522) (nil fontified nil 43520 . 43521) (nil fontified nil 43518 . 43520) (nil fontified nil 43514 . 43518) (nil fontified nil 43513 . 43514) (nil fontified nil 43493 . 43513) (nil fontified nil 43492 . 43493) (nil fontified nil 43481 . 43492) (nil fontified nil 43480 . 43481) (nil fontified nil 43476 . 43480) (nil fontified nil 43475 . 43476) (nil fontified nil 43457 . 43475) (nil fontified nil 43456 . 43457) (nil fontified nil 43455 . 43456) (nil fontified nil 43449 . 43455) (nil fontified nil 43443 . 43449) (nil fontified nil 43442 . 43443) (nil fontified nil 43434 . 43442) (nil fontified nil 43433 . 43434) (nil fontified nil 43431 . 43433) (nil fontified nil 43427 . 43431) (nil fontified nil 43426 . 43427) (nil fontified nil 43392 . 43426) (nil fontified nil 43388 . 43392) (nil fontified nil 43387 . 43388) (nil fontified nil 43386 . 43387) (nil fontified nil 43382 . 43386) (nil fontified nil 43377 . 43382) (nil fontified nil 43376 . 43377) (nil fontified nil 43375 . 43376) (nil fontified nil 43372 . 43375) (nil fontified nil 43371 . 43372) (nil fontified nil 43370 . 43371) (nil fontified nil 43365 . 43370) (nil fontified nil 43361 . 43365) (nil fontified nil 43360 . 43361) (nil fontified nil 43358 . 43360) (nil fontified nil 43357 . 43358) (nil fontified nil 43354 . 43357) (nil fontified nil 43350 . 43354) (nil fontified nil 43346 . 43350) (nil fontified nil 43344 . 43346) (nil fontified nil 43343 . 43344) (nil fontified nil 43340 . 43343) (nil fontified nil 43336 . 43340) (nil fontified nil 43324 . 43336) (nil fontified nil 43321 . 43324) (nil fontified nil 43320 . 43321) (nil fontified nil 43319 . 43320) (nil fontified nil 43301 . 43319) (nil fontified nil 43300 . 43301) (nil fontified nil 43299 . 43300) (nil fontified nil 43296 . 43299) (nil fontified nil 43295 . 43296) (nil fontified nil 43290 . 43295) (nil fontified nil 43289 . 43290) (nil fontified nil 43283 . 43289) (nil fontified nil 43280 . 43283) (nil fontified nil 43279 . 43280) (nil fontified nil 43278 . 43279) (nil fontified nil 43277 . 43278) (nil fontified nil 43274 . 43277) (nil fontified nil 43272 . 43274) (nil fontified nil 43265 . 43272) (nil fontified nil 43264 . 43265) (nil fontified nil 43263 . 43264) (nil fontified nil 43250 . 43263) (nil fontified nil 43249 . 43250) (nil fontified nil 43248 . 43249) (nil fontified nil 43245 . 43248) (nil fontified nil 43244 . 43245) (nil fontified nil 43239 . 43244) (nil fontified nil 43238 . 43239) (nil fontified nil 43237 . 43238) (nil fontified nil 43233 . 43237) (nil fontified nil 43197 . 43233) (nil fontified nil 43195 . 43197) (nil fontified nil 43194 . 43195) (nil fontified nil 43192 . 43194) (nil fontified nil 43191 . 43192) (nil fontified nil 43183 . 43191) (nil fontified nil 43177 . 43183) (nil fontified nil 43173 . 43177) (nil fontified nil 43172 . 43173) (nil fontified nil 43167 . 43172) (nil fontified nil 43166 . 43167) (nil fontified nil 43155 . 43166) (nil fontified nil 43151 . 43155) (nil fontified nil 43141 . 43151) (nil fontified nil 43140 . 43141) (nil fontified nil 43135 . 43140) (nil fontified nil 43134 . 43135) (nil fontified nil 43116 . 43134) (nil fontified nil 43115 . 43116) (nil fontified nil 43078 . 43115) (nil fontified nil 43077 . 43078) (nil fontified nil 43061 . 43077) (nil fontified nil 43057 . 43061) (nil fontified nil 43056 . 43057) (nil fontified nil 43012 . 43056) (nil fontified nil 43011 . 43012) (nil fontified nil 43005 . 43011) (nil fontified nil 43004 . 43005) (nil fontified nil 42986 . 43004) (nil fontified nil 42985 . 42986) (nil fontified nil 42984 . 42985) (nil fontified nil 42982 . 42984) (nil fontified nil 42978 . 42982) (nil fontified nil 42977 . 42978) (nil fontified nil 42975 . 42977) (nil fontified nil 42974 . 42975) (nil fontified nil 42973 . 42974) (nil fontified nil 42971 . 42973) (nil fontified nil 42970 . 42971) (nil fontified nil 42960 . 42970) (nil fontified nil 42959 . 42960) (nil fontified nil 42954 . 42959) (nil fontified nil 42948 . 42954) (nil fontified nil 42947 . 42948) (nil fontified nil 42946 . 42947) (nil fontified nil 42945 . 42946) (nil fontified nil 42944 . 42945) (nil fontified nil 42934 . 42944) (nil fontified nil 42933 . 42934) (nil fontified nil 42932 . 42933) (nil fontified nil 42931 . 42932) (nil fontified nil 42926 . 42931) (nil fontified nil 42920 . 42926) (nil fontified nil 42900 . 42920) (nil fontified nil 42899 . 42900) (nil fontified nil 42894 . 42899) (nil fontified nil 42893 . 42894) (nil fontified nil 42892 . 42893) (nil fontified nil 42890 . 42892) (nil fontified nil 42889 . 42890) (nil fontified nil 42879 . 42889) (nil fontified nil 42878 . 42879) (nil fontified nil 42877 . 42878) (nil fontified nil 42876 . 42877) (nil fontified nil 42874 . 42876) (nil fontified nil 42870 . 42874) (nil fontified nil 42869 . 42870) (nil fontified nil 42860 . 42869) (nil fontified nil 42856 . 42860) (nil fontified nil 42855 . 42856) (nil fontified nil 42816 . 42855) (nil fontified nil 42813 . 42816) (nil fontified nil 42812 . 42813) (nil fontified nil 42811 . 42812) (nil fontified nil 42809 . 42811) (nil fontified nil 42805 . 42809) (nil fontified nil 42802 . 42805) (nil fontified nil 42800 . 42802) (nil fontified nil 42799 . 42800) (nil fontified nil 42794 . 42799) (nil fontified nil 42792 . 42794) (nil fontified nil 42791 . 42792) (nil fontified nil 42788 . 42791) (nil fontified nil 42785 . 42788) (nil fontified nil 42784 . 42785) (nil fontified nil 42783 . 42784) (nil fontified nil 42782 . 42783) (nil fontified nil 42781 . 42782) (nil fontified nil 42779 . 42781) (nil fontified nil 42775 . 42779) (nil fontified nil 42774 . 42775) (nil fontified nil 42773 . 42774) (nil fontified nil 42771 . 42773) (nil fontified nil 42770 . 42771) (nil fontified nil 42767 . 42770) (nil fontified nil 42766 . 42767) (nil fontified nil 42765 . 42766) (nil fontified nil 42745 . 42765) (nil fontified nil 42742 . 42745) (nil fontified nil 42741 . 42742) (nil fontified nil 42738 . 42741) (nil fontified nil 42737 . 42738) (nil fontified nil 42732 . 42737) (nil fontified nil 42731 . 42732) (nil fontified nil 42730 . 42731) (nil fontified nil 42726 . 42730) (nil fontified nil 42653 . 42726) (nil fontified nil 42651 . 42653) (nil fontified nil 42650 . 42651) (nil fontified nil 42648 . 42650) (nil fontified nil 42647 . 42648) (nil fontified nil 42640 . 42647) (nil fontified nil 42634 . 42640) (nil fontified nil 42631 . 42634) (nil fontified nil 42332 . 42631) (nil fontified nil 42314 . 42332) (nil fontified nil 42311 . 42314) (nil fontified nil 42310 . 42311) (nil fontified nil 42301 . 42310) (nil fontified nil 42300 . 42301) (nil fontified nil 42230 . 42300) (nil fontified nil 42229 . 42230) (nil fontified nil 42162 . 42229) (nil fontified nil 42161 . 42162) (nil fontified nil 40784 . 42161) (nil fontified nil 40783 . 40784) (nil fontified nil 38424 . 40783) (nil fontified nil 38423 . 38424) (nil fontified nil 29955 . 38423) (nil fontified nil 29954 . 29955) (nil fontified nil 28294 . 29954) (nil fontified nil 28293 . 28294) (nil fontified nil 27193 . 28293) (nil fontified nil 27192 . 27193) (nil fontified nil 26769 . 27192) (nil fontified nil 26768 . 26769) (nil fontified nil 22924 . 26768) (nil fontified nil 22923 . 22924) (nil fontified nil 22907 . 22923) (nil fontified nil 22906 . 22907) (nil fontified nil 22694 . 22906) (nil fontified nil 22693 . 22694) (nil fontified nil 22666 . 22693) (nil fontified nil 22665 . 22666) (nil fontified nil 22531 . 22665) (nil fontified nil 22530 . 22531) (nil fontified nil 22157 . 22530) (nil fontified nil 22156 . 22157) (nil fontified nil 21810 . 22156) (nil fontified nil 21809 . 21810) (nil fontified nil 21271 . 21809) (nil fontified nil 21270 . 21271) (nil fontified nil 20936 . 21270) (nil fontified nil 20935 . 20936) (nil fontified nil 19673 . 20935) (nil fontified nil 19672 . 19673) (nil fontified nil 19067 . 19672) (nil fontified nil 19066 . 19067) (nil fontified nil 18373 . 19066) (nil fontified nil 18372 . 18373) (nil fontified nil 18339 . 18372) (nil fontified nil 18338 . 18339) (nil fontified nil 15715 . 18338) (nil fontified nil 15714 . 15715) (nil fontified nil 13417 . 15714) (nil fontified nil 13416 . 13417) (nil fontified nil 12768 . 13416) (nil fontified nil 12767 . 12768) (nil fontified nil 12721 . 12767) (nil fontified nil 12720 . 12721) (nil fontified nil 11833 . 12720) (nil fontified nil 11832 . 11833) (nil fontified nil 9936 . 11832) (nil fontified nil 9935 . 9936) (nil fontified nil 8850 . 9935) (nil fontified nil 8849 . 8850) (nil fontified nil 8615 . 8849) (nil fontified nil 8614 . 8615) (nil fontified nil 8613 . 8614) (nil fontified nil 8612 . 8613) (nil fontified nil 8564 . 8612) (nil fontified nil 8563 . 8564) (nil fontified nil 8542 . 8563) (nil fontified nil 8538 . 8542) (nil fontified nil 8535 . 8538) (nil fontified nil 8534 . 8535) (nil fontified nil 8528 . 8534) (nil fontified nil 8527 . 8528) (nil fontified nil 8526 . 8527) (nil fontified nil 8474 . 8526) (nil fontified nil 8473 . 8474) (nil fontified nil 8468 . 8473) (nil fontified nil 8467 . 8468) (nil fontified nil 8463 . 8467) (nil fontified nil 8459 . 8463) (nil fontified nil 8458 . 8459) (nil fontified nil 8457 . 8458) (nil fontified nil 8456 . 8457) (nil fontified nil 8446 . 8456) (nil fontified nil 8445 . 8446) (nil fontified nil 8444 . 8445) (nil fontified nil 8442 . 8444) (nil fontified nil 8439 . 8442) (nil fontified nil 8438 . 8439) (nil fontified nil 8437 . 8438) (nil fontified nil 8436 . 8437) (nil fontified nil 8432 . 8436) (nil fontified nil 8430 . 8432) (nil fontified nil 8421 . 8430) (nil fontified nil 8420 . 8421) (nil fontified nil 8419 . 8420) (nil fontified nil 8410 . 8419) (nil fontified nil 8409 . 8410) (nil fontified nil 8408 . 8409) (nil fontified nil 8405 . 8408) (nil fontified nil 8404 . 8405) (nil fontified nil 8399 . 8404) (nil fontified nil 8398 . 8399) (nil fontified nil 8397 . 8398) (nil fontified nil 8393 . 8397) (nil fontified nil 8182 . 8393) (nil fontified nil 8181 . 8182) (nil fontified nil 8066 . 8181) (nil fontified nil 8065 . 8066) (nil fontified nil 7589 . 8065) (nil fontified nil 7587 . 7589) (nil fontified nil 7586 . 7587) (nil fontified nil 7583 . 7586) (nil fontified nil 7582 . 7583) (nil fontified nil 7578 . 7582) (nil fontified nil 7577 . 7578) (nil fontified nil 7576 . 7577) (nil fontified nil 7574 . 7576) (nil fontified nil 7565 . 7574) (nil fontified nil 7564 . 7565) (nil fontified nil 7563 . 7564) (nil fontified nil 7561 . 7563) (nil fontified nil 7551 . 7561) (nil fontified nil 7550 . 7551) (nil fontified nil 7549 . 7550) (nil fontified nil 7523 . 7549) (nil fontified nil 7522 . 7523) (nil fontified nil 7521 . 7522) (nil fontified nil 7518 . 7521) (nil fontified nil 7517 . 7518) (nil fontified nil 7511 . 7517) (nil fontified nil 7509 . 7511) (nil fontified nil 7508 . 7509) (nil fontified nil 7505 . 7508) (nil fontified nil 7503 . 7505) (nil fontified nil 7499 . 7503) (nil fontified nil 7498 . 7499) (nil fontified nil 7493 . 7498) (nil fontified nil 7492 . 7493) (nil fontified nil 7491 . 7492) (nil fontified nil 7488 . 7491) (nil fontified nil 7486 . 7488) (nil fontified nil 7482 . 7486) (nil fontified nil 7481 . 7482) (nil fontified nil 7476 . 7481) (nil fontified nil 7475 . 7476) (nil fontified nil 7474 . 7475) (nil fontified nil 7462 . 7474) (nil fontified nil 7461 . 7462) (nil fontified nil 7460 . 7461) (nil fontified nil 7458 . 7460) (nil fontified nil 7457 . 7458) (nil fontified nil 7451 . 7457) (nil fontified nil 7449 . 7451) (nil fontified nil 7448 . 7449) (nil fontified nil 7446 . 7448) (nil fontified nil 7444 . 7446) (nil fontified nil 7440 . 7444) (nil fontified nil 7439 . 7440) (nil fontified nil 7434 . 7439) (nil fontified nil 7433 . 7434) (nil fontified nil 7432 . 7433) (nil fontified nil 7430 . 7432) (nil fontified nil 7428 . 7430) (nil fontified nil 7424 . 7428) (nil fontified nil 7423 . 7424) (nil fontified nil 7418 . 7423) (nil fontified nil 7417 . 7418) (nil fontified nil 7416 . 7417) (nil fontified nil 7399 . 7416) (nil fontified nil 7398 . 7399) (nil fontified nil 7397 . 7398) (nil fontified nil 7395 . 7397) (nil fontified nil 7394 . 7395) (nil fontified nil 7388 . 7394) (nil fontified nil 7386 . 7388) (nil fontified nil 7385 . 7386) (nil fontified nil 7378 . 7385) (nil fontified nil 7376 . 7378) (nil fontified nil 7372 . 7376) (nil fontified nil 7371 . 7372) (nil fontified nil 7366 . 7371) (nil fontified nil 7365 . 7366) (nil fontified nil 7364 . 7365) (nil fontified nil 7360 . 7364) (nil fontified nil 7358 . 7360) (nil fontified nil 7349 . 7358) (nil fontified nil 7348 . 7349) (nil fontified nil 7347 . 7348) (nil fontified nil 7345 . 7347) (nil fontified nil 7335 . 7345) (nil fontified nil 7334 . 7335) (nil fontified nil 7333 . 7334) (nil fontified nil 7321 . 7333) (nil fontified nil 7320 . 7321) (nil fontified nil 7319 . 7320) (nil fontified nil 7316 . 7319) (nil fontified nil 7315 . 7316) (nil fontified nil 7309 . 7315) (nil fontified nil 7307 . 7309) (nil fontified nil 7306 . 7307) (nil fontified nil 7303 . 7306) (nil fontified nil 7301 . 7303) (nil fontified nil 7294 . 7301) (nil fontified nil 7293 . 7294) (nil fontified nil 7292 . 7293) (nil fontified nil 7287 . 7292) (nil fontified nil 7285 . 7287) (nil fontified nil 7281 . 7285) (nil fontified nil 7280 . 7281) (nil fontified nil 7275 . 7280) (nil fontified nil 7274 . 7275) (nil fontified nil 7273 . 7274) (nil fontified nil 7255 . 7273) (nil fontified nil 7253 . 7255) (nil fontified nil 7252 . 7253) (nil fontified nil 7249 . 7252) (nil fontified nil 7248 . 7249) (nil fontified nil 7242 . 7248) (nil fontified nil 7240 . 7242) (nil fontified nil 7239 . 7240) (nil fontified nil 7235 . 7239) (nil fontified nil 7233 . 7235) (nil fontified nil 7224 . 7233) (nil fontified nil 7223 . 7224) (nil fontified nil 7222 . 7223) (nil fontified nil 7217 . 7222) (nil fontified nil 7215 . 7217) (nil fontified nil 7205 . 7215) (nil fontified nil 7204 . 7205) (nil fontified nil 7203 . 7204) (nil fontified nil 7189 . 7203) (nil fontified nil 7187 . 7189) (nil fontified nil 7186 . 7187) (nil fontified nil 7183 . 7186) (nil fontified nil 7182 . 7183) (nil fontified nil 7176 . 7182) (nil fontified nil 7174 . 7176) (nil fontified nil 7173 . 7174) (nil fontified nil 7170 . 7173) (nil fontified nil 7168 . 7170) (nil fontified nil 7161 . 7168) (nil fontified nil 7160 . 7161) (nil fontified nil 7159 . 7160) (nil fontified nil 7146 . 7159) (nil fontified nil 7145 . 7146) (nil fontified nil 7144 . 7145) (nil fontified nil 7141 . 7144) (nil fontified nil 7140 . 7141) (nil fontified nil 7134 . 7140) (nil fontified nil 7132 . 7134) (nil fontified nil 7131 . 7132) (nil fontified nil 7130 . 7131) (nil fontified nil 7128 . 7130) (nil fontified nil 7124 . 7128) (nil fontified nil 7123 . 7124) (nil fontified nil 7122 . 7123) (nil fontified nil 7120 . 7122) (nil fontified nil 7119 . 7120) (nil fontified nil 7116 . 7119) (nil fontified nil 7115 . 7116) (nil fontified nil 7114 . 7115) (nil fontified nil 7094 . 7114) (nil fontified nil 7092 . 7094) (nil fontified nil 7091 . 7092) (nil fontified nil 7088 . 7091) (nil fontified nil 7087 . 7088) (nil fontified nil 7081 . 7087) (nil fontified nil 7079 . 7081) (nil fontified nil 7078 . 7079) (nil fontified nil 7077 . 7078) (nil fontified nil 7075 . 7077) (nil fontified nil 7071 . 7075) (nil fontified nil 7070 . 7071) (nil fontified nil 7065 . 7070) (nil fontified nil 7064 . 7065) (nil fontified nil 7063 . 7064) (nil fontified nil 7062 . 7063) (nil fontified nil 7060 . 7062) (nil fontified nil 7056 . 7060) (nil fontified nil 7055 . 7056) (nil fontified nil 7050 . 7055) (nil fontified nil 7049 . 7050) (nil fontified nil 7048 . 7049) (nil fontified nil 7036 . 7048) (nil fontified nil 7035 . 7036) (nil fontified nil 7034 . 7035) (nil fontified nil 7032 . 7034) (nil fontified nil 7031 . 7032) (nil fontified nil 7025 . 7031) (nil fontified nil 7023 . 7025) (nil fontified nil 7022 . 7023) (nil fontified nil 7021 . 7022) (nil fontified nil 7019 . 7021) (nil fontified nil 7015 . 7019) (nil fontified nil 7014 . 7015) (nil fontified nil 7009 . 7014) (nil fontified nil 7008 . 7009) (nil fontified nil 7007 . 7008) (nil fontified nil 6993 . 7007) (nil fontified nil 6992 . 6993) (nil fontified nil 6991 . 6992) (nil fontified nil 6983 . 6991) (nil fontified nil 6982 . 6983) (nil fontified nil 6976 . 6982) (nil fontified nil 6974 . 6976) (nil fontified nil 6973 . 6974) (nil fontified nil 6972 . 6973) (nil fontified nil 6970 . 6972) (nil fontified nil 6966 . 6970) (nil fontified nil 6965 . 6966) (nil fontified nil 6964 . 6965) (nil fontified nil 6960 . 6964) (nil fontified nil 6957 . 6960) (nil fontified nil 6953 . 6957) (nil fontified nil 6952 . 6953) (nil fontified nil 6951 . 6952) (nil fontified nil 6931 . 6951) (nil fontified nil 6930 . 6931) (nil fontified nil 6929 . 6930) (nil fontified nil 6927 . 6929) (nil fontified nil 6926 . 6927) (nil fontified nil 6920 . 6926) (nil fontified nil 6918 . 6920) (nil fontified nil 6917 . 6918) (nil fontified nil 6912 . 6917) (nil fontified nil 6910 . 6912) (nil fontified nil 6900 . 6910) (nil fontified nil 6899 . 6900) (nil fontified nil 6898 . 6899) (nil fontified nil 6879 . 6898) (nil fontified nil 6877 . 6879) (nil fontified nil 6876 . 6877) (nil fontified nil 6862 . 6876) (nil fontified nil 6861 . 6862) (nil fontified nil 6855 . 6861) (nil fontified nil 6854 . 6855) (nil fontified nil 6848 . 6854) (nil fontified nil 6846 . 6848) (nil fontified nil 6845 . 6846) (nil fontified nil 6840 . 6845) (nil fontified nil 6838 . 6840) (nil fontified nil 6828 . 6838) (nil fontified nil 6827 . 6828) (nil fontified nil 6826 . 6827) (nil fontified nil 6800 . 6826) (nil fontified nil 6799 . 6800) (nil fontified nil 6798 . 6799) (nil fontified nil 6795 . 6798) (nil fontified nil 6794 . 6795) (nil fontified nil 6788 . 6794) (nil fontified nil 6786 . 6788) (nil fontified nil 6785 . 6786) (nil fontified nil 6781 . 6785) (nil fontified nil 6780 . 6781) (nil fontified nil 6777 . 6780) (nil fontified nil 6776 . 6777) (nil fontified nil 6775 . 6776) (nil fontified nil 6767 . 6775) (nil fontified nil 6765 . 6767) (nil fontified nil 6761 . 6765) (nil fontified nil 6760 . 6761) (nil fontified nil 6755 . 6760) (nil fontified nil 6754 . 6755) (nil fontified nil 6753 . 6754) (nil fontified nil 6751 . 6753) (nil fontified nil 6741 . 6751) (nil fontified nil 6740 . 6741) (nil fontified nil 6739 . 6740) (nil fontified nil 6727 . 6739) (nil fontified nil 6725 . 6727) (nil fontified nil 6724 . 6725) (nil fontified nil 6718 . 6724) (nil fontified nil 6717 . 6718) (nil fontified nil 6711 . 6717) (nil fontified nil 4564 . 6711) (nil fontified nil 4563 . 4564) (nil fontified nil 2519 . 4563) (nil fontified nil 2518 . 2519) (nil fontified nil 2467 . 2518) (nil fontified nil 2466 . 2467) (nil fontified nil 2220 . 2466) (nil fontified nil 2218 . 2220) (nil fontified nil 2212 . 2218) (nil fontified nil 2211 . 2212) (nil fontified nil 2184 . 2211) (nil fontified nil 2183 . 2184) (nil fontified nil 2175 . 2183) (nil fontified nil 2174 . 2175) (nil fontified nil 1977 . 2174) (nil fontified nil 1975 . 1977) (nil fontified nil 1969 . 1975) (nil fontified nil 1968 . 1969) (nil fontified nil 1918 . 1968) (nil fontified nil 1917 . 1918) (nil fontified nil 1912 . 1917) (nil fontified nil 1911 . 1912) (nil fontified nil 1828 . 1911) (nil fontified nil 1827 . 1828) (nil fontified nil 1770 . 1827) (nil fontified nil 1767 . 1770) (nil fontified nil 1752 . 1767) (nil fontified nil 1751 . 1752) (nil fontified nil 1735 . 1751) (nil fontified nil 1733 . 1735) (nil fontified nil 1727 . 1733) (nil fontified nil 1726 . 1727) (nil fontified nil 1690 . 1726) (nil fontified nil 1689 . 1690) (nil fontified nil 1684 . 1689) (nil fontified nil 1683 . 1684) (nil fontified nil 1621 . 1683) (nil fontified nil 1620 . 1621) (nil fontified nil 1547 . 1620) (nil fontified nil 1546 . 1547) (nil fontified nil 1536 . 1546) (nil fontified nil 1535 . 1536) (nil fontified nil 1534 . 1535) (nil fontified nil 1530 . 1534) (nil fontified nil 1501 . 1530) (nil fontified nil 1499 . 1501) (nil fontified nil 1498 . 1499) (nil fontified nil 1389 . 1498) (nil fontified nil 1387 . 1389) (nil fontified nil 1386 . 1387) (nil fontified nil 1385 . 1386) (nil fontified nil 1384 . 1385) (nil fontified nil 1379 . 1384) (nil fontified nil 1378 . 1379) (nil fontified nil 1377 . 1378) (nil fontified nil 1363 . 1377) (nil fontified nil 1362 . 1363) (nil fontified nil 1355 . 1362) (nil fontified nil 1354 . 1355) (nil fontified nil 1353 . 1354) (nil fontified nil 1352 . 1353) (nil fontified nil 1345 . 1352) (nil fontified nil 1344 . 1345) (nil fontified nil 1343 . 1344) (nil fontified nil 1336 . 1343) (nil fontified nil 1335 . 1336) (nil fontified nil 1334 . 1335) (nil fontified nil 1330 . 1334) (nil fontified nil 1329 . 1330) (nil fontified nil 1328 . 1329) (nil fontified nil 1327 . 1328) (nil fontified nil 1319 . 1327) (nil fontified nil 1318 . 1319) (nil fontified nil 1317 . 1318) (nil fontified nil 1310 . 1317) (nil fontified nil 1309 . 1310) (nil fontified nil 1295 . 1309) (nil fontified nil 1292 . 1295) (nil fontified nil 1291 . 1292) (nil fontified nil 1289 . 1291) (nil fontified nil 1288 . 1289) (nil fontified nil 1287 . 1288) (nil fontified nil 1280 . 1287) (nil fontified nil 1279 . 1280) (nil fontified nil 1272 . 1279) (nil fontified nil 1271 . 1272) (nil fontified nil 1270 . 1271) (nil fontified nil 1259 . 1270) (nil fontified nil 1258 . 1259) (nil fontified nil 1251 . 1258) (nil fontified nil 1250 . 1251) (nil fontified nil 1249 . 1250) (nil fontified nil 1238 . 1249) (nil fontified nil 1237 . 1238) (nil fontified nil 1230 . 1237) (nil fontified nil 1229 . 1230) (nil fontified nil 1228 . 1229) (nil fontified nil 1218 . 1228) (nil fontified nil 1217 . 1218) (nil fontified nil 1210 . 1217) (nil fontified nil 1209 . 1210) (nil fontified nil 1208 . 1209) (nil fontified nil 1196 . 1208) (nil fontified nil 1195 . 1196) (nil fontified nil 1188 . 1195) (nil fontified nil 1187 . 1188) (nil fontified nil 1186 . 1187) (nil fontified nil 1176 . 1186) (nil fontified nil 1175 . 1176) (nil fontified nil 1168 . 1175) (nil fontified nil 1167 . 1168) (nil fontified nil 1166 . 1167) (nil fontified nil 1152 . 1166) (nil fontified nil 1151 . 1152) (nil fontified nil 1144 . 1151) (nil fontified nil 1143 . 1144) (nil fontified nil 1142 . 1143) (nil fontified nil 1128 . 1142) (nil fontified nil 1127 . 1128) (nil fontified nil 1120 . 1127) (nil fontified nil 1119 . 1120) (nil fontified nil 1111 . 1119) (nil fontified nil 1106 . 1111) (nil fontified nil 1105 . 1106) (nil fontified nil 1104 . 1105) (nil fontified nil 1103 . 1104) (nil fontified nil 1098 . 1103) (nil fontified nil 1097 . 1098) (nil fontified nil 1096 . 1097) (nil fontified nil 1082 . 1096) (nil fontified nil 1081 . 1082) (nil fontified nil 1073 . 1081) (nil fontified nil 1072 . 1073) (nil fontified nil 1071 . 1072) (nil fontified nil 1070 . 1071) (nil fontified nil 1066 . 1070) (nil fontified nil 1065 . 1066) (nil fontified nil 1058 . 1065) (nil fontified nil 1057 . 1058) (nil fontified nil 1055 . 1057) (nil fontified nil 1054 . 1055) (nil fontified nil 1053 . 1054) (nil fontified nil 1052 . 1053) (nil fontified nil 1048 . 1052) (nil fontified nil 4 . 1048) (nil fontified nil 2 . 4) (nil fontified nil 1 . 2) (1 . 52252) (t . -1)) nil (25675 60999 577488 621000) 0 nil])
+[nil nil nil nil (25675 64055 176506 84000) 0 nil]
+([nil nil ((1 . 52252)) ((#("/* Part of CPP library.  File handling.
+   Copyright (C) 1986, 1987, 1989, 1992, 1993, 1994, 1995, 1998,
+   1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009
+   Free Software Foundation, Inc.
+   Written by Per Bothner, 1994.
+   Based on CCCP program by Paul Rubin, June 1986
+   Adapted to ANSI C, Richard Stallman, Jan 1987
+   Split out of cpplib.c, Zack Weinberg, Oct 1998
+   Reimplemented, Neil Booth, Jul 2003
+
+This program is free software; you can redistribute it and/or modify it
+under the terms of the GNU General Public License as published by the
+Free Software Foundation; either version 3, or (at your option) any
+later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; see the file COPYING3.  If not see
+<http://www.gnu.org/licenses/>.  */
+
+#if defined(SPEC)
+# include \"spec_qsort.h\"
+#endif
+
+#undef IN_GCC
+#include \"cpp_config.h\"
+#include \"cpp_system.h\"
+#include \"cpplib.h\"
+#include \"internal.h\"
+#include \"mkdeps.h\"
+#include \"obstack.h\"
+#include \"hashtab.h\"
+#include \"md5.h\"
+#ifndef SPEC_WINDOWS
+#include <dirent.h>
+#else
+#include <ctype.h>
+#include \"win_dirent.h\"
+#endif
+
+/* Variable length record files on VMS will have a stat size that includes
+   record control characters that won't be included in the read size.  */
+#ifdef VMS
+# define FAB_C_VAR 2 /* variable length records (see Starlet fabdef.h) */
+# define STAT_SIZE_RELIABLE(ST) ((ST).st_fab_rfm != FAB_C_VAR)
+#else
+# define STAT_SIZE_RELIABLE(ST) true
+#endif
+
+#ifdef __DJGPP__
+#include <io.h>
+  /* For DJGPP redirected input is opened in text mode.  */
+#  define set_stdin_to_binary_mode() \\
+     if (! isatty (0)) setmode (0, O_BINARY)
+#else
+#  define set_stdin_to_binary_mode() /* Nothing */
+#endif
+
+/* This structure represents a file searched for by CPP, whether it
+   exists or not.  An instance may be pointed to by more than one
+   file_hash_entry; at present no reference count is kept.  */
+
+#if SPEC
+#define uchar unsigned char
+#endif
+
+struct _cpp_file
+{
+  /* Filename as given to #include or command line switch.  */
+  const char *name;
+
+  /* The full path used to find the file.  */
+  const char *path;
+
+  /* The full path of the pch file.  */
+  const char *pchname;
+
+  /* The file's path with the basename stripped.  NULL if it hasn't
+     been calculated yet.  */
+  const char *dir_name;
+
+  /* Chain through all files.  */
+  struct _cpp_file *next_file;
+
+  /* The contents of NAME after calling read_file().  */
+  const uchar *buffer;
+
+  /* Pointer to the real start of BUFFER.  read_file() might increment
+     BUFFER; when freeing, this this pointer must be used instead.  */
+  const uchar *buffer_start;
+
+  /* The macro, if any, preventing re-inclusion.  */
+  const cpp_hashnode *cmacro;
+
+  /* The directory in the search path where FILE was found.  Used for
+     #include_next and determining whether a header is a system
+     header.  */
+  cpp_dir *dir;
+
+  /* As filled in by stat(2) for the file.  */
+  struct stat st;
+
+  /* File descriptor.  Invalid if -1, otherwise open.  */
+  int fd;
+
+  /* Zero if this file was successfully opened and stat()-ed,
+     otherwise errno obtained from failure.  */
+  int err_no;
+
+  /* Number of times the file has been stacked for preprocessing.  */
+  unsigned short stack_count;
+
+  /* If opened with #import or contains #pragma once.  */
+  bool once_only;
+
+  /* If read() failed before.  */
+  bool dont_read;
+
+  /* If this file is the main file.  */
+  bool main_file;
+
+  /* If BUFFER above contains the true contents of the file.  */
+  bool buffer_valid;
+};
+
+/* A singly-linked list for all searches for a given file name, with
+   its head pointed to by a slot in FILE_HASH.  The file name is what
+   appeared between the quotes in a #include directive; it can be
+   determined implicitly from the hash table location or explicitly
+   from FILE->name.
+
+   FILE is a structure containing details about the file that was
+   found with that search, or details of how the search failed.
+
+   START_DIR is the starting location of the search in the include
+   chain.  The current directories for \"\" includes are also hashed in
+   the hash table and therefore unique.  Files that are looked up
+   without using a search path, such as absolute filenames and file
+   names from the command line share a special starting directory so
+   they don't cause cache hits with normal include-chain lookups.
+
+   If START_DIR is NULL then the entry is for a directory, not a file,
+   and the directory is in DIR.  Since the starting point in a file
+   lookup chain is never NULL, this means that simple pointer
+   comparisons against START_DIR can be made to determine cache hits
+   in file lookups.
+
+   If a cache lookup fails because of e.g. an extra \"./\" in the path,
+   then nothing will break.  It is just less efficient as CPP will
+   have to do more work re-preprocessing the file, and/or comparing
+   its contents against earlier once-only files.
+*/
+struct file_hash_entry
+{
+  struct file_hash_entry *next;
+  cpp_dir *start_dir;
+  source_location location;
+  union
+  {
+    _cpp_file *file;
+    cpp_dir *dir;
+  } u;
+};
+
+/* Number of entries to put in a file_hash_entry pool.  */
+#define FILE_HASH_POOL_SIZE 127
+
+/* A file hash entry pool.  We allocate file_hash_entry object from
+   one of these.  */
+struct file_hash_entry_pool
+{
+  /* Number of entries used from this pool.  */
+  unsigned int file_hash_entries_used;
+  /* Next pool in the chain; used when freeing.  */
+  struct file_hash_entry_pool *next;
+  /* The memory pool.  */
+  struct file_hash_entry pool[FILE_HASH_POOL_SIZE];
+};
+
+static bool open_file (_cpp_file *file);
+static bool pch_open_file (cpp_reader *pfile, _cpp_file *file,
+			   bool *invalid_pch);
+static bool find_file_in_dir (cpp_reader *pfile, _cpp_file *file,
+			      bool *invalid_pch);
+static bool read_file_guts (cpp_reader *pfile, _cpp_file *file);
+static bool read_file (cpp_reader *pfile, _cpp_file *file);
+static bool should_stack_file (cpp_reader *, _cpp_file *file, bool import);
+static struct cpp_dir *search_path_head (cpp_reader *, const char *fname,
+				 int angle_brackets, enum include_type);
+static const char *dir_name_of_file (_cpp_file *file);
+static void open_file_failed (cpp_reader *pfile, _cpp_file *file, int);
+static struct file_hash_entry *search_cache (struct file_hash_entry *head,
+					     const cpp_dir *start_dir);
+static _cpp_file *make_cpp_file (cpp_reader *, cpp_dir *, const char *fname);
+static void destroy_cpp_file (_cpp_file *);
+static cpp_dir *make_cpp_dir (cpp_reader *, const char *dir_name, int sysp);
+static void allocate_file_hash_entries (cpp_reader *pfile);
+static struct file_hash_entry *new_file_hash_entry (cpp_reader *pfile);
+static int report_missing_guard (void **slot, void *b);
+static hashval_t file_hash_hash (const void *p);
+static int file_hash_eq (const void *p, const void *q);
+static char *read_filename_string (int ch, FILE *f);
+static void read_name_map (cpp_dir *dir);
+static char *remap_filename (cpp_reader *pfile, _cpp_file *file);
+static char *append_file_to_dir (const char *fname, cpp_dir *dir);
+static bool validate_pch (cpp_reader *, _cpp_file *file, const char *pchname);
+static int pchf_save_compare (const void *e1, const void *e2);
+static int pchf_compare (const void *d_p, const void *e_p);
+static bool check_file_against_entries (cpp_reader *, _cpp_file *, bool);
+
+/* Given a filename in FILE->PATH, with the empty string interpreted
+   as <stdin>, open it.
+
+   On success FILE contains an open file descriptor and stat
+   information for the file.  On failure the file descriptor is -1 and
+   the appropriate errno is also stored in FILE.  Returns TRUE iff
+   successful.
+
+   We used to open files in nonblocking mode, but that caused more
+   problems than it solved.  Do take care not to acquire a controlling
+   terminal by mistake (this can't happen on sane systems, but
+   paranoia is a virtue).
+
+   Use the three-argument form of open even though we aren't
+   specifying O_CREAT, to defend against broken system headers.
+
+   O_BINARY tells some runtime libraries (notably DJGPP) not to do
+   newline translation; we can handle DOS line breaks just fine
+   ourselves.  */
+static bool
+open_file (_cpp_file *file)
+{
+  if (file->path[0] == '\\0')
+    {
+      file->fd = 0;
+      set_stdin_to_binary_mode ();
+    }
+  else
+    file->fd = open (file->path, O_RDONLY | O_NOCTTY | O_BINARY, 0666);
+
+  if (file->fd != -1)
+    {
+      if (fstat (file->fd, &file->st) == 0)
+	{
+	  if (!S_ISDIR (file->st.st_mode))
+	    {
+	      file->err_no = 0;
+	      return true;
+	    }
+
+	  /* Ignore a directory and continue the search.  The file we're
+	     looking for may be elsewhere in the search path.  */
+	  errno = ENOENT;
+	}
+
+      close (file->fd);
+      file->fd = -1;
+    }
+#if (defined(SPEC_WINDOWS) || defined(_WIN32)) && !defined(__CYGWIN__)
+  else if (errno == EACCES)
+    {
+      /* On most UNIX systems, open succeeds on a directory.  Above,
+         we check if we have opened a directory and if so, set errno
+         to ENOENT.  However, on Windows, opening a directory
+         fails with EACCES.  We want to return ENOENT in that
+         case too.  */
+      if (stat (file->path, &file->st) == 0
+          && S_ISDIR (file->st.st_mode))
+        errno = ENOENT;
+      else
+	/* The call to stat may have reset errno.  */
+	errno = EACCES;
+    }
+#endif    
+  else if (errno == ENOTDIR)
+    errno = ENOENT;
+
+  file->err_no = errno;
+
+  return false;
+}
+
+/* Temporary PCH intercept of opening a file.  Try to find a PCH file
+   based on FILE->name and FILE->dir, and test those found for
+   validity using PFILE->cb.valid_pch.  Return true iff a valid file is
+   found.  Set *INVALID_PCH if a PCH file is found but wasn't valid.  */
+
+static bool
+pch_open_file (cpp_reader *pfile, _cpp_file *file, bool *invalid_pch)
+{
+  static const char extension[] = \".gch\";
+  const char *path = file->path;
+  size_t len, flen;
+  char *pchname;
+  struct stat st;
+  bool valid = false;
+
+  /* No PCH on <stdin> or if not requested.  */
+  if (file->name[0] == '\\0' || !pfile->cb.valid_pch)
+    return false;
+
+  /* If the file is not included as first include from either the toplevel
+     file or the command-line it is not a valid use of PCH.  */
+  if (pfile->all_files
+      && pfile->all_files->next_file)
+    return false;
+
+  flen = strlen (path);
+  len = flen + sizeof (extension);
+  pchname = XNEWVEC (char, len);
+  memcpy (pchname, path, flen);
+  memcpy (pchname + flen, extension, sizeof (extension));
+
+  if (stat (pchname, &st) == 0)
+    {
+      DIR *pchdir;
+      struct dirent *d;
+      size_t dlen, plen = len;
+
+      if (!S_ISDIR (st.st_mode))
+	valid = validate_pch (pfile, file, pchname);
+      else if ((pchdir = opendir (pchname)) != NULL)
+	{
+	  pchname[plen - 1] = '/';
+	  while ((d = readdir (pchdir)) != NULL)
+	    {
+	      dlen = strlen (d->d_name) + 1;
+	      if ((strcmp (d->d_name, \".\") == 0)
+		  || (strcmp (d->d_name, \"..\") == 0))
+		continue;
+	      if (dlen + plen > len)
+		{
+		  len += dlen + 64;
+		  pchname = XRESIZEVEC (char, pchname, len);
+		}
+	      memcpy (pchname + plen, d->d_name, dlen);
+	      valid = validate_pch (pfile, file, pchname);
+	      if (valid)
+		break;
+	    }
+	  closedir (pchdir);
+	}
+      if (!valid)
+	*invalid_pch = true;
+    }
+
+  if (valid)
+    file->pchname = pchname;
+  else
+    free (pchname);
+
+  return valid;
+}
+
+/* Try to open the path FILE->name appended to FILE->dir.  This is
+   where remap and PCH intercept the file lookup process.  Return true
+   if the file was found, whether or not the open was successful.
+   Set *INVALID_PCH to true if a PCH file is found but wasn't valid.  */
+
+static bool
+find_file_in_dir (cpp_reader *pfile, _cpp_file *file, bool *invalid_pch)
+{
+  char *path;
+
+  if (CPP_OPTION (pfile, remap) && (path = remap_filename (pfile, file)))
+    ;
+  else
+    if (file->dir->construct)
+      path = file->dir->construct (file->name, file->dir);
+    else
+      path = append_file_to_dir (file->name, file->dir);
+
+  if (path)
+    {
+      hashval_t hv = htab_hash_string (path);
+      char *copy;
+      void **pp;
+
+      if (htab_find_with_hash (pfile->nonexistent_file_hash, path, hv) != NULL)
+	{
+	  file->err_no = ENOENT;
+	  return false;
+	}
+
+      file->path = path;
+      if (pch_open_file (pfile, file, invalid_pch))
+	return true;
+
+      if (open_file (file))
+	return true;
+
+      if (file->err_no != ENOENT)
+	{
+	  open_file_failed (pfile, file, 0);
+	  return true;
+	}
+
+      /* We copy the path name onto an obstack partly so that we don't
+	 leak the memory, but mostly so that we don't fragment the
+	 heap.  */
+      copy = (char *) obstack_copy0 (&pfile->nonexistent_file_ob, path,
+				     strlen (path));
+      free (path);
+      pp = htab_find_slot_with_hash (pfile->nonexistent_file_hash,
+				     copy, hv, INSERT);
+      *pp = copy;
+
+      file->path = file->name;
+    }
+  else
+    {
+      file->err_no = ENOENT; 
+      file->path = NULL;
+    }
+
+  return false;
+}
+
+/* Return tue iff the missing_header callback found the given HEADER.  */
+static bool
+search_path_exhausted (cpp_reader *pfile, const char *header, _cpp_file *file)
+{
+  missing_header_cb func = pfile->cb.missing_header;
+
+  /* When the regular search path doesn't work, try context dependent
+     headers search paths.  */
+  if (func
+      && file->dir == NULL)
+    {
+      if ((file->path = func (pfile, header, &file->dir)) != NULL)
+	{
+	  if (open_file (file))
+	    return true;
+	  free ((void *)file->path);
+	}
+      file->path = file->name;
+    }
+
+  return false;
+}
+
+bool
+_cpp_find_failed (_cpp_file *file)
+{
+  return file->err_no != 0;
+}
+
+/* Given a filename FNAME search for such a file in the include path
+   starting from START_DIR.  If FNAME is the empty string it is
+   interpreted as STDIN if START_DIR is PFILE->no_search_path.
+
+   If the file is not found in the file cache fall back to the O/S and
+   add the result to our cache.
+
+   If the file was not found in the filesystem, or there was an error
+   opening it, then ERR_NO is nonzero and FD is -1.  If the file was
+   found, then ERR_NO is zero and FD could be -1 or an open file
+   descriptor.  FD can be -1 if the file was found in the cache and
+   had previously been closed.  To open it again pass the return value
+   to open_file().
+*/
+_cpp_file *
+_cpp_find_file (cpp_reader *pfile, const char *fname, cpp_dir *start_dir, bool fake, int angle_brackets)
+{
+  struct file_hash_entry *entry, **hash_slot;
+  _cpp_file *file;
+  bool invalid_pch = false;
+  bool saw_bracket_include = false;
+  bool saw_quote_include = false;
+  struct cpp_dir *found_in_cache = NULL;
+
+  /* Ensure we get no confusion between cached files and directories.  */
+  if (start_dir == NULL)
+    cpp_error (pfile, CPP_DL_ICE, \"NULL directory in find_file\");
+
+  hash_slot = (struct file_hash_entry **)
+    htab_find_slot_with_hash (pfile->file_hash, fname,
+			      htab_hash_string (fname),
+			      INSERT);
+
+  /* First check the cache before we resort to memory allocation.  */
+  entry = search_cache (*hash_slot, start_dir);
+  if (entry)
+    return entry->u.file;
+
+  file = make_cpp_file (pfile, start_dir, fname);
+
+  /* Try each path in the include chain.  */
+  for (; !fake ;)
+    {
+      if (find_file_in_dir (pfile, file, &invalid_pch))
+	break;
+
+      file->dir = file->dir->next;
+      if (file->dir == NULL)
+	{
+	  if (search_path_exhausted (pfile, fname, file))
+	    {
+	      /* Although this file must not go in the cache, because
+		 the file found might depend on things (like the current file)
+		 that aren't represented in the cache, it still has to go in
+		 the list of all files so that #import works.  */
+	      file->next_file = pfile->all_files;
+	      pfile->all_files = file;
+	      return file;
+	    }
+
+	  if (invalid_pch)
+	    {
+	      cpp_error (pfile, CPP_DL_ERROR,
+	       \"one or more PCH files were found, but they were invalid\");
+	      if (!cpp_get_options (pfile)->warn_invalid_pch)
+		cpp_error (pfile, CPP_DL_ERROR,
+			   \"use -Winvalid-pch for more information\");
+	    }
+	  open_file_failed (pfile, file, angle_brackets);
+	  break;
+	}
+
+      /* Only check the cache for the starting location (done above)
+	 and the quote and bracket chain heads because there are no
+	 other possible starting points for searches.  */
+      if (file->dir == pfile->bracket_include)
+	saw_bracket_include = true;
+      else if (file->dir == pfile->quote_include)
+	saw_quote_include = true;
+      else
+	continue;
+
+      entry = search_cache (*hash_slot, file->dir);
+      if (entry)
+	{
+	  found_in_cache = file->dir;
+	  break;
+	}
+    }
+
+  if (entry)
+    {
+      /* Cache for START_DIR too, sharing the _cpp_file structure.  */
+      free ((char *) file->name);
+      free (file);
+      file = entry->u.file;
+    }
+  else
+    {
+      /* This is a new file; put it in the list.  */
+      file->next_file = pfile->all_files;
+      pfile->all_files = file;
+    }
+
+  /* Store this new result in the hash table.  */
+  entry = new_file_hash_entry (pfile);
+  entry->next = *hash_slot;
+  entry->start_dir = start_dir;
+  entry->location = pfile->line_table->highest_location;
+  entry->u.file = file;
+  *hash_slot = entry;
+
+  /* If we passed the quote or bracket chain heads, cache them also.
+     This speeds up processing if there are lots of -I options.  */
+  if (saw_bracket_include
+      && pfile->bracket_include != start_dir
+      && found_in_cache != pfile->bracket_include)
+    {
+      entry = new_file_hash_entry (pfile);
+      entry->next = *hash_slot;
+      entry->start_dir = pfile->bracket_include;
+      entry->location = pfile->line_table->highest_location;
+      entry->u.file = file;
+      *hash_slot = entry;
+    }
+  if (saw_quote_include
+      && pfile->quote_include != start_dir
+      && found_in_cache != pfile->quote_include)
+    {
+      entry = new_file_hash_entry (pfile);
+      entry->next = *hash_slot;
+      entry->start_dir = pfile->quote_include;
+      entry->location = pfile->line_table->highest_location;
+      entry->u.file = file;
+      *hash_slot = entry;
+    }
+
+  return file;
+}
+
+/* Read a file into FILE->buffer, returning true on success.
+
+   If FILE->fd is something weird, like a block device, we don't want
+   to read it at all.  Don't even try to figure out what something is,
+   except for plain files and block devices, since there is no
+   reliable portable way of doing this.
+
+   FIXME: Flush file cache and try again if we run out of memory.  */
+static bool
+read_file_guts (cpp_reader *pfile, _cpp_file *file)
+{
+  ssize_t size, total, count;
+  uchar *buf;
+  bool regular;
+
+  if (S_ISBLK (file->st.st_mode))
+    {
+      cpp_error (pfile, CPP_DL_ERROR, \"%s is a block device\", file->path);
+      return false;
+    }
+
+  regular = S_ISREG (file->st.st_mode);
+  if (regular)
+    {
+      /* off_t might have a wider range than ssize_t - in other words,
+	 the max size of a file might be bigger than the address
+	 space.  We can't handle a file that large.  (Anyone with
+	 a single source file bigger than 2GB needs to rethink
+	 their coding style.)  Some systems (e.g. AIX 4.1) define
+	 SSIZE_MAX to be much smaller than the actual range of the
+	 type.  Use INTTYPE_MAXIMUM unconditionally to ensure this
+	 does not bite us.  */
+      if (file->st.st_size > INTTYPE_MAXIMUM (ssize_t))
+	{
+	  cpp_error (pfile, CPP_DL_ERROR, \"%s is too large\", file->path);
+	  return false;
+	}
+
+      size = file->st.st_size;
+    }
+  else
+    /* 8 kilobytes is a sensible starting size.  It ought to be bigger
+       than the kernel pipe buffer, and it's definitely bigger than
+       the majority of C source files.  */
+    size = 8 * 1024;
+
+  buf = XNEWVEC (uchar, size + 1);
+  total = 0;
+  while ((count = read (file->fd, buf + total, size - total)) > 0)
+    {
+      total += count;
+
+      if (total == size)
+	{
+	  if (regular)
+	    break;
+	  size *= 2;
+	  buf = XRESIZEVEC (uchar, buf, size + 1);
+	}
+    }
+
+  if (count < 0)
+    {
+      cpp_errno (pfile, CPP_DL_ERROR, file->path);
+      return false;
+    }
+
+  if (regular && total != size && STAT_SIZE_RELIABLE (file->st))
+    cpp_error (pfile, CPP_DL_WARNING,
+	       \"%s is shorter than expected\", file->path);
+
+  file->buffer = _cpp_convert_input (pfile,
+				     CPP_OPTION (pfile, input_charset),
+				     buf, size, total,
+				     &file->buffer_start,
+				     &file->st.st_size);
+  file->buffer_valid = true;
+
+  return true;
+}
+
+/* Convenience wrapper around read_file_guts that opens the file if
+   necessary and closes the file descriptor after reading.  FILE must
+   have been passed through find_file() at some stage.  */
+static bool
+read_file (cpp_reader *pfile, _cpp_file *file)
+{
+  /* If we already have its contents in memory, succeed immediately.  */
+  if (file->buffer_valid)
+    return true;
+
+  /* If an earlier read failed for some reason don't try again.  */
+  if (file->dont_read || file->err_no)
+    return false;
+
+  if (file->fd == -1 && !open_file (file))
+    {
+      open_file_failed (pfile, file, 0);
+      return false;
+    }
+
+  file->dont_read = !read_file_guts (pfile, file);
+  close (file->fd);
+  file->fd = -1;
+
+  return !file->dont_read;
+}
+
+/* Returns TRUE if FILE's contents have been successfully placed in
+   FILE->buffer and the file should be stacked, otherwise false.  */
+static bool
+should_stack_file (cpp_reader *pfile, _cpp_file *file, bool import)
+{
+  _cpp_file *f;
+
+  /* Skip once-only files.  */
+  if (file->once_only)
+    return false;
+
+  /* We must mark the file once-only if #import now, before header
+     guard checks.  Otherwise, undefining the header guard might
+     cause the file to be re-stacked.  */
+  if (import)
+    {
+      _cpp_mark_file_once_only (pfile, file);
+
+      /* Don't stack files that have been stacked before.  */
+      if (file->stack_count)
+	return false;
+    }
+
+  /* Skip if the file had a header guard and the macro is defined.
+     PCH relies on this appearing before the PCH handler below.  */
+  if (file->cmacro && file->cmacro->type == NT_MACRO)
+    return false;
+
+  /* Handle PCH files immediately; don't stack them.  */
+  if (file->pchname)
+    {
+      pfile->cb.read_pch (pfile, file->pchname, file->fd, file->path);
+      file->fd = -1;
+      free ((void *) file->pchname);
+      file->pchname = NULL;
+      return false;
+    }
+
+  if (!read_file (pfile, file))
+    return false;
+
+  /* Check the file against the PCH file.  This is done before
+     checking against files we've already seen, since it may save on
+     I/O.  */
+  if (check_file_against_entries (pfile, file, import))
+    {
+      /* If this isn't a #import, but yet we can't include the file,
+	 that means that it was #import-ed in the PCH file,
+	 so we can never include it again.  */
+      if (! import)
+	_cpp_mark_file_once_only (pfile, file);
+      return false;
+    }
+
+  /* Now we've read the file's contents, we can stack it if there
+     are no once-only files.  */
+  if (!pfile->seen_once_only)
+    return true;
+
+  /* We may have read the file under a different name.  Look
+     for likely candidates and compare file contents to be sure.  */
+  for (f = pfile->all_files; f; f = f->next_file)
+    {
+      if (f == file)
+	continue;
+
+      if ((import || f->once_only)
+	  && f->err_no == 0
+	  && f->st.st_mtime == file->st.st_mtime
+	  && f->st.st_size == file->st.st_size)
+	{
+	  _cpp_file *ref_file;
+	  bool same_file_p = false;
+
+	  if (f->buffer && !f->buffer_valid)
+	    {
+	      /* We already have a buffer but it is not valid, because
+		 the file is still stacked.  Make a new one.  */
+	      ref_file = make_cpp_file (pfile, f->dir, f->name);
+	      ref_file->path = f->path;
+	    }
+	  else
+	    /* The file is not stacked anymore.  We can reuse it.  */
+	    ref_file = f;
+
+	  same_file_p = read_file (pfile, ref_file)
+			/* Size might have changed in read_file().  */
+			&& ref_file->st.st_size == file->st.st_size
+			&& !memcmp (ref_file->buffer,
+				    file->buffer,
+				    file->st.st_size);
+
+	  if (f->buffer && !f->buffer_valid)
+	    {
+	      ref_file->path = 0;
+	      destroy_cpp_file (ref_file);
+	    }
+
+	  if (same_file_p)
+	    break;
+	}
+    }
+
+  return f == NULL;
+}
+
+/* Place the file referenced by FILE into a new buffer on the buffer
+   stack if possible.  IMPORT is true if this stacking attempt is
+   because of a #import directive.  Returns true if a buffer is
+   stacked.  */
+bool
+_cpp_stack_file (cpp_reader *pfile, _cpp_file *file, bool import)
+{
+  cpp_buffer *buffer;
+  int sysp;
+
+  if (!should_stack_file (pfile, file, import))
+      return false;
+
+  if (pfile->buffer == NULL || file->dir == NULL)
+    sysp = 0;
+  else
+    sysp = MAX (pfile->buffer->sysp,  file->dir->sysp);
+
+  /* Add the file to the dependencies on its first inclusion.  */
+  if (CPP_OPTION (pfile, deps.style) > !!sysp && !file->stack_count)
+    {
+      if (!file->main_file || !CPP_OPTION (pfile, deps.ignore_main_file))
+	deps_add_dep (pfile->deps, file->path);
+    }
+
+  /* Clear buffer_valid since _cpp_clean_line messes it up.  */
+  file->buffer_valid = false;
+  file->stack_count++;
+
+  /* Stack the buffer.  */
+  buffer = cpp_push_buffer (pfile, file->buffer, file->st.st_size,
+			    CPP_OPTION (pfile, preprocessed)
+			    && !CPP_OPTION (pfile, directives_only));
+  buffer->file = file;
+  buffer->sysp = sysp;
+
+  /* Initialize controlling macro state.  */
+  pfile->mi_valid = true;
+  pfile->mi_cmacro = 0;
+
+  /* Generate the call back.  */
+  _cpp_do_file_change (pfile, LC_ENTER, file->path, 1, sysp);
+
+  return true;
+}
+
+/* Mark FILE to be included once only.  */
+void
+_cpp_mark_file_once_only (cpp_reader *pfile, _cpp_file *file)
+{
+  pfile->seen_once_only = true;
+  file->once_only = true;
+}
+
+/* Return the directory from which searching for FNAME should start,
+   considering the directive TYPE and ANGLE_BRACKETS.  If there is
+   nothing left in the path, returns NULL.  */
+static struct cpp_dir *
+search_path_head (cpp_reader *pfile, const char *fname, int angle_brackets,
+		  enum include_type type)
+{
+  cpp_dir *dir;
+  _cpp_file *file;
+
+  if (IS_ABSOLUTE_PATH (fname))
+    return &pfile->no_search_path;
+
+  /* pfile->buffer is NULL when processing an -include command-line flag.  */
+  file = pfile->buffer == NULL ? pfile->main_file : pfile->buffer->file;
+
+  /* For #include_next, skip in the search path past the dir in which
+     the current file was found, but if it was found via an absolute
+     path use the normal search logic.  */
+  if (type == IT_INCLUDE_NEXT && file->dir
+      && file->dir != &pfile->no_search_path)
+    dir = file->dir->next;
+  else if (angle_brackets)
+    dir = pfile->bracket_include;
+  else if (type == IT_CMDLINE)
+    /* -include and -imacros use the #include \"\" chain with the
+       preprocessor's cwd prepended.  */
+    return make_cpp_dir (pfile, \"./\", false);
+  else if (pfile->quote_ignores_source_dir)
+    dir = pfile->quote_include;
+  else
+    return make_cpp_dir (pfile, dir_name_of_file (file),
+			 pfile->buffer ? pfile->buffer->sysp : 0);
+
+  if (dir == NULL)
+    cpp_error (pfile, CPP_DL_ERROR,
+	       \"no include path in which to search for %s\", fname);
+
+  return dir;
+}
+
+/* Strip the basename from the file's path.  It ends with a slash if
+   of nonzero length.  Note that this procedure also works for
+   <stdin>, which is represented by the empty string.  */
+static const char *
+dir_name_of_file (_cpp_file *file)
+{
+  if (!file->dir_name)
+    {
+      size_t len = lbasename (file->path) - file->path;
+      char *dir_name = XNEWVEC (char, len + 1);
+
+      memcpy (dir_name, file->path, len);
+      dir_name[len] = '\\0';
+      file->dir_name = dir_name;
+    }
+
+  return file->dir_name;
+}
+
+/* Handles #include-family directives (distinguished by TYPE),
+   including HEADER, and the command line -imacros and -include.
+   Returns true if a buffer was stacked.  */
+bool
+_cpp_stack_include (cpp_reader *pfile, const char *fname, int angle_brackets,
+		    enum include_type type)
+{
+  struct cpp_dir *dir;
+  _cpp_file *file;
+
+  dir = search_path_head (pfile, fname, angle_brackets, type);
+  if (!dir)
+    return false;
+
+  file = _cpp_find_file (pfile, fname, dir, false, angle_brackets);
+
+  /* Compensate for the increment in linemap_add that occurs in
+     _cpp_stack_file.  In the case of a normal #include, we're
+     currently at the start of the line *following* the #include.  A
+     separate source_location for this location makes no sense (until
+     we do the LC_LEAVE), and complicates LAST_SOURCE_LINE_LOCATION.
+     This does not apply if we found a PCH file (in which case
+     linemap_add is not called) or we were included from the
+     command-line.  */
+  if (file->pchname == NULL && file->err_no == 0 && type != IT_CMDLINE)
+    pfile->line_table->highest_location--;
+
+  return _cpp_stack_file (pfile, file, type == IT_IMPORT);
+}
+
+/* Could not open FILE.  The complication is dependency output.  */
+static void
+open_file_failed (cpp_reader *pfile, _cpp_file *file, int angle_brackets)
+{
+  int sysp = pfile->line_table->highest_line > 1 && pfile->buffer ? pfile->buffer->sysp : 0;
+  bool print_dep = CPP_OPTION (pfile, deps.style) > (angle_brackets || !!sysp);
+
+  errno = file->err_no;
+  if (print_dep && CPP_OPTION (pfile, deps.missing_files) && errno == ENOENT)
+    {
+      deps_add_dep (pfile->deps, file->name);
+      /* If the preprocessor output (other than dependency information) is
+         being used, we must also flag an error.  */
+      if (CPP_OPTION (pfile, deps.need_preprocessor_output))
+	cpp_errno (pfile, CPP_DL_FATAL, file->path);
+    }
+  else
+    {
+      /* If we are not outputting dependencies, or if we are and dependencies
+         were requested for this file, or if preprocessor output is needed
+         in addition to dependency information, this is an error.
+
+         Otherwise (outputting dependencies but not for this file, and not
+         using the preprocessor output), we can still produce correct output
+         so it's only a warning.  */
+      if (CPP_OPTION (pfile, deps.style) == DEPS_NONE
+          || print_dep
+          || CPP_OPTION (pfile, deps.need_preprocessor_output))
+	cpp_errno (pfile, CPP_DL_FATAL, file->path);
+      else
+	cpp_errno (pfile, CPP_DL_WARNING, file->path);
+    }
+}
+
+/* Search in the chain beginning at HEAD for a file whose search path
+   started at START_DIR != NULL.  */
+static struct file_hash_entry *
+search_cache (struct file_hash_entry *head, const cpp_dir *start_dir)
+{
+  while (head && head->start_dir != start_dir)
+    head = head->next;
+
+  return head;
+}
+
+/* Allocate a new _cpp_file structure.  */
+static _cpp_file *
+make_cpp_file (cpp_reader *pfile, cpp_dir *dir, const char *fname)
+{
+  _cpp_file *file;
+
+  file = XCNEW (_cpp_file);
+  file->main_file = !pfile->buffer;
+  file->fd = -1;
+  file->dir = dir;
+  file->name = xstrdup (fname);
+
+  return file;
+}
+
+/* Release a _cpp_file structure.  */
+static void
+destroy_cpp_file (_cpp_file *file)
+{
+  if (file->buffer_start)
+    free ((void *) file->buffer_start);
+  free ((void *) file->name);
+  free (file);
+}
+
+/* Release all the files allocated by this reader.  */
+static void
+destroy_all_cpp_files (cpp_reader *pfile)
+{
+  _cpp_file *iter = pfile->all_files;
+  while (iter)
+    {
+      _cpp_file *next = iter->next_file;
+      destroy_cpp_file (iter);
+      iter = next;
+    }
+}
+
+/* A hash of directory names.  The directory names are the path names
+   of files which contain a #include \"\", the included file name is
+   appended to this directories.
+
+   To avoid duplicate entries we follow the convention that all
+   non-empty directory names should end in a '/'.  DIR_NAME must be
+   stored in permanently allocated memory.  */
+static cpp_dir *
+make_cpp_dir (cpp_reader *pfile, const char *dir_name, int sysp)
+{
+  struct file_hash_entry *entry, **hash_slot;
+  cpp_dir *dir;
+
+  hash_slot = (struct file_hash_entry **)
+    htab_find_slot_with_hash (pfile->dir_hash, dir_name,
+			      htab_hash_string (dir_name),
+			      INSERT);
+
+  /* Have we already hashed this directory?  */
+  for (entry = *hash_slot; entry; entry = entry->next)
+    if (entry->start_dir == NULL)
+      return entry->u.dir;
+
+  dir = XCNEW (cpp_dir);
+  dir->next = pfile->quote_include;
+  dir->name = (char *) dir_name;
+  dir->len = strlen (dir_name);
+  dir->sysp = sysp;
+  dir->construct = 0;
+
+  /* Store this new result in the hash table.  */
+  entry = new_file_hash_entry (pfile);
+  entry->next = *hash_slot;
+  entry->start_dir = NULL;
+  entry->location = pfile->line_table->highest_location;
+  entry->u.dir = dir;
+  *hash_slot = entry;
+
+  return dir;
+}
+
+/* Create a new block of memory for file hash entries.  */
+static void
+allocate_file_hash_entries (cpp_reader *pfile)
+{
+  struct file_hash_entry_pool *pool = XNEW (struct file_hash_entry_pool);
+  pool->file_hash_entries_used = 0;
+  pool->next = pfile->file_hash_entries;
+  pfile->file_hash_entries = pool;
+}
+
+/* Return a new file hash entry.  */
+static struct file_hash_entry *
+new_file_hash_entry (cpp_reader *pfile)
+{
+  unsigned int idx;
+  if (pfile->file_hash_entries->file_hash_entries_used == FILE_HASH_POOL_SIZE)
+    allocate_file_hash_entries (pfile);
+
+  idx = pfile->file_hash_entries->file_hash_entries_used++;
+  return &pfile->file_hash_entries->pool[idx];
+}
+
+/* Free the file hash entry pools.  */
+static void
+free_file_hash_entries (cpp_reader *pfile)
+{
+  struct file_hash_entry_pool *iter = pfile->file_hash_entries;
+  while (iter)
+    {
+      struct file_hash_entry_pool *next = iter->next;
+      free (iter);
+      iter = next;
+    }
+}
+
+/* Returns TRUE if a file FNAME has ever been successfully opened.
+   This routine is not intended to correctly handle filenames aliased
+   by links or redundant . or .. traversals etc.  */
+bool
+cpp_included (cpp_reader *pfile, const char *fname)
+{
+  struct file_hash_entry *entry;
+
+  entry = (struct file_hash_entry *)
+     htab_find_with_hash (pfile->file_hash, fname, htab_hash_string (fname));
+
+  while (entry && (entry->start_dir == NULL || entry->u.file->err_no))
+    entry = entry->next;
+
+  return entry != NULL;
+}
+
+/* Returns TRUE if a file FNAME has ever been successfully opened
+   before LOCATION.  This routine is not intended to correctly handle
+   filenames aliased by links or redundant . or .. traversals etc.  */
+bool
+cpp_included_before (cpp_reader *pfile, const char *fname,
+		     source_location location)
+{
+  struct file_hash_entry *entry;
+
+  entry = (struct file_hash_entry *)
+     htab_find_with_hash (pfile->file_hash, fname, htab_hash_string (fname));
+
+  while (entry && (entry->start_dir == NULL || entry->u.file->err_no
+		   || entry->location > location))
+    entry = entry->next;
+
+  return entry != NULL;
+}
+
+/* Calculate the hash value of a file hash entry P.  */
+
+static hashval_t
+file_hash_hash (const void *p)
+{
+  struct file_hash_entry *entry = (struct file_hash_entry *) p;
+  const char *hname;
+  if (entry->start_dir)
+    hname = entry->u.file->name;
+  else
+    hname = entry->u.dir->name;
+
+  return htab_hash_string (hname);
+}
+
+/* Compare a string Q against a file hash entry P.  */
+static int
+file_hash_eq (const void *p, const void *q)
+{
+  struct file_hash_entry *entry = (struct file_hash_entry *) p;
+  const char *fname = (const char *) q;
+  const char *hname;
+
+  if (entry->start_dir)
+    hname = entry->u.file->name;
+  else
+    hname = entry->u.dir->name;
+
+  return strcmp (hname, fname) == 0;
+}
+
+/* Compare entries in the nonexistent file hash table.  These are just
+   strings.  */
+static int
+nonexistent_file_hash_eq (const void *p, const void *q)
+{
+  return strcmp ((const char *) p, (const char *) q) == 0;
+}
+
+/* Initialize everything in this source file.  */
+void
+_cpp_init_files (cpp_reader *pfile)
+{
+  pfile->file_hash = htab_create_alloc (127, file_hash_hash, file_hash_eq,
+					NULL, xcalloc, free);
+  pfile->dir_hash = htab_create_alloc (127, file_hash_hash, file_hash_eq,
+					NULL, xcalloc, free);
+  allocate_file_hash_entries (pfile);
+  pfile->nonexistent_file_hash = htab_create_alloc (127, htab_hash_string,
+						    nonexistent_file_hash_eq,
+						    NULL, xcalloc, free);
+  _obstack_begin (&pfile->nonexistent_file_ob, 0, 0,
+		  (void *(*) (long)) xmalloc,
+		  (void (*) (void *)) free);
+}
+
+/* Finalize everything in this source file.  */
+void
+_cpp_cleanup_files (cpp_reader *pfile)
+{
+  htab_delete (pfile->file_hash);
+  htab_delete (pfile->dir_hash);
+  htab_delete (pfile->nonexistent_file_hash);
+  obstack_free (&pfile->nonexistent_file_ob, 0);
+  free_file_hash_entries (pfile);
+  destroy_all_cpp_files (pfile);
+}
+
+/* Make the parser forget about files it has seen.  This can be useful
+   for resetting the parser to start another run.  */
+void
+cpp_clear_file_cache (cpp_reader *pfile)
+{
+  _cpp_cleanup_files (pfile);
+  pfile->file_hash_entries = NULL;
+  pfile->all_files = NULL;
+  _cpp_init_files (pfile);
+}
+
+/* Enter a file name in the hash for the sake of cpp_included.  */
+void
+_cpp_fake_include (cpp_reader *pfile, const char *fname)
+{
+  _cpp_find_file (pfile, fname, pfile->buffer->file->dir, true, 0);
+}
+
+/* Not everyone who wants to set system-header-ness on a buffer can
+   see the details of a buffer.  This is an exported interface because
+   fix-header needs it.  */
+void
+cpp_make_system_header (cpp_reader *pfile, int syshdr, int externc)
+{
+  int flags = 0;
+  const struct line_maps *line_table = pfile->line_table;
+  const struct line_map *map = &line_table->maps[line_table->used-1];
+
+  /* 1 = system header, 2 = system header to be treated as C.  */
+  if (syshdr)
+    flags = 1 + (externc != 0);
+  pfile->buffer->sysp = flags;
+  _cpp_do_file_change (pfile, LC_RENAME, map->to_file,
+		       SOURCE_LINE (map, pfile->line_table->highest_line), flags);
+}
+
+/* Allow the client to change the current file.  Used by the front end
+   to achieve pseudo-file names like <built-in>.
+   If REASON is LC_LEAVE, then NEW_NAME must be NULL.  */
+void
+cpp_change_file (cpp_reader *pfile, enum lc_reason reason,
+		 const char *new_name)
+{
+  _cpp_do_file_change (pfile, reason, new_name, 1, 0);
+}
+
+struct report_missing_guard_data
+{
+  const char **paths;
+  size_t count;
+};
+
+/* Callback function for htab_traverse.  */
+static int
+report_missing_guard (void **slot, void *d)
+{
+  struct file_hash_entry *entry = (struct file_hash_entry *) *slot;
+  struct report_missing_guard_data *data
+    = (struct report_missing_guard_data *) d;
+
+  /* Skip directories.  */
+  if (entry->start_dir != NULL)
+    {
+      _cpp_file *file = entry->u.file;
+
+      /* We don't want MI guard advice for the main file.  */
+      if (file->cmacro == NULL && file->stack_count == 1 && !file->main_file)
+	{
+	  if (data->paths == NULL)
+	    {
+	      data->paths = XCNEWVEC (const char *, data->count);
+	      data->count = 0;
+	    }
+
+	  data->paths[data->count++] = file->path;
+	}
+    }
+
+  /* Keep traversing the hash table.  */
+  return 1;
+}
+
+/* Comparison function for qsort.  */
+static int
+report_missing_guard_cmp (const void *p1, const void *p2)
+{
+  return strcmp (*(const char *const *) p1, *(const char *const *) p2);
+}
+
+/* Report on all files that might benefit from a multiple include guard.
+   Triggered by -H.  */
+void
+_cpp_report_missing_guards (cpp_reader *pfile)
+{
+  struct report_missing_guard_data data;
+
+  data.paths = NULL;
+  data.count = htab_elements (pfile->file_hash);
+  htab_traverse (pfile->file_hash, report_missing_guard, &data);
+
+  if (data.paths != NULL)
+    {
+      size_t i;
+
+      /* Sort the paths to avoid outputting them in hash table
+	 order.  */
+#if defined(SPEC)
+      spec_qsort (data.paths, data.count, sizeof (const char *),
+                  report_missing_guard_cmp);
+#else
+      qsort (data.paths, data.count, sizeof (const char *),
+	     report_missing_guard_cmp);
+#endif
+      fputs (_(\"Multiple include guards may be useful for:\\n\"),
+	     stderr);
+      for (i = 0; i < data.count; i++)
+	{
+	  fputs (data.paths[i], stderr);
+	  putc ('\\n', stderr);
+	}
+      free (data.paths);
+    }
+}
+
+/* Locate HEADER, and determine whether it is newer than the current
+   file.  If it cannot be located or dated, return -1, if it is
+   newer, return 1, otherwise 0.  */
+int
+_cpp_compare_file_date (cpp_reader *pfile, const char *fname,
+			int angle_brackets)
+{
+  _cpp_file *file;
+  struct cpp_dir *dir;
+
+  dir = search_path_head (pfile, fname, angle_brackets, IT_INCLUDE);
+  if (!dir)
+    return -1;
+
+  file = _cpp_find_file (pfile, fname, dir, false, angle_brackets);
+  if (file->err_no)
+    return -1;
+
+  if (file->fd != -1)
+    {
+      close (file->fd);
+      file->fd = -1;
+    }
+
+  return file->st.st_mtime > pfile->buffer->file->st.st_mtime;
+}
+
+/* Pushes the given file onto the buffer stack.  Returns nonzero if
+   successful.  */
+bool
+cpp_push_include (cpp_reader *pfile, const char *fname)
+{
+  return _cpp_stack_include (pfile, fname, false, IT_CMDLINE);
+}
+
+/* Do appropriate cleanup when a file INC's buffer is popped off the
+   input stack.  */
+void
+_cpp_pop_file_buffer (cpp_reader *pfile, _cpp_file *file)
+{
+  /* Record the inclusion-preventing macro, which could be NULL
+     meaning no controlling macro.  */
+  if (pfile->mi_valid && file->cmacro == NULL)
+    file->cmacro = pfile->mi_cmacro;
+
+  /* Invalidate control macros in the #including file.  */
+  pfile->mi_valid = false;
+
+  if (file->buffer_start)
+    {
+      free ((void *) file->buffer_start);
+      file->buffer_start = NULL;
+      file->buffer = NULL;
+      file->buffer_valid = false;
+    }
+}
+
+/* Inteface to file statistics record in _cpp_file structure. */
+struct stat *
+_cpp_get_file_stat (_cpp_file *file)
+{
+    return &file->st;
+}
+
+/* Set the include chain for \"\" to QUOTE, for <> to BRACKET.  If
+   QUOTE_IGNORES_SOURCE_DIR, then \"\" includes do not look in the
+   directory of the including file.
+
+   If BRACKET does not lie in the QUOTE chain, it is set to QUOTE.  */
+void
+cpp_set_include_chains (cpp_reader *pfile, cpp_dir *quote, cpp_dir *bracket,
+			int quote_ignores_source_dir)
+{
+  pfile->quote_include = quote;
+  pfile->bracket_include = quote;
+  pfile->quote_ignores_source_dir = quote_ignores_source_dir;
+
+  for (; quote; quote = quote->next)
+    {
+      quote->name_map = NULL;
+      quote->len = strlen (quote->name);
+      if (quote == bracket)
+	pfile->bracket_include = bracket;
+    }
+}
+
+/* Append the file name to the directory to create the path, but don't
+   turn / into // or // into ///; // may be a namespace escape.  */
+static char *
+append_file_to_dir (const char *fname, cpp_dir *dir)
+{
+  size_t dlen, flen;
+  char *path;
+
+  dlen = dir->len;
+  flen = strlen (fname);
+  path = XNEWVEC (char, dlen + 1 + flen + 1);
+  memcpy (path, dir->name, dlen);
+  if (dlen && path[dlen - 1] != '/')
+    path[dlen++] = '/';
+  memcpy (&path[dlen], fname, flen + 1);
+
+  return path;
+}
+
+/* Read a space delimited string of unlimited length from a stdio
+   file F.  */
+static char *
+read_filename_string (int ch, FILE *f)
+{
+  char *alloc, *set;
+  int len;
+
+  len = 20;
+  set = alloc = XNEWVEC (char, len + 1);
+  if (! is_space (ch))
+    {
+      *set++ = ch;
+      while ((ch = getc (f)) != EOF && ! is_space (ch))
+	{
+	  if (set - alloc == len)
+	    {
+	      len *= 2;
+	      alloc = XRESIZEVEC (char, alloc, len + 1);
+	      set = alloc + len / 2;
+	    }
+	  *set++ = ch;
+	}
+    }
+  *set = '\\0';
+  ungetc (ch, f);
+  return alloc;
+}
+
+/* Read the file name map file for DIR.  */
+static void
+read_name_map (cpp_dir *dir)
+{
+  static const char FILE_NAME_MAP_FILE[] = \"header.gcc\";
+  char *name;
+  FILE *f;
+  size_t len, count = 0, room = 9;
+
+  len = dir->len;
+  name = (char *) alloca (len + sizeof (FILE_NAME_MAP_FILE) + 1);
+  memcpy (name, dir->name, len);
+  if (len && name[len - 1] != '/')
+    name[len++] = '/';
+  strcpy (name + len, FILE_NAME_MAP_FILE);
+  f = fopen (name, \"r\");
+
+  dir->name_map = XNEWVEC (const char *, room);
+
+  /* Silently return NULL if we cannot open.  */
+  if (f)
+    {
+      int ch;
+
+      while ((ch = getc (f)) != EOF)
+	{
+	  char *to;
+
+	  if (is_space (ch))
+	    continue;
+
+	  if (count + 2 > room)
+	    {
+	      room += 8;
+	      dir->name_map = XRESIZEVEC (const char *, dir->name_map, room);
+	    }
+
+	  dir->name_map[count] = read_filename_string (ch, f);
+	  while ((ch = getc (f)) != EOF && is_hspace (ch))
+	    ;
+
+	  to = read_filename_string (ch, f);
+	  if (IS_ABSOLUTE_PATH (to))
+	    dir->name_map[count + 1] = to;
+	  else
+	    {
+	      dir->name_map[count + 1] = append_file_to_dir (to, dir);
+	      free (to);
+	    }
+
+	  count += 2;
+	  while ((ch = getc (f)) != '\\n')
+	    if (ch == EOF)
+	      break;
+	}
+
+      fclose (f);
+    }
+
+  /* Terminate the list of maps.  */
+  dir->name_map[count] = NULL;
+}
+
+/* Remap a FILE's name based on the file_name_map, if any, for
+   FILE->dir.  If the file name has any directory separators,
+   recursively check those directories too.  */
+static char *
+remap_filename (cpp_reader *pfile, _cpp_file *file)
+{
+  const char *fname, *p;
+  char *new_dir;
+  cpp_dir *dir;
+  size_t index, len;
+
+  dir = file->dir;
+  fname = file->name;
+
+  for (;;)
+    {
+      if (!dir->name_map)
+	read_name_map (dir);
+
+      for (index = 0; dir->name_map[index]; index += 2)
+	if (!strcmp (dir->name_map[index], fname))
+	    return xstrdup (dir->name_map[index + 1]);
+
+      p = strchr (fname, '/');
+      if (!p || p == fname)
+	return NULL;
+
+      len = dir->len + (p - fname + 1);
+      new_dir = XNEWVEC (char, len + 1);
+      memcpy (new_dir, dir->name, dir->len);
+      memcpy (new_dir + dir->len, fname, p - fname + 1);
+      new_dir[len] = '\\0';
+
+      dir = make_cpp_dir (pfile, new_dir, dir->sysp);
+      fname = p + 1;
+    }
+}
+
+/* Returns true if PCHNAME is a valid PCH file for FILE.  */
+static bool
+validate_pch (cpp_reader *pfile, _cpp_file *file, const char *pchname)
+{
+  const char *saved_path = file->path;
+  bool valid = false;
+
+  file->path = pchname;
+  if (open_file (file))
+    {
+      valid = 1 & pfile->cb.valid_pch (pfile, pchname, file->fd);
+
+      if (!valid)
+	{
+	  close (file->fd);
+	  file->fd = -1;
+	}
+
+      if (CPP_OPTION (pfile, print_include_names))
+	{
+	  unsigned int i;
+	  for (i = 1; i < pfile->line_table->depth; i++)
+	    putc ('.', stderr);
+	  fprintf (stderr, \"%c %s\\n\",
+		   valid ? '!' : 'x', pchname);
+	}
+    }
+
+  file->path = saved_path;
+  return valid;
+}
+
+/* Get the path associated with the _cpp_file F.  The path includes
+   the base name from the include directive and the directory it was
+   found in via the search path.  */
+
+const char *
+cpp_get_path (struct _cpp_file *f)
+{
+  return f->path;
+}
+
+/* Get the directory associated with the _cpp_file F.  */
+
+cpp_dir *
+cpp_get_dir (struct _cpp_file *f)
+{
+  return f->dir;
+}
+
+/* Get the cpp_buffer currently associated with the cpp_reader
+   PFILE.  */
+
+cpp_buffer *
+cpp_get_buffer (cpp_reader *pfile)
+{
+  return pfile->buffer;
+}
+
+/* Get the _cpp_file associated with the cpp_buffer B.  */
+
+_cpp_file *
+cpp_get_file (cpp_buffer *b)
+{
+  return b->file;
+}
+
+/* Get the previous cpp_buffer given a cpp_buffer B.  The previous
+   buffer is the buffer that included the given buffer.  */
+
+cpp_buffer *
+cpp_get_prev (cpp_buffer *b)
+{
+  return b->prev;
+}
+
+/* This data structure holds the list of header files that were seen
+   while the PCH was being built.  The 'entries' field is kept sorted
+   in memcmp() order; yes, this means that on little-endian systems,
+   it's sorted initially by the least-significant byte of 'size', but
+   that's OK.  The code does rely on having entries with the same size
+   next to each other.  */
+
+struct pchf_entry {
+  /* The size of this file.  This is used to save running a MD5 checksum
+     if the sizes don't match.  */
+  off_t size;
+  /* The MD5 checksum of this file.  */
+  unsigned char sum[16];
+  /* Is this file to be included only once?  */
+  bool once_only;
+};
+
+struct pchf_data {
+  /* Number of pchf_entry structures.  */
+  size_t count;
+
+  /* Are there any values with once_only set?
+     This is used as an optimisation, it means we don't have to search
+     the structure if we're processing a regular #include.  */
+  bool have_once_only;
+
+  struct pchf_entry entries[1];
+};
+
+static struct pchf_data *pchf;
+
+/* A qsort ordering function for pchf_entry structures.  */
+
+static int
+pchf_save_compare (const void *e1, const void *e2)
+{
+  return memcmp (e1, e2, sizeof (struct pchf_entry));
+}
+
+/* Create and write to F a pchf_data structure.  */
+
+bool
+_cpp_save_file_entries (cpp_reader *pfile, FILE *fp)
+{
+  size_t count = 0;
+  struct pchf_data *result;
+  size_t result_size;
+  _cpp_file *f;
+
+  for (f = pfile->all_files; f; f = f->next_file)
+    ++count;
+
+  result_size = (sizeof (struct pchf_data)
+		 + sizeof (struct pchf_entry) * (count - 1));
+  result = XCNEWVAR (struct pchf_data, result_size);
+
+  result->count = 0;
+  result->have_once_only = false;
+
+  for (f = pfile->all_files; f; f = f->next_file)
+    {
+      size_t count;
+
+      /* This should probably never happen, since if a read error occurred
+	 the PCH file shouldn't be written...  */
+      if (f->dont_read || f->err_no)
+	continue;
+
+      if (f->stack_count == 0)
+	continue;
+
+      count = result->count++;
+
+      result->entries[count].once_only = f->once_only;
+      /* |= is avoided in the next line because of an HP C compiler bug */
+      result->have_once_only = result->have_once_only | f->once_only;
+      if (f->buffer_valid)
+	md5_buffer ((const char *)f->buffer,
+		    f->st.st_size, result->entries[count].sum);
+      else
+	{
+	  FILE *ff;
+	  int oldfd = f->fd;
+
+	  if (!open_file (f))
+	    {
+	      open_file_failed (pfile, f, 0);
+	      return false;
+	    }
+	  ff = fdopen (f->fd, \"rb\");
+	  md5_stream (ff, result->entries[count].sum);
+	  fclose (ff);
+	  f->fd = oldfd;
+	}
+      result->entries[count].size = f->st.st_size;
+    }
+
+  result_size = (sizeof (struct pchf_data)
+                 + sizeof (struct pchf_entry) * (result->count - 1));
+
+#if defined(SPEC)
+  spec_qsort (result->entries, result->count, sizeof (struct pchf_entry),
+              pchf_save_compare);
+#else
+  qsort (result->entries, result->count, sizeof (struct pchf_entry),
+	 pchf_save_compare);
+#endif
+
+  return fwrite (result, result_size, 1, fp) == 1;
+}
+
+/* Read the pchf_data structure from F.  */
+
+bool
+_cpp_read_file_entries (cpp_reader *pfile ATTRIBUTE_UNUSED, FILE *f)
+{
+  struct pchf_data d;
+
+  if (fread (&d, sizeof (struct pchf_data) - sizeof (struct pchf_entry), 1, f)
+       != 1)
+    return false;
+
+  pchf = XNEWVAR (struct pchf_data, sizeof (struct pchf_data)
+		  + sizeof (struct pchf_entry) * (d.count - 1));
+  memcpy (pchf, &d, sizeof (struct pchf_data) - sizeof (struct pchf_entry));
+  if (fread (pchf->entries, sizeof (struct pchf_entry), d.count, f)
+      != d.count)
+    return false;
+  return true;
+}
+
+/* The parameters for pchf_compare.  */
+
+struct pchf_compare_data
+{
+  /* The size of the file we're looking for.  */
+  off_t size;
+
+  /* The MD5 checksum of the file, if it's been computed.  */
+  unsigned char sum[16];
+
+  /* Is SUM valid?  */
+  bool sum_computed;
+
+  /* Do we need to worry about entries that don't have ONCE_ONLY set?  */
+  bool check_included;
+
+  /* The file that we're searching for.  */
+  _cpp_file *f;
+};
+
+/* bsearch comparison function; look for D_P in E_P.  */
+
+static int
+pchf_compare (const void *d_p, const void *e_p)
+{
+  const struct pchf_entry *e = (const struct pchf_entry *)e_p;
+  struct pchf_compare_data *d = (struct pchf_compare_data *)d_p;
+  int result;
+
+  result = memcmp (&d->size, &e->size, sizeof (off_t));
+  if (result != 0)
+    return result;
+
+  if (! d->sum_computed)
+    {
+      _cpp_file *const f = d->f;
+
+      md5_buffer ((const char *)f->buffer, f->st.st_size, d->sum);
+      d->sum_computed = true;
+    }
+
+  result = memcmp (d->sum, e->sum, 16);
+  if (result != 0)
+    return result;
+
+  if (d->check_included || e->once_only)
+    return 0;
+  else
+    return 1;
+}
+
+/* Check that F is not in a list read from a PCH file (if any).
+   Assumes that f->buffer_valid is true.  Return TRUE if the file
+   should not be read.  */
+
+static bool
+check_file_against_entries (cpp_reader *pfile ATTRIBUTE_UNUSED,
+			    _cpp_file *f,
+			    bool check_included)
+{
+  struct pchf_compare_data d;
+
+  if (pchf == NULL
+      || (! check_included && ! pchf->have_once_only))
+    return false;
+
+  d.size = f->st.st_size;
+  d.sum_computed = false;
+  d.f = f;
+  d.check_included = check_included;
+  return bsearch (&d, pchf->entries, pchf->count, sizeof (struct pchf_entry),
+		  pchf_compare) != NULL;
+}
+" 0 1 (fontified nil face font-lock-comment-delimiter-face c-in-sws t c-is-sws t) 1 3 (fontified nil face font-lock-comment-delimiter-face c-in-sws t) 3 1047 (fontified nil face font-lock-comment-face c-in-sws t) 1047 1051 (fontified nil face font-lock-comment-delimiter-face c-in-sws t) 1051 1052 (fontified nil c-in-sws t) 1052 1053 (fontified nil c-in-sws t) 1053 1054 (fontified nil face font-lock-preprocessor-face c-is-sws t c-in-sws t) 1054 1056 (fontified nil face font-lock-preprocessor-face c-in-sws t) 1056 1057 (fontified nil c-in-sws t) 1057 1064 (fontified nil face font-lock-preprocessor-face c-in-sws t) 1064 1065 (fontified nil face (rainbow-delimiters-depth-1-face) c-in-sws t) 1065 1069 (fontified nil c-in-sws t) 1069 1070 (fontified nil face (rainbow-delimiters-depth-1-face) c-in-sws t) 1070 1071 (fontified nil c-in-sws t) 1071 1072 (fontified nil face font-lock-preprocessor-face c-is-sws t c-in-sws t) 1072 1080 (fontified nil face font-lock-preprocessor-face c-in-sws t) 1080 1081 (fontified nil c-in-sws t) 1081 1095 (fontified nil face font-lock-string-face c-in-sws t) 1095 1096 (fontified nil c-in-sws t) 1096 1097 (fontified nil face font-lock-preprocessor-face c-is-sws t c-in-sws t) 1097 1102 (fontified nil face font-lock-preprocessor-face c-in-sws t) 1102 1103 (fontified nil c-in-sws t) 1103 1104 (fontified nil c-is-sws t c-in-sws t) 1104 1105 (fontified nil face font-lock-preprocessor-face c-is-sws t c-in-sws t) 1105 1110 (fontified nil face font-lock-preprocessor-face c-in-sws t) 1110 1118 (fontified nil c-in-sws t) 1118 1119 (fontified nil face font-lock-preprocessor-face c-is-sws t c-in-sws t) 1119 1126 (fontified nil face font-lock-preprocessor-face c-in-sws t) 1126 1127 (fontified nil c-in-sws t) 1127 1141 (fontified nil face font-lock-string-face c-in-sws t) 1141 1142 (fontified nil c-in-sws t) 1142 1143 (fontified nil face font-lock-preprocessor-face c-is-sws t c-in-sws t) 1143 1150 (fontified nil face font-lock-preprocessor-face c-in-sws t) 1150 1151 (fontified nil c-in-sws t) 1151 1165 (fontified nil face font-lock-string-face c-in-sws t) 1165 1166 (fontified nil c-in-sws t) 1166 1167 (fontified nil face font-lock-preprocessor-face c-is-sws t c-in-sws t) 1167 1174 (fontified nil face font-lock-preprocessor-face c-in-sws t) 1174 1175 (fontified nil c-in-sws t) 1175 1185 (fontified nil face font-lock-string-face c-in-sws t) 1185 1186 (fontified nil c-in-sws t) 1186 1187 (fontified nil face font-lock-preprocessor-face c-is-sws t c-in-sws t) 1187 1194 (fontified nil face font-lock-preprocessor-face c-in-sws t) 1194 1195 (fontified nil c-in-sws t) 1195 1207 (fontified nil face font-lock-string-face c-in-sws t) 1207 1208 (fontified nil c-in-sws t) 1208 1209 (fontified nil face font-lock-preprocessor-face c-is-sws t c-in-sws t) 1209 1216 (fontified nil face font-lock-preprocessor-face c-in-sws t) 1216 1217 (fontified nil c-in-sws t) 1217 1227 (fontified nil face font-lock-string-face c-in-sws t) 1227 1228 (fontified nil c-in-sws t) 1228 1229 (fontified nil face font-lock-preprocessor-face c-is-sws t c-in-sws t) 1229 1236 (fontified nil face font-lock-preprocessor-face c-in-sws t) 1236 1237 (fontified nil c-in-sws t) 1237 1248 (fontified nil face font-lock-string-face c-in-sws t) 1248 1249 (fontified nil c-in-sws t) 1249 1250 (fontified nil face font-lock-preprocessor-face c-is-sws t c-in-sws t) 1250 1257 (fontified nil face font-lock-preprocessor-face c-in-sws t) 1257 1258 (fontified nil c-in-sws t) 1258 1269 (fontified nil face font-lock-string-face c-in-sws t) 1269 1270 (fontified nil c-in-sws t) 1270 1271 (fontified nil face font-lock-preprocessor-face c-is-sws t c-in-sws t) 1271 1278 (fontified nil face font-lock-preprocessor-face c-in-sws t) 1278 1279 (fontified nil c-in-sws t) 1279 1286 (fontified nil face font-lock-string-face c-in-sws t) 1286 1287 (fontified nil c-in-sws t) 1287 1288 (fontified nil face font-lock-preprocessor-face c-is-sws t c-in-sws t) 1288 1290 (fontified nil face font-lock-preprocessor-face c-in-sws t) 1290 1291 (fontified nil face (font-lock-preprocessor-face font-lock-negation-char-face) c-in-sws t) 1291 1294 (fontified nil face font-lock-preprocessor-face c-in-sws t) 1294 1308 (fontified nil c-in-sws t) 1308 1309 (fontified nil face font-lock-preprocessor-face c-is-sws t c-in-sws t) 1309 1316 (fontified nil face font-lock-preprocessor-face c-in-sws t) 1316 1317 (fontified nil c-in-sws t) 1317 1318 (fontified nil face (rainbow-delimiters-depth-1-face font-lock-string-face) syntax-table (4 . 62) c-in-sws t) 1318 1326 (fontified nil face font-lock-string-face c-in-sws t) 1326 1327 (fontified nil face (rainbow-delimiters-depth-1-face font-lock-string-face) syntax-table (5 . 60) c-in-sws t) 1327 1328 (fontified nil c-in-sws t) 1328 1329 (fontified nil face font-lock-preprocessor-face c-is-sws t c-in-sws t) 1329 1333 (fontified nil face font-lock-preprocessor-face c-in-sws t) 1333 1334 (fontified nil c-in-sws t) 1334 1335 (fontified nil face font-lock-preprocessor-face c-is-sws t c-in-sws t) 1335 1342 (fontified nil face font-lock-preprocessor-face c-in-sws t) 1342 1343 (fontified nil c-in-sws t) 1343 1344 (fontified nil face (rainbow-delimiters-depth-1-face font-lock-string-face) syntax-table (4 . 62) c-in-sws t) 1344 1351 (fontified nil face font-lock-string-face c-in-sws t) 1351 1352 (fontified nil face (rainbow-delimiters-depth-1-face font-lock-string-face) syntax-table (5 . 60) c-in-sws t) 1352 1353 (fontified nil c-in-sws t) 1353 1354 (fontified nil face font-lock-preprocessor-face c-is-sws t c-in-sws t) 1354 1361 (fontified nil face font-lock-preprocessor-face c-in-sws t) 1361 1362 (fontified nil c-in-sws t) 1362 1376 (fontified nil face font-lock-string-face c-in-sws t) 1376 1377 (fontified nil c-in-sws t) 1377 1378 (fontified nil face font-lock-preprocessor-face c-is-sws t c-in-sws t) 1378 1383 (fontified nil face font-lock-preprocessor-face c-in-sws t) 1383 1384 (fontified nil c-in-sws t) 1384 1385 (fontified nil c-in-sws t) 1385 1386 (fontified nil face font-lock-comment-delimiter-face c-in-sws t) 1386 1388 (fontified nil face font-lock-comment-delimiter-face c-in-sws t) 1388 1497 (fontified nil face font-lock-comment-face c-in-sws t) 1497 1498 (fontified nil face font-lock-comment-face c-in-sws t) 1498 1500 (fontified nil face font-lock-comment-face c-in-sws t) 1500 1529 (fontified nil face font-lock-comment-face c-in-sws t) 1529 1533 (fontified nil face font-lock-comment-delimiter-face c-in-sws t) 1533 1534 (fontified nil c-in-sws t) 1534 1535 (fontified nil c-is-sws t face font-lock-preprocessor-face c-in-sws t) 1535 1540 (fontified nil face font-lock-preprocessor-face c-in-sws t) 1540 1545 (fontified nil c-in-sws t) 1545 1546 (fontified nil c-is-sws t face font-lock-preprocessor-face c-in-sws t) 1546 1553 (fontified nil face font-lock-preprocessor-face c-in-sws t) 1553 1554 (fontified nil c-in-sws t) 1554 1563 (fontified nil face font-lock-variable-name-face c-in-sws t) 1563 1566 (fontified nil c-in-sws t) 1566 1569 (fontified nil face font-lock-comment-delimiter-face c-in-sws t) 1569 1615 (fontified nil face font-lock-comment-face c-in-sws t) 1615 1618 (fontified nil face font-lock-comment-delimiter-face c-in-sws t) 1618 1619 (fontified nil c-in-sws t) 1619 1620 (fontified nil c-is-sws t face font-lock-preprocessor-face c-in-sws t) 1620 1627 (fontified nil face font-lock-preprocessor-face c-in-sws t) 1627 1628 (fontified nil c-in-sws t) 1628 1646 (fontified nil face font-lock-function-name-face c-in-sws t) 1646 1647 (fontified nil c-in-sws t face (rainbow-delimiters-depth-1-face)) 1647 1649 (fontified nil face font-lock-variable-name-face c-in-sws t) 1649 1650 (fontified nil c-in-sws t face (rainbow-delimiters-depth-1-face)) 1650 1651 (fontified nil c-in-sws t) 1651 1652 (fontified nil c-in-sws t face (rainbow-delimiters-depth-1-face)) 1652 1653 (fontified nil c-in-sws t face (rainbow-delimiters-depth-2-face)) 1653 1655 (fontified nil c-in-sws t) 1655 1656 (fontified nil c-in-sws t face (rainbow-delimiters-depth-2-face)) 1656 1680 (fontified nil c-in-sws t) 1680 1681 (fontified nil c-in-sws t face (rainbow-delimiters-depth-1-face)) 1681 1682 (fontified nil c-in-sws t) 1682 1683 (fontified nil c-is-sws t face font-lock-preprocessor-face c-in-sws t) 1683 1687 (fontified nil face font-lock-preprocessor-face c-in-sws t) 1687 1688 (fontified nil c-in-sws t) 1688 1689 (fontified nil c-is-sws t face font-lock-preprocessor-face c-in-sws t) 1689 1696 (fontified nil face font-lock-preprocessor-face c-in-sws t) 1696 1697 (fontified nil c-in-sws t) 1697 1715 (fontified nil face font-lock-function-name-face c-in-sws t) 1715 1716 (fontified nil c-in-sws t face (rainbow-delimiters-depth-1-face)) 1716 1718 (fontified nil face font-lock-variable-name-face c-in-sws t) 1718 1719 (fontified nil c-in-sws t face (rainbow-delimiters-depth-1-face)) 1719 1720 (fontified nil c-in-sws t) 1720 1724 (fontified nil face font-lock-constant-face c-in-sws t) 1724 1725 (fontified nil c-in-sws t) 1725 1726 (fontified nil c-is-sws t face font-lock-preprocessor-face c-in-sws t) 1726 1731 (fontified nil face font-lock-preprocessor-face c-in-sws t) 1731 1732 (fontified nil c-in-sws t) 1732 1733 (fontified nil c-is-sws t c-in-sws t) 1733 1734 (fontified nil c-is-sws t face font-lock-preprocessor-face c-in-sws t) 1734 1739 (fontified nil face font-lock-preprocessor-face c-in-sws t) 1739 1750 (fontified nil c-in-sws t) 1750 1751 (fontified nil c-is-sws t face font-lock-preprocessor-face c-in-sws t) 1751 1758 (fontified nil face font-lock-preprocessor-face c-in-sws t) 1758 1759 (fontified nil c-in-sws t) 1759 1760 (fontified nil face (rainbow-delimiters-depth-1-face font-lock-string-face) syntax-table (4 . 62) c-in-sws t) 1760 1764 (fontified nil face font-lock-string-face c-in-sws t) 1764 1765 (fontified nil face (rainbow-delimiters-depth-1-face font-lock-string-face) syntax-table (5 . 60) c-in-sws t) 1765 1766 (fontified nil c-in-sws t) 1766 1768 (fontified nil c-in-sws t) 1768 1769 (fontified nil face font-lock-comment-delimiter-face c-in-sws t) 1769 1771 (fontified nil face font-lock-comment-delimiter-face c-in-sws t) 1771 1821 (fontified nil face font-lock-comment-face c-in-sws t) 1821 1825 (fontified nil face font-lock-comment-delimiter-face c-in-sws t) 1825 1826 (fontified nil c-in-sws t) 1826 1827 (fontified nil c-is-sws t face font-lock-preprocessor-face c-in-sws t) 1827 1835 (fontified nil face font-lock-preprocessor-face c-in-sws t) 1835 1836 (fontified nil c-in-sws t) 1836 1860 (fontified nil face font-lock-function-name-face c-in-sws t) 1860 1861 (fontified nil c-in-sws t face (rainbow-delimiters-depth-1-face)) 1861 1862 (fontified nil c-in-sws t face (rainbow-delimiters-depth-1-face)) 1862 1870 (fontified nil c-in-sws t) 1870 1872 (fontified nil face font-lock-keyword-face c-in-sws t) 1872 1873 (fontified nil c-in-sws t) 1873 1874 (fontified nil c-in-sws t face (rainbow-delimiters-depth-1-face)) 1874 1875 (fontified nil face font-lock-negation-char-face c-in-sws t) 1875 1883 (fontified nil c-in-sws t) 1883 1884 (fontified nil c-in-sws t face (rainbow-delimiters-depth-2-face)) 1884 1885 (fontified nil c-in-sws t) 1885 1886 (fontified nil c-in-sws t face (rainbow-delimiters-depth-2-face)) 1886 1887 (fontified nil c-in-sws t face (rainbow-delimiters-depth-1-face)) 1887 1896 (fontified nil c-in-sws t) 1896 1897 (fontified nil c-in-sws t face (rainbow-delimiters-depth-1-face)) 1897 1908 (fontified nil c-in-sws t) 1908 1909 (fontified nil c-in-sws t face (rainbow-delimiters-depth-1-face)) 1909 1910 (fontified nil c-in-sws t) 1910 1911 (fontified nil c-is-sws t face font-lock-preprocessor-face c-in-sws t) 1911 1915 (fontified nil face font-lock-preprocessor-face c-in-sws t) 1915 1916 (fontified nil c-in-sws t) 1916 1917 (fontified nil c-is-sws t face font-lock-preprocessor-face c-in-sws t) 1917 1925 (fontified nil face font-lock-preprocessor-face c-in-sws t) 1925 1926 (fontified nil c-in-sws t) 1926 1950 (fontified nil face font-lock-function-name-face c-in-sws t) 1950 1951 (fontified nil c-in-sws t face (rainbow-delimiters-depth-1-face)) 1951 1952 (fontified nil c-in-sws t face (rainbow-delimiters-depth-1-face)) 1952 1953 (fontified nil c-in-sws t) 1953 1956 (fontified nil face font-lock-comment-delimiter-face c-in-sws t) 1956 1963 (fontified nil face font-lock-comment-face c-in-sws t) 1963 1966 (fontified nil face font-lock-comment-delimiter-face c-in-sws t) 1966 1967 (fontified nil c-in-sws t) 1967 1968 (fontified nil c-is-sws t face font-lock-preprocessor-face c-in-sws t) 1968 1973 (fontified nil face font-lock-preprocessor-face c-in-sws t) 1973 1974 (fontified nil c-in-sws t) 1974 1975 (fontified nil c-in-sws t) 1975 1976 (fontified nil face font-lock-comment-delimiter-face c-in-sws t) 1976 1978 (fontified nil face font-lock-comment-delimiter-face c-in-sws t) 1978 2167 (fontified nil face font-lock-comment-face c-in-sws t) 2167 2171 (fontified nil face font-lock-comment-delimiter-face c-in-sws t) 2171 2172 (fontified nil c-in-sws t) 2172 2173 (fontified nil c-is-sws t c-in-sws t) 2173 2174 (fontified nil c-is-sws t face font-lock-preprocessor-face c-in-sws t) 2174 2176 (fontified nil face font-lock-preprocessor-face c-in-sws t) 2176 2182 (fontified nil c-in-sws t) 2182 2183 (fontified nil c-is-sws t face font-lock-preprocessor-face c-in-sws t) 2183 2189 (fontified nil face font-lock-preprocessor-face c-in-sws t) 2189 2190 (fontified nil c-in-sws t) 2190 2195 (fontified nil face font-lock-variable-name-face c-in-sws t) 2195 2196 (fontified nil c-in-sws t) 2196 2204 (fontified nil c-in-sws t face font-lock-type-face) 2204 2205 (fontified nil c-in-sws t) 2205 2208 (fontified nil c-in-sws t face font-lock-type-face) 2208 2209 (fontified nil c-in-sws t c-type c-decl-id-start face font-lock-type-face) 2209 2210 (fontified nil c-in-sws t) 2210 2211 (fontified nil c-is-sws t face font-lock-preprocessor-face c-in-sws t) 2211 2216 (fontified nil face font-lock-preprocessor-face c-in-sws t) 2216 2217 (fontified nil c-in-sws t) 2217 2218 (fontified nil c-is-sws t) 2218 2219 (fontified nil c-is-sws t face font-lock-keyword-face) 2219 2223 (fontified nil face font-lock-keyword-face) 2223 2224 (fontified nil face font-lock-keyword-face c-type c-decl-type-start) 2224 2225 (fontified nil) 2225 2234 (fontified nil face font-lock-type-face) 2234 2235 (fontified nil) 2235 2236 (fontified nil face (rainbow-delimiters-depth-1-face)) 2236 2237 (fontified nil) 2237 2239 (fontified nil c-in-sws t c-is-sws t) 2239 2240 (fontified nil face font-lock-comment-delimiter-face c-in-sws t c-is-sws t) 2240 2242 (fontified nil face font-lock-comment-delimiter-face c-in-sws t) 2242 2295 (fontified nil face font-lock-comment-face c-in-sws t) 2295 2299 (fontified nil face font-lock-comment-delimiter-face c-in-sws t) 2299 2300 (fontified nil c-in-sws t) 2300 2302 (fontified nil c-is-sws t c-in-sws t) 2302 2303 (fontified nil face font-lock-keyword-face c-is-sws t) 2303 2307 (fontified nil face font-lock-keyword-face) 2307 2308 (fontified nil) 2308 2311 (fontified nil face font-lock-type-face) 2311 2312 (fontified nil c-type c-decl-id-start face font-lock-type-face) 2312 2314 (fontified nil) 2314 2318 (fontified nil face font-lock-variable-name-face) 2318 2321 (fontified nil) 2321 2323 (fontified nil c-in-sws t c-is-sws t) 2323 2324 (fontified nil face font-lock-comment-delimiter-face c-in-sws t c-is-sws t) 2324 2326 (fontified nil face font-lock-comment-delimiter-face c-in-sws t) 2326 2362 (fontified nil face font-lock-comment-face c-in-sws t) 2362 2366 (fontified nil face font-lock-comment-delimiter-face c-in-sws t) 2366 2367 (fontified nil c-in-sws t) 2367 2369 (fontified nil c-is-sws t c-in-sws t) 2369 2370 (fontified nil face font-lock-keyword-face c-is-sws t) 2370 2374 (fontified nil face font-lock-keyword-face) 2374 2375 (fontified nil) 2375 2378 (fontified nil face font-lock-type-face) 2378 2379 (fontified nil c-type c-decl-id-start face font-lock-type-face) 2379 2381 (fontified nil) 2381 2385 (fontified nil face font-lock-variable-name-face) 2385 2388 (fontified nil) 2388 2390 (fontified nil c-in-sws t c-is-sws t) 2390 2391 (fontified nil face font-lock-comment-delimiter-face c-in-sws t c-is-sws t) 2391 2393 (fontified nil face font-lock-comment-delimiter-face c-in-sws t) 2393 2423 (fontified nil face font-lock-comment-face c-in-sws t) 2423 2427 (fontified nil face font-lock-comment-delimiter-face c-in-sws t) 2427 2428 (fontified nil c-in-sws t) 2428 2430 (fontified nil c-is-sws t c-in-sws t) 2430 2431 (fontified nil face font-lock-keyword-face c-is-sws t) 2431 2435 (fontified nil face font-lock-keyword-face) 2435 2436 (fontified nil) 2436 2439 (fontified nil face font-lock-type-face) 2439 2440 (fontified nil c-type c-decl-id-start face font-lock-type-face) 2440 2442 (fontified nil) 2442 2449 (fontified nil face font-lock-variable-name-face) 2449 2452 (fontified nil) 2452 2454 (fontified nil c-in-sws t c-is-sws t) 2454 2455 (fontified nil face font-lock-comment-delimiter-face c-in-sws t c-is-sws t) 2455 2457 (fontified nil face font-lock-comment-delimiter-face c-in-sws t) 2457 2465 (fontified nil face font-lock-comment-face c-in-sws t) 2465 2466 (fontified nil face font-lock-comment-face c-in-sws t) 2466 2517 (fontified nil face font-lock-comment-face c-in-sws t) 2517 2518 (fontified nil face font-lock-comment-face c-in-sws t) 2518 2545 (fontified nil face font-lock-comment-face c-in-sws t) 2545 2549 (fontified nil face font-lock-comment-delimiter-face c-in-sws t) 2549 2550 (fontified nil c-in-sws t) 2550 2552 (fontified nil c-is-sws t c-in-sws t) 2552 2553 (fontified nil face font-lock-keyword-face c-is-sws t) 2553 2557 (fontified nil face font-lock-keyword-face) 2557 2558 (fontified nil) 2558 2561 (fontified nil face font-lock-type-face) 2561 2562 (fontified nil c-type c-decl-id-start face font-lock-type-face) 2562 2564 (fontified nil) 2564 2572 (fontified nil face font-lock-variable-name-face) 2572 2575 (fontified nil) 2575 2577 (fontified nil c-in-sws t c-is-sws t) 2577 2578 (fontified nil face font-lock-comment-delimiter-face c-in-sws t c-is-sws t) 2578 2580 (fontified nil face font-lock-comment-delimiter-face c-in-sws t) 2580 2604 (fontified nil face font-lock-comment-face c-in-sws t) 2604 2608 (fontified nil face font-lock-comment-delimiter-face c-in-sws t) 2608 2609 (fontified nil c-in-sws t) 2609 2611 (fontified nil c-is-sws t c-in-sws t) 2611 2612 (fontified nil face font-lock-keyword-face c-is-sws t) 2612 2617 (fontified nil face font-lock-keyword-face) 2617 2618 (fontified nil) 2618 2626 (fontified nil face font-lock-type-face) 2626 2627 (fontified nil c-type c-decl-id-start face font-lock-type-face) 2627 2629 (fontified nil) 2629 2638 (fontified nil face font-lock-variable-name-face) 2638 2641 (fontified nil) 2641 2643 (fontified nil c-in-sws t c-is-sws t) 2643 2644 (fontified nil face font-lock-comment-delimiter-face c-in-sws t c-is-sws t) 2644 2646 (fontified nil face font-lock-comment-delimiter-face c-in-sws t) 2646 2693 (fontified nil face font-lock-comment-face c-in-sws t) 2693 2697 (fontified nil face font-lock-comment-delimiter-face c-in-sws t) 2697 2698 (fontified nil c-in-sws t) 2698 2700 (fontified nil c-is-sws t c-in-sws t) 2700 2701 (fontified nil face font-lock-keyword-face c-is-sws t) 2701 2705 (fontified nil face font-lock-keyword-face) 2705 2706 (fontified nil) 2706 2710 (fontified nil face font-lock-type-face) 2710 2711 (fontified nil c-type c-decl-id-start face font-lock-type-face) 2711 2713 (fontified nil) 2713 2719 (fontified nil face font-lock-variable-name-face) 2719 2722 (fontified nil) 2722 2724 (fontified nil c-in-sws t c-is-sws t) 2724 2725 (fontified nil face font-lock-comment-delimiter-face c-in-sws t c-is-sws t) 2725 2727 (fontified nil face font-lock-comment-delimiter-face c-in-sws t) 2727 2859 (fontified nil face font-lock-comment-face c-in-sws t) 2859 2863 (fontified nil face font-lock-comment-delimiter-face c-in-sws t) 2863 2864 (fontified nil c-in-sws t) 2864 2866 (fontified nil c-is-sws t c-in-sws t) 2866 2867 (fontified nil face font-lock-keyword-face c-is-sws t) 2867 2871 (fontified nil face font-lock-keyword-face) 2871 2872 (fontified nil) 2872 2876 (fontified nil face font-lock-type-face) 2876 2877 (fontified nil c-type c-decl-id-start face font-lock-type-face) 2877 2879 (fontified nil) 2879 2891 (fontified nil face font-lock-variable-name-face) 2891 2894 (fontified nil) 2894 2896 (fontified nil c-in-sws t c-is-sws t) 2896 2897 (fontified nil face font-lock-comment-delimiter-face c-in-sws t c-is-sws t) 2897 2899 (fontified nil face font-lock-comment-delimiter-face c-in-sws t) 2899 2942 (fontified nil face font-lock-comment-face c-in-sws t) 2942 2946 (fontified nil face font-lock-comment-delimiter-face c-in-sws t) 2946 2947 (fontified nil c-in-sws t) 2947 2949 (fontified nil c-is-sws t c-in-sws t) 2949 2950 (fontified nil face font-lock-keyword-face c-is-sws t) 2950 2954 (fontified nil face font-lock-keyword-face) 2954 2955 (fontified nil) 2955 2966 (fontified nil face font-lock-type-face) 2966 2967 (fontified nil c-type c-decl-id-start face font-lock-type-face) 2967 2969 (fontified nil) 2969 2975 (fontified nil face font-lock-variable-name-face) 2975 2980 (fontified nil) 2980 2983 (fontified nil face font-lock-comment-delimiter-face) 2983 3034 (fontified nil face font-lock-comment-face) 3034 3048 (fontified nil face font-lock-comment-face) 3048 4562 (fontified nil) 4562 4563 (fontified nil) 4563 8064 (fontified nil) 8064 8065 (fontified nil) 8065 8180 (fontified nil) 8180 8181 (fontified nil) 8181 8848 (fontified nil) 8848 8849 (fontified nil) 8849 9934 (fontified nil) 9934 9935 (fontified nil) 9935 11831 (fontified nil) 11831 11832 (fontified nil) 11832 12719 (fontified nil) 12719 12720 (fontified nil) 12720 12766 (fontified nil) 12766 12767 (fontified nil) 12767 13415 (fontified nil) 13415 13416 (fontified nil) 13416 15713 (fontified nil) 15713 15714 (fontified nil) 15714 18337 (fontified nil) 18337 18338 (fontified nil) 18338 18371 (fontified nil) 18371 18372 (fontified nil) 18372 19065 (fontified nil) 19065 19066 (fontified nil) 19066 19671 (fontified nil) 19671 19672 (fontified nil) 19672 20934 (fontified nil) 20934 20935 (fontified nil) 20935 21269 (fontified nil) 21269 21270 (fontified nil) 21270 21808 (fontified nil) 21808 21809 (fontified nil) 21809 22155 (fontified nil) 22155 22156 (fontified nil) 22156 22529 (fontified nil) 22529 22530 (fontified nil) 22530 22664 (fontified nil) 22664 22665 (fontified nil) 22665 22692 (fontified nil) 22692 22693 (fontified nil) 22693 22905 (fontified nil) 22905 22906 (fontified nil) 22906 22922 (fontified nil) 22922 22923 (fontified nil) 22923 26767 (fontified nil) 26767 26768 (fontified nil) 26768 27191 (fontified nil) 27191 27192 (fontified nil) 27192 28292 (fontified nil) 28292 28293 (fontified nil) 28293 29953 (fontified nil) 29953 29954 (fontified nil) 29954 38422 (fontified nil) 38422 38423 (fontified nil) 38423 40782 (fontified nil) 40782 40783 (fontified nil) 40783 42228 (fontified nil) 42228 42229 (fontified nil) 42229 42649 (fontified nil) 42649 42650 (fontified nil c-is-sws t c-in-sws t) 42650 42730 (fontified nil c-in-sws t) 42730 42731 (fontified nil c-is-sws t) 42731 42740 (fontified nil) 42740 42741 (fontified nil c-type c-decl-id-start) 42741 42744 (fontified nil) 42744 42764 (fontified nil face font-lock-function-name-face) 42764 43079 (fontified nil) 43079 43109 (fontified nil) 43109 43114 (fontified nil) 43114 43115 (fontified nil face (rainbow-delimiters-depth-4-face)) 43115 43133 (fontified nil) 43133 43134 (fontified nil face (rainbow-delimiters-depth-3-face)) 43134 43139 (fontified nil) 43139 43140 (fontified nil face (rainbow-delimiters-depth-2-face)) 43140 43150 (fontified nil) 43150 43154 (fontified nil face font-lock-string-face) 43154 43165 (fontified nil) 43165 43166 (fontified nil face (rainbow-delimiters-depth-2-face)) 43166 43171 (fontified nil) 43171 43172 (fontified nil face (rainbow-delimiters-depth-2-face)) 43172 43176 (fontified nil) 43176 43182 (fontified nil face font-lock-keyword-face) 43182 43190 (fontified nil) 43190 43191 (fontified nil face (rainbow-delimiters-depth-1-face)) 43191 43193 (fontified nil) 43193 43194 (fontified nil c-is-sws t c-in-sws t face font-lock-comment-delimiter-face) 43194 43196 (fontified nil c-in-sws t face font-lock-comment-delimiter-face) 43196 43232 (fontified nil c-in-sws t face font-lock-comment-face) 43232 43236 (fontified nil c-in-sws t face font-lock-comment-delimiter-face) 43236 43237 (fontified nil c-in-sws t) 43237 43238 (fontified nil c-is-sws t face font-lock-keyword-face) 43238 43243 (fontified nil face font-lock-keyword-face) 43243 43244 (fontified nil) 43244 43247 (fontified nil face font-lock-type-face) 43247 43248 (fontified nil c-type c-decl-id-start face font-lock-type-face) 43248 43249 (fontified nil) 43249 43262 (fontified nil face font-lock-function-name-face) 43262 43263 (fontified nil) 43263 43264 (fontified nil c-type c-decl-arg-start face (rainbow-delimiters-depth-1-face)) 43264 43271 (fontified nil face font-lock-type-face) 43271 43273 (fontified nil) 43273 43276 (fontified nil face font-lock-variable-name-face) 43276 43277 (fontified nil face (rainbow-delimiters-depth-1-face)) 43277 43278 (fontified nil) 43278 43279 (fontified nil face (rainbow-delimiters-depth-1-face)) 43279 43282 (fontified nil) 43282 43288 (fontified nil face font-lock-keyword-face) 43288 43289 (fontified nil) 43289 43294 (fontified nil face font-lock-keyword-face) 43294 43295 (fontified nil) 43295 43298 (fontified nil face font-lock-type-face) 43298 43299 (fontified nil c-type c-decl-id-start face font-lock-type-face) 43299 43300 (fontified nil) 43300 43318 (fontified nil face font-lock-variable-name-face) 43318 43319 (fontified nil face (rainbow-delimiters-depth-2-face)) 43319 43320 (fontified nil face (rainbow-delimiters-depth-2-face)) 43320 43323 (fontified nil) 43323 43335 (fontified nil face font-lock-string-face) 43335 43337 (fontified nil) 43337 43339 (fontified nil) 43339 43342 (fontified nil face font-lock-type-face) 43342 43343 (fontified nil c-type c-decl-id-start face font-lock-type-face) 43343 43345 (fontified nil) 43345 43349 (fontified nil face font-lock-variable-name-face) 43349 43351 (fontified nil) 43351 43353 (fontified nil) 43353 43356 (fontified nil face font-lock-type-face) 43356 43357 (fontified nil c-type c-decl-id-start face font-lock-type-face) 43357 43359 (fontified nil) 43359 43360 (fontified nil face font-lock-variable-name-face) 43360 43364 (fontified nil) 43364 43369 (fontified nil face font-lock-type-face) 43369 43370 (fontified nil c-type c-decl-id-start face font-lock-type-face) 43370 43371 (fontified nil) 43371 43374 (fontified nil face font-lock-variable-name-face) 43374 43375 (fontified nil c-type c-decl-id-start) 43375 43376 (fontified nil) 43376 43381 (fontified nil face font-lock-variable-name-face) 43381 43385 (fontified nil) 43385 43386 (fontified nil c-type c-decl-id-start) 43386 43387 (fontified nil) 43387 43391 (fontified nil face font-lock-variable-name-face) 43391 43425 (fontified nil) 43425 43426 (fontified nil face (rainbow-delimiters-depth-2-face)) 43426 43430 (fontified nil face font-lock-type-face) 43430 43432 (fontified nil) 43432 43433 (fontified nil face (rainbow-delimiters-depth-2-face)) 43433 43441 (fontified nil) 43441 43442 (fontified nil face (rainbow-delimiters-depth-2-face)) 43442 43448 (fontified nil) 43448 43454 (fontified nil face font-lock-keyword-face) 43454 43455 (fontified nil) 43455 43456 (fontified nil face (rainbow-delimiters-depth-3-face)) 43456 43474 (fontified nil) 43474 43475 (fontified nil face (rainbow-delimiters-depth-3-face)) 43475 43479 (fontified nil) 43479 43480 (fontified nil face (rainbow-delimiters-depth-2-face)) 43480 43491 (fontified nil) 43491 43492 (fontified nil face (rainbow-delimiters-depth-2-face)) 43492 43512 (fontified nil) 43512 43513 (fontified nil face (rainbow-delimiters-depth-2-face)) 43513 43517 (fontified nil) 43517 43519 (fontified nil face font-lock-keyword-face) 43519 43520 (fontified nil) 43520 43521 (fontified nil face (rainbow-delimiters-depth-2-face)) 43521 43532 (fontified nil) 43532 43533 (fontified nil face (rainbow-delimiters-depth-3-face)) 43533 43540 (fontified nil) 43540 43541 (fontified nil face (rainbow-delimiters-depth-3-face)) 43541 43545 (fontified nil) 43545 43548 (fontified nil face font-lock-string-face) 43548 43549 (fontified nil face (rainbow-delimiters-depth-2-face)) 43549 43558 (fontified nil) 43558 43559 (fontified nil face (rainbow-delimiters-depth-2-face)) 43559 43564 (fontified nil) 43564 43565 (fontified nil face (rainbow-delimiters-depth-2-face)) 43565 43568 (fontified nil) 43568 43571 (fontified nil face font-lock-string-face) 43571 43582 (fontified nil) 43582 43583 (fontified nil face (rainbow-delimiters-depth-2-face)) 43583 43613 (fontified nil) 43613 43614 (fontified nil face (rainbow-delimiters-depth-2-face)) 43614 43616 (fontified nil) 43616 43625 (fontified nil) 43625 43628 (fontified nil) 43628 43629 (fontified nil face (rainbow-delimiters-depth-2-face)) 43629 43635 (fontified nil) 43635 43638 (fontified nil face font-lock-string-face) 43638 43639 (fontified nil face (rainbow-delimiters-depth-2-face)) 43639 43668 (fontified nil) 43668 43669 (fontified nil face (rainbow-delimiters-depth-2-face)) 43669 43674 (fontified nil face font-lock-keyword-face) 43674 43675 (fontified nil) 43675 43679 (fontified nil face font-lock-type-face) 43679 43687 (fontified nil) 43687 43688 (fontified nil face (rainbow-delimiters-depth-2-face)) 43688 43691 (fontified nil) 43691 43693 (fontified nil c-in-sws t c-is-sws t) 43693 43694 (fontified nil face font-lock-comment-delimiter-face c-in-sws t c-is-sws t) 43694 43696 (fontified nil face font-lock-comment-delimiter-face c-in-sws t) 43696 43735 (fontified nil face font-lock-comment-face c-in-sws t) 43735 43739 (fontified nil face font-lock-comment-delimiter-face c-in-sws t) 43739 43740 (fontified nil c-in-sws t) 43740 43742 (fontified nil c-is-sws t c-in-sws t) 43742 43743 (fontified nil face font-lock-keyword-face c-is-sws t) 43743 43744 (fontified nil face font-lock-keyword-face) 43744 43745 (fontified nil) 43745 43746 (fontified nil face (rainbow-delimiters-depth-2-face)) 43746 43747 (fontified nil) 43747 43748 (fontified nil face (rainbow-delimiters-depth-2-face)) 43748 43753 (fontified nil) 43753 43754 (fontified nil face (rainbow-delimiters-depth-2-face)) 43754 43761 (fontified nil) 43761 43763 (fontified nil face font-lock-type-face) 43763 43764 (fontified nil c-type c-decl-id-start face font-lock-type-face) 43764 43765 (fontified nil) 43765 43767 (fontified nil face font-lock-variable-name-face) 43767 43776 (fontified nil) 43776 43781 (fontified nil face font-lock-keyword-face) 43781 43782 (fontified nil) 43782 43783 (fontified nil face (rainbow-delimiters-depth-3-face)) 43783 43784 (fontified nil face (rainbow-delimiters-depth-4-face)) 43784 43794 (fontified nil) 43794 43795 (fontified nil face (rainbow-delimiters-depth-5-face)) 43795 43796 (fontified nil) 43796 43797 (fontified nil face (rainbow-delimiters-depth-5-face)) 43797 43798 (fontified nil face (rainbow-delimiters-depth-4-face)) 43798 43805 (fontified nil) 43805 43806 (fontified nil face (rainbow-delimiters-depth-3-face)) 43806 43808 (fontified nil) 43808 43809 (fontified nil face (rainbow-delimiters-depth-3-face)) 43809 43813 (fontified nil) 43813 43816 (fontified nil face font-lock-type-face) 43816 43817 (fontified nil c-type c-decl-id-start face font-lock-type-face) 43817 43819 (fontified nil) 43819 43821 (fontified nil face font-lock-variable-name-face) 43821 43827 (fontified nil) 43827 43829 (fontified nil face font-lock-keyword-face) 43829 43830 (fontified nil) 43830 43831 (fontified nil face (rainbow-delimiters-depth-4-face)) 43831 43840 (fontified nil) 43840 43841 (fontified nil face (rainbow-delimiters-depth-5-face)) 43841 43843 (fontified nil) 43843 43844 (fontified nil face (rainbow-delimiters-depth-5-face)) 43844 43845 (fontified nil face (rainbow-delimiters-depth-4-face)) 43845 43851 (fontified nil) 43851 43859 (fontified nil face font-lock-keyword-face) 43859 43865 (fontified nil) 43865 43867 (fontified nil face font-lock-keyword-face) 43867 43868 (fontified nil) 43868 43869 (fontified nil face (rainbow-delimiters-depth-4-face)) 43869 43885 (fontified nil) 43885 43886 (fontified nil face (rainbow-delimiters-depth-4-face)) 43886 43892 (fontified nil) 43892 43893 (fontified nil face (rainbow-delimiters-depth-4-face)) 43893 43946 (fontified nil) 43946 43947 (fontified nil face (rainbow-delimiters-depth-5-face)) 43947 43952 (fontified nil face font-lock-keyword-face) 43952 43953 (fontified nil) 43953 43957 (fontified nil face font-lock-type-face) 43957 43980 (fontified nil) 43980 43981 (fontified nil face (rainbow-delimiters-depth-5-face)) 43981 43988 (fontified nil) 43988 43989 (fontified nil face (rainbow-delimiters-depth-4-face)) 43989 44007 (fontified nil) 44007 44008 (fontified nil face (rainbow-delimiters-depth-4-face)) 44008 44013 (fontified nil) 44013 44014 (fontified nil face (rainbow-delimiters-depth-4-face)) 44014 44038 (fontified nil) 44038 44039 (fontified nil face (rainbow-delimiters-depth-4-face)) 44039 44044 (fontified nil) 44044 44045 (fontified nil face (rainbow-delimiters-depth-4-face)) 44045 44050 (fontified nil) 44050 44055 (fontified nil face font-lock-keyword-face) 44055 44056 (fontified nil) 44056 44057 (fontified nil face (rainbow-delimiters-depth-4-face)) 44057 44058 (fontified nil face (rainbow-delimiters-depth-5-face)) 44058 44068 (fontified nil) 44068 44069 (fontified nil face (rainbow-delimiters-depth-6-face)) 44069 44070 (fontified nil) 44070 44071 (fontified nil face (rainbow-delimiters-depth-6-face)) 44071 44072 (fontified nil face (rainbow-delimiters-depth-5-face)) 44072 44093 (fontified nil) 44093 44094 (fontified nil face (rainbow-delimiters-depth-5-face)) 44094 44096 (fontified nil) 44096 44097 (fontified nil face (rainbow-delimiters-depth-5-face)) 44097 44098 (fontified nil face (rainbow-delimiters-depth-4-face)) 44098 44136 (fontified nil) 44136 44137 (fontified nil face (rainbow-delimiters-depth-4-face)) 44137 44142 (fontified nil) 44142 44143 (fontified nil face (rainbow-delimiters-depth-4-face)) 44143 44148 (fontified nil) 44148 44150 (fontified nil face font-lock-keyword-face) 44150 44151 (fontified nil) 44151 44152 (fontified nil face (rainbow-delimiters-depth-4-face)) 44152 44169 (fontified nil) 44169 44170 (fontified nil face (rainbow-delimiters-depth-5-face)) 44170 44172 (fontified nil) 44172 44173 (fontified nil face (rainbow-delimiters-depth-5-face)) 44173 44174 (fontified nil face (rainbow-delimiters-depth-4-face)) 44174 44193 (fontified nil) 44193 44194 (fontified nil face (rainbow-delimiters-depth-4-face)) 44194 44203 (fontified nil) 44203 44204 (fontified nil face (rainbow-delimiters-depth-4-face)) 44204 44214 (fontified nil) 44214 44218 (fontified nil face font-lock-keyword-face) 44218 44224 (fontified nil) 44224 44225 (fontified nil face (rainbow-delimiters-depth-4-face)) 44225 44246 (fontified nil) 44246 44247 (fontified nil face (rainbow-delimiters-depth-5-face)) 44247 44256 (fontified nil) 44256 44257 (fontified nil face (rainbow-delimiters-depth-5-face)) 44257 44279 (fontified nil) 44279 44280 (fontified nil face (rainbow-delimiters-depth-5-face)) 44280 44287 (fontified nil) 44287 44288 (fontified nil face (rainbow-delimiters-depth-5-face)) 44288 44302 (fontified nil) 44302 44303 (fontified nil face (rainbow-delimiters-depth-5-face)) 44303 44305 (fontified nil) 44305 44306 (fontified nil face (rainbow-delimiters-depth-5-face)) 44306 44313 (fontified nil) 44313 44314 (fontified nil face (rainbow-delimiters-depth-4-face)) 44314 44334 (fontified nil) 44334 44339 (fontified nil face font-lock-keyword-face) 44339 44340 (fontified nil) 44340 44341 (fontified nil face (rainbow-delimiters-depth-4-face)) 44341 44342 (fontified nil face (rainbow-delimiters-depth-5-face)) 44342 44352 (fontified nil) 44352 44353 (fontified nil face (rainbow-delimiters-depth-6-face)) 44353 44354 (fontified nil) 44354 44355 (fontified nil face (rainbow-delimiters-depth-6-face)) 44355 44356 (fontified nil face (rainbow-delimiters-depth-5-face)) 44356 44360 (fontified nil) 44360 44364 (fontified nil face font-lock-string-face) 44364 44365 (fontified nil face (rainbow-delimiters-depth-4-face)) 44365 44371 (fontified nil) 44371 44373 (fontified nil face font-lock-keyword-face) 44373 44374 (fontified nil) 44374 44375 (fontified nil face (rainbow-delimiters-depth-4-face)) 44375 44384 (fontified nil) 44384 44385 (fontified nil face (rainbow-delimiters-depth-4-face)) 44385 44393 (fontified nil) 44393 44398 (fontified nil face font-lock-keyword-face) 44398 44401 (fontified nil) 44401 44402 (fontified nil face (rainbow-delimiters-depth-3-face)) 44402 44417 (fontified nil) 44417 44418 (fontified nil face (rainbow-delimiters-depth-3-face)) 44418 44419 (fontified nil) 44419 44420 (fontified nil face (rainbow-delimiters-depth-3-face)) 44420 44426 (fontified nil) 44426 44427 (fontified nil face (rainbow-delimiters-depth-2-face)) 44427 44429 (fontified nil) 44429 44431 (fontified nil c-in-sws t c-is-sws t) 44431 44432 (fontified nil face font-lock-comment-delimiter-face c-in-sws t c-is-sws t) 44432 44434 (fontified nil face font-lock-comment-delimiter-face c-in-sws t) 44434 44461 (fontified nil face font-lock-comment-face c-in-sws t) 44461 44465 (fontified nil face font-lock-comment-delimiter-face c-in-sws t) 44465 44466 (fontified nil c-in-sws t) 44466 44468 (fontified nil c-is-sws t c-in-sws t) 44468 44469 (fontified nil c-is-sws t) 44469 44481 (fontified nil) 44481 44482 (fontified nil face (rainbow-delimiters-depth-2-face)) 44482 44487 (fontified nil) 44487 44488 (fontified nil face (rainbow-delimiters-depth-2-face)) 44488 44491 (fontified nil) 44491 44495 (fontified nil face font-lock-constant-face) 44495 44497 (fontified nil) 44497 44498 (fontified nil face (rainbow-delimiters-depth-1-face)) 44498 44500 (fontified nil) 44500 44501 (fontified nil face font-lock-comment-delimiter-face c-in-sws t c-is-sws t) 44501 44503 (fontified nil face font-lock-comment-delimiter-face c-in-sws t) 44503 44515 (fontified nil face font-lock-comment-face c-in-sws t) 44515 44516 (fontified nil face font-lock-comment-face c-in-sws t) 44516 44668 (fontified nil face font-lock-comment-face c-in-sws t) 44668 44672 (fontified nil face font-lock-comment-delimiter-face c-in-sws t) 44672 44673 (fontified nil c-in-sws t) 44673 44674 (fontified nil face font-lock-keyword-face c-is-sws t) 44674 44679 (fontified nil face font-lock-keyword-face) 44679 44680 (fontified nil) 44680 44683 (fontified nil face font-lock-type-face) 44683 44684 (fontified nil c-type c-decl-id-start face font-lock-type-face) 44684 44687 (fontified nil) 44687 44701 (fontified nil face font-lock-function-name-face) 44701 44702 (fontified nil) 44702 44703 (fontified nil c-type c-decl-arg-start face (rainbow-delimiters-depth-1-face)) 44703 44713 (fontified nil face font-lock-type-face) 44713 44715 (fontified nil) 44715 44720 (fontified nil face font-lock-variable-name-face) 44720 44721 (fontified nil c-type c-decl-arg-start) 44721 44722 (fontified nil) 44722 44731 (fontified nil face font-lock-type-face) 44731 44733 (fontified nil) 44733 44737 (fontified nil face font-lock-variable-name-face) 44737 44738 (fontified nil face (rainbow-delimiters-depth-1-face)) 44738 44739 (fontified nil) 44739 44740 (fontified nil face (rainbow-delimiters-depth-1-face)) 44740 44743 (fontified nil) 44743 44748 (fontified nil face font-lock-keyword-face) 44748 44749 (fontified nil) 44749 44752 (fontified nil face font-lock-type-face) 44752 44753 (fontified nil c-type c-decl-id-start face font-lock-type-face) 44753 44755 (fontified nil) 44755 44760 (fontified nil face font-lock-variable-name-face) 44760 44761 (fontified nil c-type c-decl-id-start) 44761 44763 (fontified nil) 44763 44764 (fontified nil face font-lock-variable-name-face) 44764 44768 (fontified nil) 44768 44771 (fontified nil face font-lock-type-face) 44771 44772 (fontified nil c-type c-decl-id-start face font-lock-type-face) 44772 44774 (fontified nil) 44774 44781 (fontified nil face font-lock-variable-name-face) 44781 44785 (fontified nil) 44785 44791 (fontified nil face font-lock-type-face) 44791 44792 (fontified nil c-type c-decl-id-start face font-lock-type-face) 44792 44794 (fontified nil) 44794 44797 (fontified nil face font-lock-variable-name-face) 44797 44801 (fontified nil) 44801 44806 (fontified nil face font-lock-type-face) 44806 44807 (fontified nil c-type c-decl-id-start face font-lock-type-face) 44807 44808 (fontified nil) 44808 44813 (fontified nil face font-lock-variable-name-face) 44813 44814 (fontified nil c-type c-decl-id-start) 44814 44815 (fontified nil) 44815 44818 (fontified nil face font-lock-variable-name-face) 44818 44865 (fontified nil) 44865 44868 (fontified nil face font-lock-keyword-face) 44868 44869 (fontified nil) 44869 44870 (fontified nil face (rainbow-delimiters-depth-2-face)) 44870 44872 (fontified nil) 44872 44873 (fontified nil face (rainbow-delimiters-depth-2-face)) 44873 44878 (fontified nil) 44878 44879 (fontified nil face (rainbow-delimiters-depth-2-face)) 44879 44886 (fontified nil) 44886 44888 (fontified nil face font-lock-keyword-face) 44888 44889 (fontified nil) 44889 44890 (fontified nil face (rainbow-delimiters-depth-3-face)) 44890 44891 (fontified nil face font-lock-negation-char-face) 44891 44904 (fontified nil) 44904 44905 (fontified nil face (rainbow-delimiters-depth-3-face)) 44905 44921 (fontified nil) 44921 44922 (fontified nil face (rainbow-delimiters-depth-3-face)) 44922 44925 (fontified nil) 44925 44926 (fontified nil face (rainbow-delimiters-depth-3-face)) 44926 44935 (fontified nil) 44935 44938 (fontified nil face font-lock-keyword-face) 44938 44939 (fontified nil) 44939 44940 (fontified nil face (rainbow-delimiters-depth-3-face)) 44940 44964 (fontified nil) 44964 44965 (fontified nil face (rainbow-delimiters-depth-4-face)) 44965 44970 (fontified nil) 44970 44971 (fontified nil face (rainbow-delimiters-depth-4-face)) 44971 44983 (fontified nil) 44983 44984 (fontified nil face (rainbow-delimiters-depth-3-face)) 44984 44986 (fontified nil) 44986 44988 (fontified nil face font-lock-keyword-face) 44988 44989 (fontified nil) 44989 44990 (fontified nil face (rainbow-delimiters-depth-3-face)) 44990 44991 (fontified nil face font-lock-negation-char-face) 44991 44998 (fontified nil) 44998 44999 (fontified nil face (rainbow-delimiters-depth-4-face)) 44999 45012 (fontified nil) 45012 45013 (fontified nil face (rainbow-delimiters-depth-5-face)) 45013 45018 (fontified nil) 45018 45019 (fontified nil face (rainbow-delimiters-depth-5-face)) 45019 45026 (fontified nil) 45026 45027 (fontified nil face (rainbow-delimiters-depth-4-face)) 45027 45028 (fontified nil face (rainbow-delimiters-depth-3-face)) 45028 45034 (fontified nil) 45034 45040 (fontified nil face font-lock-keyword-face) 45040 45049 (fontified nil) 45049 45050 (fontified nil face (rainbow-delimiters-depth-3-face)) 45050 45063 (fontified nil) 45063 45064 (fontified nil face (rainbow-delimiters-depth-4-face)) 45064 45073 (fontified nil) 45073 45074 (fontified nil face (rainbow-delimiters-depth-4-face)) 45074 45075 (fontified nil face (rainbow-delimiters-depth-3-face)) 45075 45095 (fontified nil) 45095 45096 (fontified nil face (rainbow-delimiters-depth-3-face)) 45096 45103 (fontified nil) 45103 45106 (fontified nil face font-lock-string-face) 45106 45107 (fontified nil face (rainbow-delimiters-depth-3-face)) 45107 45115 (fontified nil) 45115 45117 (fontified nil face font-lock-keyword-face) 45117 45118 (fontified nil) 45118 45119 (fontified nil face (rainbow-delimiters-depth-3-face)) 45119 45120 (fontified nil face font-lock-negation-char-face) 45120 45125 (fontified nil) 45125 45135 (fontified nil) 45135 45136 (fontified nil face (rainbow-delimiters-depth-3-face)) 45136 45137 (fontified nil) 45137 47061 (fontified nil) 47061 47062 (fontified nil) 47062 47069 (fontified nil) 47069 47070 (fontified nil) 47070 47166 (fontified nil) 47166 47167 (fontified nil) 47167 47219 (fontified nil) 47219 47220 (fontified nil) 47220 47224 (fontified nil) 47224 47225 (fontified nil) 47225 47238 (fontified nil) 47238 47239 (fontified nil) 47239 47444 (fontified nil) 47444 47445 (fontified nil) 47445 47784 (fontified nil) 47784 47785 (fontified nil) 47785 47826 (fontified nil) 47826 47827 (fontified nil) 47827 48778 (fontified nil) 48778 48779 (fontified nil) 48779 50620 (fontified nil) 50620 50621 (fontified nil) 50621 50696 (fontified nil) 50696 50697 (fontified nil) 50697 50836 (fontified nil) 50836 50837 (fontified nil) 50837 50908 (fontified nil) 50908 50909 (fontified nil) 50909 52250 (fontified nil) 52250 52251 (fontified nil rear-nonsticky nil)) . 1) (undo-tree-id0 . -44499) (undo-tree-id1 . -43627) (undo-tree-id2 . -43249) (undo-tree-id3 . -43249) (undo-tree-id4 . -1534) (undo-tree-id5 . -1544) (undo-tree-id6 . -51805) (undo-tree-id7 . -51020) (undo-tree-id8 . -50007) (undo-tree-id9 . -48197) (undo-tree-id10 . -48029) (undo-tree-id11 . -46900) (undo-tree-id12 . -46707) (undo-tree-id13 . -46571) (undo-tree-id14 . -46424) (undo-tree-id15 . -46297) (undo-tree-id16 . -45520) (undo-tree-id17 . -44687) (undo-tree-id18 . -43249) (undo-tree-id19 . -42744) (undo-tree-id20 . -42313) (undo-tree-id21 . -41733) (undo-tree-id22 . -41426) (undo-tree-id23 . -40835) (undo-tree-id24 . -40617) (undo-tree-id25 . -40048) (undo-tree-id26 . -39072) (undo-tree-id27 . -38835) (undo-tree-id28 . -38100) (undo-tree-id29 . -37824) (undo-tree-id30 . -37155) (undo-tree-id31 . -36853) (undo-tree-id32 . -36616) (undo-tree-id33 . -36213) (undo-tree-id34 . -35619) (undo-tree-id35 . -35444) (undo-tree-id36 . -35037) (undo-tree-id37 . -34718) (undo-tree-id38 . -34241) (undo-tree-id39 . -33701) (undo-tree-id40 . -33275) (undo-tree-id41 . -32932) (undo-tree-id42 . -32625) (undo-tree-id43 . -31671) (undo-tree-id44 . -31101) (undo-tree-id45 . -30883) (undo-tree-id46 . -30593) (undo-tree-id47 . -30370) (undo-tree-id48 . -28909) (undo-tree-id49 . -27853) (undo-tree-id50 . -27366) (undo-tree-id51 . -25932) (undo-tree-id52 . -25600) (undo-tree-id53 . -24431) (undo-tree-id54 . -21395) (undo-tree-id55 . -20718) (undo-tree-id56 . -18602) (undo-tree-id57 . -14476) (undo-tree-id58 . -13730) (undo-tree-id59 . -13241) (undo-tree-id60 . -11858) (undo-tree-id61 . -9961) (undo-tree-id62 . -8409) (undo-tree-id63 . -50565) (undo-tree-id64 . -47607) (undo-tree-id65 . -47330) (undo-tree-id66 . -37968) (undo-tree-id67 . -5516) (undo-tree-id68 . -5166) (undo-tree-id69 . -2218) (undo-tree-id70 . -52251) (undo-tree-id71 . -43249) (undo-tree-id72 . -43237) (undo-tree-id73 . -44499) (undo-tree-id74 . -43482) (undo-tree-id75 . -43193) (undo-tree-id76 . -44499) (undo-tree-id77 . -43237) (undo-tree-id78 . -43482) (undo-tree-id79 . -44499) (undo-tree-id80 . -44500) (undo-tree-id81 . -43193) (undo-tree-id82 . -43194) (nil rear-nonsticky nil 52251 . 52252) (t 25675 60999 585333 694000)) (25675 64057 362549 134000) 0 nil])
+([nil nil ((1052 . 1054) (t 25675 60999 585333 694000)) nil (25676 2380 951950 344000) 0 nil])
+([nil nil ((1054 . 1055)) nil (25676 2380 951949 995000) 0 nil])
+([nil nil ((1055 . 1065)) nil (25676 2380 951949 28000) 0 nil])
+([nil nil ((#("s" 0 1 (fontified t c-in-sws t)) . -1063) (undo-tree-id83 . -1) (undo-tree-id84 . -1) (#("t" 0 1 (fontified t c-in-sws t)) . -1064) (undo-tree-id85 . -1) (undo-tree-id86 . -1) 1065) nil (25676 2380 951947 996000) 0 nil])
+([nil nil ((1063 . 1072)) nil (25676 2380 951932 241000) 0 nil])
+([nil current ((#("
+" 0 1 (fontified t c-is-sws t c-in-sws t)) . -1052) (undo-tree-id87 . -1) (undo-tree-id88 . -1) (undo-tree-id89 . -1) (undo-tree-id90 . -1) (undo-tree-id91 . -1) (undo-tree-id92 . -1) (undo-tree-id93 . -1) (undo-tree-id94 . -1) (undo-tree-id95 . -1) (#("
+#include <stdio.h>" 0 1 (fontified t c-is-sws t c-in-sws t) 1 2 (fontified t c-is-sws t c-in-sws t face font-lock-preprocessor-face) 2 3 (fontified t c-in-sws t face font-lock-preprocessor-face) 3 4 (fontified t c-in-sws t face font-lock-preprocessor-face) 4 5 (fontified t c-in-sws t face font-lock-preprocessor-face) 5 6 (fontified t c-in-sws t face font-lock-preprocessor-face) 6 7 (fontified t c-in-sws t face font-lock-preprocessor-face) 7 8 (fontified t c-in-sws t face font-lock-preprocessor-face) 8 9 (fontified t c-in-sws t face font-lock-preprocessor-face) 9 10 (fontified t c-in-sws t) 10 11 (fontified t c-in-sws t face (rainbow-delimiters-depth-1-face font-lock-string-face) syntax-table (4 . 62)) 11 12 (fontified t c-in-sws t face font-lock-string-face) 12 13 (fontified t c-in-sws t face font-lock-string-face) 13 14 (fontified t c-in-sws t face font-lock-string-face) 14 15 (fontified t c-in-sws t face font-lock-string-face) 15 16 (fontified t c-in-sws t face font-lock-string-face) 16 17 (fontified t c-in-sws t face font-lock-string-face) 17 18 (fontified t c-in-sws t face font-lock-string-face) 18 19 (fontified t c-in-sws t face (rainbow-delimiters-depth-1-face font-lock-string-face) syntax-table (5 . 60))) . 1053) (undo-tree-id96 . -14) (undo-tree-id97 . -19) (undo-tree-id98 . -19) (undo-tree-id99 . -14) (undo-tree-id100 . -15) (undo-tree-id101 . -14) (t 25676 2380 953348 47000)) nil (25676 2980 970693 498000) 0 nil])
 nil
