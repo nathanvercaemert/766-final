@@ -1,0 +1,14 @@
+* basic commands
+** compile
+g++ ./i-o-analysis.cpp -o i-o-analysis -lclang -I /usr/lib/llvm-14/include/ -L /usr/lib/llvm-14/lib/
+** convert
+./i-o-analysis ./convert.c
+** cpp_files
+- ./i-o-analysis ./kconvert.c
+* ./538.imagick_r/src/wand/convert.c:126:
+input=fopen_utf8(argv[i],"rb");
+for (c=fgetc(input); c != EOF; c=fgetc(input))
+* ./502.gcc_r/src/cpp_files.c:1495
+f = fopen (name, "r");
+while ((ch = getc (f)) != EOF)
+
