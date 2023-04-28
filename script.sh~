@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# Get the path to the program
+program_path="/root/766-volume/nhvercae/ast_printer"
+
+# Find all .c files in the current directory and its subdirectories
+find . -type f -name "*.c" | while read -r file; do
+    # Check if the file exists
+    if [ -e "$file" ]; then
+        # Print the file name
+        echo "Processing file: $file"
+
+        # Execute the program on the file
+        $program_path "$file"
+    fi
+done

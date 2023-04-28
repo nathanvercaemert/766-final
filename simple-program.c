@@ -1,6 +1,13 @@
 #include <stdio.h>
 
+void do_stuff();
+
 int main() {
+    do_stuff();
+    return 0;
+}
+
+void do_stuff() {
     int a, b, c;
     int output = 0;
 
@@ -23,5 +30,4 @@ int main() {
     }
 
     printf("Output: %d\n", output);
-    return 0;
 }
