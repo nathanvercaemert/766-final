@@ -1,0 +1,9 @@
+* basic commands
+- g++ ast_printer.cpp -o ast_printer -lclang -I /usr/lib/llvm-14/include/ -L /usr/lib/llvm-14/lib/
+- ./ast_printer simple-program.c
+* ./538.imagick_r/src/wand/convert.c:126:
+f = fopen (name, "r");
+while ((ch = getc (f)) != EOF)
+* ./502.gcc_r/src/cpp_files.c:1495
+input=fopen_utf8(argv[i],"rb");
+for (c=fgetc(input); c != EOF; c=fgetc(input))
