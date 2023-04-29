@@ -176,56 +176,36 @@ void print_ast(CXCursor cursor, int depth) {
 }
 
 void print_results() {
-
-    // for (const auto& var_and_def : variables_and_definition) {
-    //     std::cout << "Variable: " << var_and_def.first << std::endl;
-    //     std::string context = var_and_def.second;
-    //     if (strstr(context.c_str(), "\n") != NULL) {
-    //         std::cout << "Definition:" << std::endl << context << std::endl;
-    //     } else {
-    //         std::cout << "Definition: " << trim(context) << std::endl;
-    //     }
-    // }
-    // for (const auto& var_and_use : variables_and_use) {
-    //     std::cout << "Variable: " << var_and_use.first << std::endl;
-    //     std::string context = var_and_use.second;
-    //     if (strstr(context.c_str(), "\n") != NULL) {
-    //         std::cout << "Use:" << std::endl << context << std::endl;
-    //     } else {
-    //         std::cout << "Use: " << trim(context) << std::endl;
-    //     }
-    // }
-
-    // TODO
-
-    std::map<std::string, std::pair<std::string, std::string>> variable_info;
+    std::map<std::string, std::pair<std::string, std::vector<std::string>>> variable_info;
 
     for (const auto& var_and_def : variables_and_definition) {
         variable_info[var_and_def.first].first = var_and_def.second;
     }
 
     for (const auto& var_and_use : variables_and_use) {
-        variable_info[var_and_use.first].second = var_and_use.second;
+        variable_info[var_and_use.first].second.push_back(var_and_use.second);
     }
 
     for (const auto& var_info : variable_info) {
-        std::cout << "Variable: " << var_info.first << std::endl;
+        if (!var_info.second.first.empty() && !var_info.second.second.empty()) {
+            std::cout << "Variable: " << var_info.first << std::endl;
 
-        std::string def_context = var_info.second.first;
-        if (strstr(def_context.c_str(), "\n") != NULL) {
-            std::cout << "Definition:" << std::endl << def_context << std::endl;
-        } else {
-            std::cout << "Definition: " << trim(def_context) << std::endl;
-        }
+            std::string def_context = var_info.second.first;
+            if (strstr(def_context.c_str(), "\n") != NULL) {
+                std::cout << "Definition:" << std::endl << def_context << std::endl;
+            } else {
+                std::cout << "Definition: " << trim(def_context) << std::endl;
+            }
 
-        std::string use_context = var_info.second.second;
-        if (strstr(use_context.c_str(), "\n") != NULL) {
-            std::cout << "Use:" << std::endl << use_context << std::endl;
-        } else {
-            std::cout << "Use: " << trim(use_context) << std::endl;
+            for (const auto& use_context : var_info.second.second) {
+                if (strstr(use_context.c_str(), "\n") != NULL) {
+                    std::cout << "Use:" << std::endl << use_context << std::endl;
+                } else {
+                    std::cout << "Use: " << trim(use_context) << std::endl;
+                }
+            }
         }
     }
-
 }
 
 int main(int argc, char** argv) {
