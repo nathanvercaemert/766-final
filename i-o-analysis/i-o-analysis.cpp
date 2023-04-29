@@ -4,13 +4,35 @@
 #include <utility>
 #include <sstream>
 #include <cstring>
+#include <string>
+#include <algorithm>
 #include <fstream>
 #include <clang-c/Index.h>
 
 enum CXChildVisitResult getChildCursorVisitor(CXCursor cursor, CXCursor parent, CXClientData client_data) {
-    CXCursor *child_cursor = reinterpret_cast<CXCursor*>(client_data);
-    *child_cursor = cursor;
-    return CXChildVisit_Break;
+    std::string *var_name = reinterpret_cast<std::string*>(client_data);
+    if (clang_getCursorKind(cursor) == CXCursor_DeclRefExpr && var_name->empty()) {
+        std::string cursor_spelling = clang_getCString(clang_getCursorSpelling(cursor));
+        if (cursor_spelling != "fgetc" && cursor_spelling != "getc") {
+            *var_name = cursor_spelling;
+        }
+    }
+    return CXChildVisit_Recurse;
+}
+
+std::string trim(const std::string &s)
+{
+    auto start = s.begin();
+    while (start != s.end() && std::isspace(*start)) {
+        start++;
+    }
+ 
+    auto end = s.end();
+    do {
+        end--;
+    } while (std::distance(start, end) > 0 && std::isspace(*end));
+ 
+    return std::string(start, end + 1);
 }
 
 std::string get_surrounding_context(CXSourceLocation location, int before, int after) {
@@ -23,35 +45,125 @@ std::string get_surrounding_context(CXSourceLocation location, int before, int a
     std::string line, context;
     for (unsigned i = 1; std::getline(file_stream, line); ++i) {
         if (i >= line_number - before && i <= line_number + after) {
-            context += line + '\n';
+            if (before + after <= 1) {
+                context += line;
+            } else {
+                context += line + '\n';
+            }
         }
     }
     clang_disposeString(file_name_cxstr);
     return context;
 }
 
-std::vector<std::pair<std::string, std::string>> variables_and_context;
+std::vector<std::pair<std::string, std::string>> variables_and_definition;
+std::vector<std::pair<std::string, std::string>> variables_and_use;
+
+bool is_function_call(CXCursor cursor, const char *func_name) {
+    if (clang_getCursorKind(cursor) == CXCursor_CallExpr || clang_getCursorKind(cursor) == CXCursor_UnexposedExpr) {
+        CXString cursor_spelling = clang_getCursorSpelling(cursor);
+        bool result = strcmp(clang_getCString(cursor_spelling), func_name) == 0;
+        clang_disposeString(cursor_spelling);
+        return result;
+    }
+    return false;
+}
+
+void find_use_in_children(CXCursor cursor, std::string &var_name, bool &eof_found) {
+    std::pair<std::string*, bool*> data = std::make_pair(&var_name, &eof_found);
+    clang_visitChildren(cursor,
+        [](CXCursor c, CXCursor parent, CXClientData client_data) {
+            auto data = reinterpret_cast<std::pair<std::string*, bool*>*>(client_data);
+            std::string *var_name = data->first;
+            bool *eof_found = data->second;
+
+            if (is_function_call(c, "fgetc") || is_function_call(c, "getc")) {
+                clang_visitChildren(c, getChildCursorVisitor, var_name);
+            } else if (clang_getCursorKind(c) == CXCursor_IntegerLiteral) {
+                auto res = clang_Cursor_Evaluate(c);
+                auto int_lit_value = clang_EvalResult_getAsInt(res);
+                clang_EvalResult_dispose(res);
+                if (int_lit_value == 1) { // == 1 if EOF
+                    *eof_found = true;
+                }
+            }
+
+            if (var_name->empty() || !*eof_found) {
+                find_use_in_children(c, *var_name, *eof_found);
+            }
+
+            return CXChildVisit_Continue;
+        },
+        &data);
+}
+
+void determine_use(CXCursor cursor) {
+    std::string var_name;
+    bool eof_found = false;
+    find_use_in_children(cursor, var_name, eof_found);
+
+    if (!var_name.empty() && eof_found) {
+        CXSourceLocation location = clang_getCursorLocation(cursor);
+        std::string context = get_surrounding_context(location, 1, -1);
+        if (strstr(context.c_str(), "EOF") != NULL) {
+            variables_and_use.emplace_back(var_name, context);
+        }
+    }
+}
 
 void print_ast(CXCursor cursor, int depth) {
     if (clang_getCursorKind(cursor) == CXCursor_FirstInvalid)
         return;
 
-    for (int i = 0; i < depth; ++i)
-        std::cout << "  ";
+    // for (int i = 0; i < depth; ++i)
+    //     std::cout << "  ";
 
     CXString cursor_kind_name = clang_getCursorKindSpelling(clang_getCursorKind(cursor));
     CXString cursor_spelling = clang_getCursorSpelling(cursor);
-    std::cout << clang_getCString(cursor_kind_name) << " " << clang_getCString(cursor_spelling) << std::endl;
-    
+    // std::cout << clang_getCString(cursor_kind_name) << " " << clang_getCString(cursor_spelling) << std::endl;
+
+    if (clang_getCursorKind(cursor) == CXCursor_BinaryOperator) {
+        bool found = false;
+        clang_visitChildren(cursor,
+            [](CXCursor c, CXCursor parent, CXClientData client_data) {
+                bool *found = reinterpret_cast<bool*>(client_data);
+                if (clang_getCursorKind(c) == CXCursor_CallExpr || clang_getCursorKind(c) == CXCursor_UnexposedExpr) {
+                    CXString call_cursor_spelling = clang_getCursorSpelling(c);
+                    if (strcmp(clang_getCString(call_cursor_spelling), "fopen") == 0 || strcmp(clang_getCString(call_cursor_spelling), "fopen_utf8") == 0) {
+                        *found = true;
+                        clang_visitChildren(parent,
+                            [](CXCursor c, CXCursor parent, CXClientData client_data) {
+                                if (clang_getCursorKind(c) == CXCursor_DeclRefExpr) {
+                                    CXString variable_name = clang_getCursorSpelling(c);
+                                    CXSourceLocation location = clang_getCursorLocation(c);
+                                    std::string context = get_surrounding_context(location, 1, -1);
+                                    variables_and_definition.emplace_back(clang_getCString(variable_name), context);
+                                    clang_disposeString(variable_name);
+                                }
+                                return CXChildVisit_Continue;
+                            },
+                            nullptr);
+                    }
+                    clang_disposeString(call_cursor_spelling);
+                }
+                return *found ? CXChildVisit_Break : CXChildVisit_Continue;
+            },
+            &found);
+    }
+
+    if (clang_getCursorKind(cursor) == CXCursor_WhileStmt || clang_getCursorKind(cursor) == CXCursor_ForStmt) {
+        determine_use(cursor);
+    }
+
     clang_disposeString(cursor_kind_name);
     clang_disposeString(cursor_spelling);
 
-    if (clang_getCursorKind(cursor) == CXCursor_IntegerLiteral) {
-        auto res = clang_Cursor_Evaluate(cursor);
-        auto int_lit_value = clang_EvalResult_getAsInt(res);
-        clang_EvalResult_dispose(res);
-        std::cout << int_lit_value << std::endl;
-    }
+    // if (clang_getCursorKind(cursor) == CXCursor_IntegerLiteral) {
+    //     auto res = clang_Cursor_Evaluate(cursor);
+    //     auto int_lit_value = clang_EvalResult_getAsInt(res);
+    //     clang_EvalResult_dispose(res);
+    //     std::cout << int_lit_value << std::endl;
+    // }
 
     clang_visitChildren(cursor,
                         [](CXCursor c, CXCursor parent, CXClientData client_data) {
@@ -60,6 +172,59 @@ void print_ast(CXCursor cursor, int depth) {
                             return CXChildVisit_Continue;
                         },
                         &depth);
+
+}
+
+void print_results() {
+
+    // for (const auto& var_and_def : variables_and_definition) {
+    //     std::cout << "Variable: " << var_and_def.first << std::endl;
+    //     std::string context = var_and_def.second;
+    //     if (strstr(context.c_str(), "\n") != NULL) {
+    //         std::cout << "Definition:" << std::endl << context << std::endl;
+    //     } else {
+    //         std::cout << "Definition: " << trim(context) << std::endl;
+    //     }
+    // }
+    // for (const auto& var_and_use : variables_and_use) {
+    //     std::cout << "Variable: " << var_and_use.first << std::endl;
+    //     std::string context = var_and_use.second;
+    //     if (strstr(context.c_str(), "\n") != NULL) {
+    //         std::cout << "Use:" << std::endl << context << std::endl;
+    //     } else {
+    //         std::cout << "Use: " << trim(context) << std::endl;
+    //     }
+    // }
+
+    // TODO
+
+    std::map<std::string, std::pair<std::string, std::string>> variable_info;
+
+    for (const auto& var_and_def : variables_and_definition) {
+        variable_info[var_and_def.first].first = var_and_def.second;
+    }
+
+    for (const auto& var_and_use : variables_and_use) {
+        variable_info[var_and_use.first].second = var_and_use.second;
+    }
+
+    for (const auto& var_info : variable_info) {
+        std::cout << "Variable: " << var_info.first << std::endl;
+
+        std::string def_context = var_info.second.first;
+        if (strstr(def_context.c_str(), "\n") != NULL) {
+            std::cout << "Definition:" << std::endl << def_context << std::endl;
+        } else {
+            std::cout << "Definition: " << trim(def_context) << std::endl;
+        }
+
+        std::string use_context = var_info.second.second;
+        if (strstr(use_context.c_str(), "\n") != NULL) {
+            std::cout << "Use:" << std::endl << use_context << std::endl;
+        } else {
+            std::cout << "Use: " << trim(use_context) << std::endl;
+        }
+    }
 
 }
 
@@ -72,7 +237,7 @@ int main(int argc, char** argv) {
     // Read the contents of the file into a string.
     std::ifstream file_stream(argv[1]);
     std::stringstream buffer;
-    buffer << "#include <stdio.h>\n#include <sys/types.h>\n" << file_stream.rdbuf();
+    buffer << "#include <stdio.h>\n#include <sys/types.h>" << file_stream.rdbuf();
     std::string file_contents = buffer.str();
 
     CXIndex index = clang_createIndex(0, 0);
@@ -107,10 +272,7 @@ int main(int argc, char** argv) {
 
     print_ast(root_cursor, 0);
 
-    for (const auto& var_and_context : variables_and_context) {
-        std::cout << "Variable: " << var_and_context.first << std::endl;
-        std::cout << "Context:" << std::endl << var_and_context.second << std::endl;
-    }
+    print_results();
 
     clang_disposeTranslationUnit(tu);
     clang_disposeIndex(index);
