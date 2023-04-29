@@ -1,5 +1,5 @@
 (undo-tree-save-format-version . 1)
-"76032b7fd73070675d9cc1cee0672f50a3e37a62"
+"fba0ebf3c1df7eeffb4c1099b6c77b64d78900ff"
 [nil nil nil nil (25674 61417 404197 969000) 0 nil]
 ([nil nil ((nil rear-nonsticky nil 401 . 402) (nil fontified nil 1 . 402) (1 . 402) (t . -1)) nil (25674 61417 404196 761000) 0 nil])
 ([nil nil ((#("./program" 0 9 (fontified t face font-lock-string-face)) . 58) (undo-tree-id0 . -9) (undo-tree-id1 . -9) (undo-tree-id2 . -9) (undo-tree-id3 . -9) (undo-tree-id4 . -9) (undo-tree-id5 . -9) (undo-tree-id6 . -9) 60) nil (25674 61417 404195 915000) 0 nil])
@@ -27,5 +27,80 @@ done
 ([nil nil ((nil rear-nonsticky nil 85 . 86) (nil fontified nil 60 . 86) (60 . 86)) nil (25674 61708 270180 869000) 0 nil])
 ([nil nil ((nil rear-nonsticky nil 96 . 97) (nil fontified nil 86 . 97) (86 . 97)) nil (25674 61708 270176 424000) 0 nil])
 ([nil nil ((#("/" 0 1 (fontified t face font-lock-string-face)) . -59) (undo-tree-id32 . -1) (undo-tree-id33 . -1) (undo-tree-id34 . -1) 60 (t 25674 61708 279120 974000)) nil (25674 61719 338292 106000) 0 nil])
-([nil current ((#("." 0 1 (fontified t face font-lock-string-face)) . -58) (undo-tree-id35 . -1) (undo-tree-id36 . -1) (undo-tree-id37 . -1) 59 (t 25674 61719 344151 504000)) nil (25674 61720 532821 903000) 0 nil])
+([nil nil ((#("." 0 1 (fontified t face font-lock-string-face)) . -58) (undo-tree-id35 . -1) (undo-tree-id36 . -1) (undo-tree-id37 . -1) 59 (t 25674 61719 344151 504000)) nil (25674 61720 532821 903000) 0 nil])
+([nil nil ((#("ast_printer" 0 10 (fontified t face font-lock-string-face) 10 11 (fontified t rear-nonsticky t face font-lock-string-face)) . 84) (undo-tree-id57 . -11) (undo-tree-id58 . -11) (undo-tree-id59 . -11) (undo-tree-id60 . -11) (undo-tree-id61 . -11) (undo-tree-id62 . 11) (undo-tree-id63 . -3) (t 25674 61720 544144 388000)) nil (25677 33242 505490 876000) 0 nil])
+([nil nil ((#("/" 0 1 (fontified t rear-nonsticky t face font-lock-string-face)) . -83) (undo-tree-id52 . -1) (undo-tree-id53 . -1) (undo-tree-id54 . -1) (undo-tree-id55 . -1) (undo-tree-id56 . -1) 84) nil (25677 33242 505487 879000) 0 nil])
+([nil nil ((83 . 85)) nil (25677 33242 505485 851000) 0 nil])
+([nil nil ((58 . 97) (#("/root/766-volume/nhvercae/i" 0 27 (fontified t face font-lock-string-face)) . -58) (undo-tree-id42 . -25) (undo-tree-id43 . -25) (undo-tree-id44 . -25) (undo-tree-id45 . -27) (undo-tree-id46 . -25) (undo-tree-id47 . 10) (undo-tree-id48 . -25) (undo-tree-id49 . -25) (undo-tree-id50 . -26) (undo-tree-id51 . -1) 85) nil (25677 33242 505485 99000) 0 nil])
+([nil nil ((97 . 98)) nil (25677 33242 505481 336000) 0 nil])
+([nil nil ((#("a" 0 1 (fontified t face font-lock-string-face)) . -97) (undo-tree-id41 . -1) 98) nil (25677 33242 505480 631000) 0 nil])
+([nil nil ((97 . 98)) nil (25677 33242 505479 319000) 0 nil])
+([nil nil ((58 . 109) (#("/root/766-volume/nhvercae/i-o-analysis/i" 0 40 (fontified t face font-lock-string-face)) . -58) (undo-tree-id38 . -40) (undo-tree-id39 . -1) (undo-tree-id40 . -1) 98) nil (25677 33242 505476 476000) 0 nil])
+([nil nil ((440 . 516) (#("
+" 0 1 (fontified t)) . -473) (undo-tree-id77 . -1) (undo-tree-id78 . -1) (undo-tree-id79 . -1) (undo-tree-id80 . -1) (undo-tree-id81 . -1) (undo-tree-id82 . -1) (undo-tree-id83 . -1) (#("            # Print the file name
+            echo \"Processing file: $file\"" 0 12 (fontified t) 12 14 (fontified t face font-lock-comment-delimiter-face) 14 34 (fontified t face font-lock-comment-face) 34 46 (fontified t) 46 50 (fontified t face font-lock-builtin-face) 50 51 (fontified t) 51 75 (fontified t face font-lock-string-face)) . 474) (undo-tree-id84 . -21) (undo-tree-id85 . -21) (undo-tree-id86 . -55) (undo-tree-id87 . -56) (undo-tree-id88 . -21) (undo-tree-id89 . -55) 495 (t 25677 33242 499417 372000)) nil (25677 33650 429076 285000) 0 nil])
+([nil nil ((397 . 473) (#("
+" 0 1 (fontified t face font-lock-comment-face)) . -439) (undo-tree-id64 . -1) (undo-tree-id65 . -1) (undo-tree-id66 . -1) (undo-tree-id67 . -1) (undo-tree-id68 . -1) (undo-tree-id69 . -1) (undo-tree-id70 . -1) (#("            # Print the file name
+            echo \"Processing file: $file\"" 0 12 (fontified t) 12 14 (fontified t face font-lock-comment-delimiter-face) 14 34 (fontified t face font-lock-comment-face) 34 46 (fontified t) 46 50 (fontified t face font-lock-builtin-face) 50 51 (fontified t) 51 75 (fontified t face font-lock-string-face)) . 440) (undo-tree-id71 . -21) (undo-tree-id72 . -21) (undo-tree-id73 . -21) (undo-tree-id74 . -55) (undo-tree-id75 . -55) (undo-tree-id76 . -56) 461) nil (25677 33650 429070 256000) 0 nil])
+([nil nil ((#("            " 0 12 (fontified nil)) . -435) (427 . 435) (#("            " 0 12 (fontified nil)) . -405) (397 . 405) 418) nil (25677 33650 429050 550000) 0 nil])
+([nil nil ((464 . 473) (t 25677 33650 429219 201000)) nil (25677 33653 520572 956000) 0 nil])
+([nil nil ((#("        " 0 8 (fontified t)) . 465) (undo-tree-id90 . -8) (undo-tree-id91 . -8) (undo-tree-id92 . -8)) nil (25677 33653 520569 964000) 0 nil])
+([nil nil ((438 . 508) (#("
+" 0 1 (fontified nil)) . 396) (undo-tree-id126 . -1) (#("
+        # Print the file name
+        echo \"Processing file: $file\"
+" 0 1 (fontified t) 1 9 (fontified t) 9 11 (fontified t face font-lock-comment-delimiter-face) 11 31 (fontified t face font-lock-comment-face) 31 39 (fontified t) 39 43 (fontified t face font-lock-builtin-face) 43 44 (fontified t) 44 68 (fontified t face font-lock-string-face) 68 69 (fontified t)) . -396) (undo-tree-id127 . -48) (undo-tree-id128 . -69) (undo-tree-id129 . -69) (undo-tree-id130 . -69) (undo-tree-id131 . -69) (undo-tree-id132 . -69) (t 25677 33653 519282 262000)) nil (25677 33932 637188 296000) 0 nil])
+([nil nil ((472 . 542) (#("
+" 0 1 (fontified nil)) . 439) (undo-tree-id123 . -1) (#("
+        # Print the file name
+        echo \"Processing file: $file\"
+" 0 9 (fontified t) 9 11 (fontified t face font-lock-comment-delimiter-face) 11 31 (fontified t face font-lock-comment-face) 31 39 (fontified t) 39 43 (fontified t face font-lock-builtin-face) 43 44 (fontified t) 44 68 (fontified t face font-lock-string-face) 68 69 (fontified t)) . -439) (undo-tree-id124 . -69) (undo-tree-id125 . -69)) nil (25677 33932 636217 905000) 0 nil])
+([nil nil ((439 . 509) (#("
+" 0 1 (fontified t)) . -472) (undo-tree-id115 . -1) (undo-tree-id116 . -1) (undo-tree-id117 . -1) (undo-tree-id118 . -1) (undo-tree-id119 . -1) (undo-tree-id120 . -1) (#("
+        # Print the file name
+        echo \"Processing file: $file\"
+" 0 9 (fontified t) 9 11 (fontified t face font-lock-comment-delimiter-face) 11 31 (fontified t face font-lock-comment-face) 31 39 (fontified t) 39 43 (fontified t face font-lock-builtin-face) 43 44 (fontified t) 44 68 (fontified t face font-lock-string-face) 68 69 (fontified t)) . -473) (undo-tree-id121 . -69) (undo-tree-id122 . -69)) nil (25677 33932 636215 776000) 0 nil])
+([nil nil ((396 . 466) (#("
+" 0 1 (fontified t face font-lock-comment-face)) . -438) (undo-tree-id107 . -1) (undo-tree-id108 . -1) (undo-tree-id109 . -1) (undo-tree-id110 . -1) (undo-tree-id111 . -1) (undo-tree-id112 . -1) (#("
+        # Print the file name
+        echo \"Processing file: $file\"
+" 0 9 (fontified t) 9 11 (fontified t face font-lock-comment-delimiter-face) 11 31 (fontified t face font-lock-comment-face) 31 39 (fontified t) 39 43 (fontified t face font-lock-builtin-face) 43 44 (fontified t) 44 68 (fontified t face font-lock-string-face) 68 69 (fontified t)) . -439) (undo-tree-id113 . -69) (undo-tree-id114 . -69)) nil (25677 33932 636212 337000) 0 nil])
+([nil nil ((439 . 508) (#("
+" 0 1 (fontified nil)) . 397) (#("        # Print the file name
+        echo \"Processing file: $file\"
+" 0 8 (fontified t) 8 10 (fontified t face font-lock-comment-delimiter-face) 10 30 (fontified t face font-lock-comment-face) 30 38 (fontified t) 38 42 (fontified t face font-lock-builtin-face) 42 43 (fontified t) 43 67 (fontified t face font-lock-string-face) 67 68 (fontified t)) . -397) (undo-tree-id102 . -68) (undo-tree-id103 . -68) (undo-tree-id104 . -68) (undo-tree-id105 . -1) (undo-tree-id106 . -68) 465) nil (25677 33932 636206 838000) 0 nil])
+([nil nil ((473 . 542) (#("
+" 0 1 (fontified nil)) . 440) (#("        # Print the file name
+        echo \"Processing file: $file\"
+" 0 8 (fontified t) 8 10 (fontified t face font-lock-comment-delimiter-face) 10 30 (fontified t face font-lock-comment-face) 30 38 (fontified t) 38 42 (fontified t face font-lock-builtin-face) 42 43 (fontified t) 43 67 (fontified t face font-lock-string-face) 67 68 (fontified t)) . -440) (undo-tree-id98 . -68) (undo-tree-id99 . -68) (undo-tree-id100 . -68) (undo-tree-id101 . -1) 508) nil (25677 33932 636204 276000) 0 nil])
+([nil nil ((474 . 543) (#("
+" 0 1 (fontified nil)) . 474) (#("        # Print the file name
+        echo \"Processing file: $file\"
+" 0 8 (fontified t) 8 10 (fontified t face font-lock-comment-delimiter-face) 10 30 (fontified t face font-lock-comment-face) 30 38 (fontified t) 38 42 (fontified t face font-lock-builtin-face) 42 43 (fontified t) 43 67 (fontified t face font-lock-string-face) 67 68 (fontified t)) . -474) (undo-tree-id94 . -68) (undo-tree-id95 . -68) (undo-tree-id96 . -68) (undo-tree-id97 . -1) 542) nil (25677 33932 636201 321000) 0 nil])
+([nil nil ((#("        " 0 8 (fontified nil)) . -521) (509 . 521) (#("        " 0 8 (fontified nil)) . -487) (undo-tree-id93 . -1) (475 . 487) 543) nil (25677 33932 636195 496000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 875 . 876) (nil fontified nil 1 . 876) (1 . 876) (t 25677 33932 640912 814000)) nil (25677 35331 693631 662000) 0 nil])
+([nil current ((#("#!/bin/bash
+
+# Get the path to the program
+program_path=\"/root/766-volume/nhvercae/i-o-analysis/i-o-analysis\"
+
+# Find all .c files in the current directory and its subdirectories
+find . -type f -name \"*.c\" | while read -r file; do
+    # Check if the file exists
+    if [ -e \"$file\" ]; then
+        # Execute the program on the file and capture the output
+        output=$($program_path \"$file\")
+
+        # Check if the output is non-empty
+        if [ -n \"$output\" ]; then
+
+            # Print the file name
+            echo \"Processing file: $file\"
+
+            # Print the program's output
+            echo \"$output\"
+        fi
+    fi
+done
+" 0 1 (fontified t face font-lock-comment-delimiter-face) 1 7 (fontified t face font-lock-comment-face) 7 11 (fontified t face font-lock-comment-face) 11 12 (fontified t face font-lock-comment-face) 12 13 (fontified t) 13 15 (fontified t face font-lock-comment-delimiter-face) 15 43 (fontified t face font-lock-comment-face) 43 55 (fontified t face font-lock-variable-name-face) 55 56 (fontified t) 56 57 (fontified t face font-lock-string-face) 57 108 (fontified t face font-lock-string-face) 108 109 (fontified t face font-lock-string-face) 109 110 (fontified t) 110 111 (fontified t) 111 113 (fontified t face font-lock-comment-delimiter-face) 113 179 (fontified t face font-lock-comment-face) 179 200 (fontified t) 200 205 (fontified t face font-lock-string-face) 205 208 (fontified t) 208 214 (fontified t face font-lock-keyword-face) 214 218 (fontified t face font-lock-builtin-face) 218 228 (fontified t) 228 230 (fontified t face font-lock-keyword-face) 230 235 (fontified t) 235 237 (fontified t face font-lock-comment-delimiter-face) 237 262 (fontified t face font-lock-comment-face) 262 266 (fontified t) 266 268 (fontified t face font-lock-keyword-face) 268 269 (fontified t) 269 270 (fontified t face (rainbow-delimiters-depth-1-face)) 270 274 (fontified t) 274 281 (fontified t face font-lock-string-face) 281 282 (fontified t) 282 283 (fontified t face (rainbow-delimiters-depth-1-face)) 283 285 (fontified t) 285 289 (fontified t face font-lock-keyword-face) 289 298 (fontified t) 298 300 (fontified t face font-lock-comment-delimiter-face) 300 355 (fontified t face font-lock-comment-face) 355 363 (fontified t) 363 369 (fontified t face font-lock-variable-name-face) 369 371 (fontified t) 371 372 (fontified t face (rainbow-delimiters-depth-1-face)) 372 373 (fontified t) 373 385 (fontified t face font-lock-variable-name-face) 385 386 (fontified t) 386 393 (fontified t face font-lock-string-face) 393 394 (fontified t face (rainbow-delimiters-depth-1-face)) 394 395 (fontified t) 395 396 (fontified t) 396 404 (fontified t) 404 406 (fontified t face font-lock-comment-delimiter-face) 406 439 (fontified t face font-lock-comment-face) 439 447 (fontified t) 447 449 (fontified t face font-lock-keyword-face) 449 450 (fontified t) 450 451 (fontified t face (rainbow-delimiters-depth-1-face)) 451 455 (fontified t) 455 464 (fontified t face font-lock-string-face) 464 465 (fontified t) 465 466 (fontified t face (rainbow-delimiters-depth-1-face)) 466 468 (fontified t) 468 472 (fontified t face font-lock-keyword-face) 472 473 (fontified t) 473 474 (fontified t) 474 486 (fontified t) 486 488 (fontified t face font-lock-comment-delimiter-face) 488 508 (fontified t face font-lock-comment-face) 508 520 (fontified t) 520 524 (fontified t face font-lock-builtin-face) 524 525 (fontified t) 525 549 (fontified t face font-lock-string-face) 549 550 (fontified t) 550 551 (fontified t) 551 563 (fontified t) 563 565 (fontified t face font-lock-comment-delimiter-face) 565 592 (fontified t face font-lock-comment-face) 592 604 (fontified t) 604 608 (fontified t face font-lock-builtin-face) 608 609 (fontified t) 609 618 (fontified t face font-lock-string-face) 618 627 (fontified t) 627 629 (fontified t face font-lock-keyword-face) 629 634 (fontified t) 634 636 (fontified t face font-lock-keyword-face) 636 637 (fontified t) 637 641 (fontified t face font-lock-keyword-face) 641 642 (rear-nonsticky t fontified t)) . -876) (undo-tree-id133 . -57) (undo-tree-id134 . -108) (undo-tree-id135 . -57) (undo-tree-id136 . -108) (undo-tree-id137 . -395) (undo-tree-id138 . -108) (undo-tree-id139 . -395) (undo-tree-id140 . -396) (undo-tree-id141 . -111) (undo-tree-id142 . -642) (undo-tree-id143 . -550) (undo-tree-id144 . -474) (undo-tree-id145 . -474) (undo-tree-id146 . -642) (undo-tree-id147 . -642) (undo-tree-id148 . -1) (undo-tree-id149 . -642) 1518) nil (25677 35331 693628 242000) 0 nil])
 nil
